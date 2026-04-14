@@ -13,12 +13,12 @@ export async function generateMetadata({ params }) {
     title: state.metaTitle,
     description: state.metaDescription,
     alternates: {
-      canonical: `https://alkemeins.com/trucking/states/${state.slug}/`,
+      canonical: `https://alkemeins.com/automotive/states/${state.slug}/`,
     },
     openGraph: {
       title: `${state.metaTitle} | ALKEME Insurance Services`,
       description: state.metaDescription,
-      url: `https://alkemeins.com/trucking/states/${state.slug}/`,
+      url: `https://alkemeins.com/automotive/states/${state.slug}/`,
       type: 'website',
     },
   };
@@ -33,11 +33,11 @@ export default async function StatePage({ params }) {
     {
       '@context': 'https://schema.org',
       '@type': 'Service',
-      name: `Trucking Insurance in ${state.name}`,
+      name: `Automotive Insurance in ${state.name}`,
       provider: { '@type': 'InsuranceAgency', name: 'ALKEME Insurance Services', url: 'https://alkemeins.com' },
       description: state.metaDescription,
-      url: `https://alkemeins.com/trucking/states/${state.slug}/`,
-      serviceType: 'Commercial Trucking Insurance',
+      url: `https://alkemeins.com/automotive/states/${state.slug}/`,
+      serviceType: 'Automotive Business Insurance',
       areaServed: { '@type': 'State', name: state.name, containedIn: { '@type': 'Country', name: 'United States' } },
       citation: { '@type': 'CreativeWork', name: 'Insurance Information Institute', url: 'https://www.iii.org' },
       about: { '@type': 'Thing', name: state.name },

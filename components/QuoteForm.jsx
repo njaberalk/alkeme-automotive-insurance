@@ -17,7 +17,7 @@ export default function QuoteForm() {
               Share a Few Details and Let&apos;s Find the Right Coverage
             </h2>
             <p className="text-cream font-light mb-8" style={{ lineHeight: '22px', maxWidth: '500px' }}>
-              Tell us about your operation and our transportation insurance specialists will reach out with tailored coverage options. No obligation — just expert guidance from a team that understands trucking.
+              Tell us about your dealership or shop and our automotive insurance specialists will reach out with tailored coverage options. No obligation \u2014 just expert guidance from a team that understands the automotive industry.
             </p>
 
             <a
@@ -58,8 +58,8 @@ export default function QuoteForm() {
           {/* Right - Visual CTA card */}
           <div className="relative overflow-hidden rounded-[2rem]" style={{ minHeight: '400px' }}>
             <img
-              src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=800&q=80"
-              alt="Trucking insurance specialist helping owner-operators find coverage"
+              src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=800&q=80"
+              alt="Automotive insurance specialist helping dealerships find coverage"
               width={800}
               height={600}
               className="absolute inset-0 w-full h-full object-cover"
@@ -69,10 +69,10 @@ export default function QuoteForm() {
             <div className="absolute inset-0 pointer-events-none" style={{ opacity: 0.08, backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E")`, backgroundRepeat: 'repeat', backgroundSize: '128px 128px' }} />
             <div className="relative h-full flex flex-col items-center justify-center text-center p-10" style={{ minHeight: '400px' }}>
               <h3 className="text-stone font-bold mb-4" style={{ fontSize: '1.8rem', lineHeight: '1.3' }}>
-                Ready to Protect Your Fleet?
+                Ready to Protect Your Business?
               </h3>
               <p className="text-cream/80 font-light mb-8 max-w-sm" style={{ fontSize: '0.95rem', lineHeight: '1.5' }}>
-                Our specialists understand trucking operations inside and out. Get coverage tailored to the way you run.
+                Our specialists understand automotive operations inside and out. Get coverage tailored to the way you do business.
               </p>
               <a
                 href="https://alkemeins.com/form"

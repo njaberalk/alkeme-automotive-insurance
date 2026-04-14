@@ -7,9 +7,9 @@ export function RelatedIndustries({ slugs, title = 'Industries That Need This Co
   if (!slugs?.length) return null;
 
   const industryNames = {
-    'owner-operators': 'Owner-Operators', 'small-fleets': 'Small Fleets', 'large-fleets': 'Large Fleets',
-    'hot-shot-trucking': 'Hot Shot Trucking', 'ltl-last-mile': 'LTL / Last Mile', 'intermodal': 'Intermodal',
-    'refrigerated': 'Refrigerated', 'flatbed': 'Flatbed', 'hazmat': 'Hazmat', 'car-haulers': 'Car Haulers',
+    'franchise-dealerships': 'Franchise Dealerships', 'used-car-dealers': 'Used Car Dealers', 'luxury-specialty-dealers': 'Luxury & Specialty',
+    'auto-repair-shops': 'Auto Repair Shops', 'collision-body-shops': 'Collision & Body', 'parts-distributors': 'Parts Distributors',
+    'fleet-management': 'Fleet Management', 'car-rental': 'Car Rental', 'tire-shops': 'Tire Shops', 'auto-detailing': 'Auto Detailing',
   };
 
   return (
@@ -33,15 +33,15 @@ export function RelatedResourceLinks({ slugs, title = 'Helpful Resources' }) {
   if (!slugs?.length) return null;
 
   const resourceNames = {
-    'trucking-insurance-cost': 'How Much Does Trucking Insurance Cost?',
-    'fmcsa-insurance-requirements': 'FMCSA Insurance Requirements',
-    'new-authority-insurance': 'Insurance for New Authority',
-    'lower-trucking-insurance-premiums': 'How to Lower Your Premiums',
-    'commercial-auto-vs-trucking-insurance': 'Commercial Auto vs Trucking Insurance',
-    'primary-vs-non-trucking-liability': 'Primary vs Non-Trucking Liability',
-    'occupational-accident-vs-workers-comp': 'Occupational Accident vs Workers Comp',
-    'trucking-insurance-claims-guide': 'Claims Guide',
-    'trucking-insurance-glossary': 'Insurance Glossary',
+    'automotive-insurance-cost': 'How Much Does Automotive Insurance Cost?',
+    'garage-liability-guide': 'Garage Liability Guide',
+    'garagekeepers-guide': 'Garagekeepers Guide',
+    'dealers-open-lot-guide': 'Dealers Open Lot Guide',
+    'dealership-cyber-guide': 'Dealership Cybersecurity Guide',
+    'test-drive-liability-guide': 'Test Drive Liability Guide',
+    'coi-guide': 'Certificates of Insurance Guide',
+    'claims-guide': 'Insurance Claims Guide',
+    'automotive-insurance-glossary': 'Insurance Glossary',
   };
 
   return (

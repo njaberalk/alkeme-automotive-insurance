@@ -3,16 +3,16 @@ import Link from 'next/link';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 const segments = [
-  { name: 'Owner-Operators', slug: 'owner-operators', desc: 'Single-truck operations and independent drivers' },
-  { name: 'Small Fleets', slug: 'small-fleets', desc: 'Growing operations with 2–15 power units' },
-  { name: 'Large Fleets', slug: 'large-fleets', desc: 'Enterprise carriers with complex risk profiles' },
-  { name: 'Hot Shot Trucking', slug: 'hot-shot-trucking', desc: 'Time-critical freight and expedited loads' },
-  { name: 'LTL / Last Mile', slug: 'ltl-last-mile', desc: 'Less-than-truckload and final delivery operations' },
-  { name: 'Intermodal', slug: 'intermodal', desc: 'Container and multi-mode transportation' },
-  { name: 'Refrigerated', slug: 'refrigerated', desc: 'Temperature-controlled cargo and reefer units' },
-  { name: 'Flatbed', slug: 'flatbed', desc: 'Open-deck and specialized heavy haul carriers' },
-  { name: 'Hazmat', slug: 'hazmat', desc: 'Hazardous materials transportation specialists' },
-  { name: 'Car Haulers', slug: 'car-haulers', desc: 'Auto transport and vehicle logistics carriers' },
+  { name: 'Franchise Dealerships', slug: 'franchise-dealerships', desc: 'New and used vehicle sales with manufacturer agreements' },
+  { name: 'Used Car Dealers', slug: 'used-car-dealers', desc: 'Independent pre-owned vehicle operations' },
+  { name: 'Luxury & Specialty', slug: 'luxury-specialty-dealers', desc: 'High-value, exotic, and collectible vehicle dealers' },
+  { name: 'Auto Repair Shops', slug: 'auto-repair-shops', desc: 'Independent mechanical repair and service centers' },
+  { name: 'Collision & Body', slug: 'collision-body-shops', desc: 'Collision repair, paint, and structural work' },
+  { name: 'Parts Distributors', slug: 'parts-distributors', desc: 'Wholesale and retail auto parts distribution' },
+  { name: 'Fleet Management', slug: 'fleet-management', desc: 'Vehicle fleet management and leasing operations' },
+  { name: 'Car Rental', slug: 'car-rental', desc: 'Short-term vehicle rental and leasing' },
+  { name: 'Tire Shops', slug: 'tire-shops', desc: 'Tire sales, installation, and alignment services' },
+  { name: 'Auto Detailing', slug: 'auto-detailing', desc: 'Fixed-location and mobile detailing operations' },
 ];
 
 export default function WhoWeServe() {
@@ -24,8 +24,8 @@ export default function WhoWeServe() {
       <div className="max-w-[68rem] mx-auto px-[60px] max-lg:px-6 max-md:px-4">
         <div ref={headerRef} className="text-center max-w-3xl mx-auto mb-16 fade-in-view">
           <p className="text-blue uppercase tracking-[0.15em] font-bold mb-4" style={{ fontSize: '0.85rem' }}>Industries Served</p>
-          <h2 className="text-brand font-bold leading-[1.3] tracking-tight mb-5" style={{ fontSize: 'clamp(2.2rem, 4vw, 2.6rem)' }}>Coverage for Every Type of Operation</h2>
-          <p className="text-brand" style={{ fontSize: '1rem', lineHeight: '1.6' }}>We serve trucking and transportation businesses across all segments — from single-truck owner-operators to large enterprise fleets.</p>
+          <h2 className="text-brand font-bold leading-[1.3] tracking-tight mb-5" style={{ fontSize: 'clamp(2.2rem, 4vw, 2.6rem)' }}>Coverage for Every Automotive Business</h2>
+          <p className="text-brand" style={{ fontSize: '1rem', lineHeight: '1.6' }}>We serve automotive businesses across all segments, from single-location repair shops to multi-brand dealership groups.</p>
         </div>
         <div ref={gridRef} className="grid sm:grid-cols-2 lg:grid-cols-5 gap-4 stagger-children">
           {segments.map((seg) => (

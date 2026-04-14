@@ -6,42 +6,38 @@ import { usePathname } from 'next/navigation';
 // Order matters: longer phrases first to avoid partial matches
 const LINK_MAP = [
   // Coverages
-  ['primary auto liability', '/coverage/auto-liability/'],
-  ['auto liability', '/coverage/auto-liability/'],
-  ['physical damage', '/coverage/physical-damage/'],
-  ['motor truck cargo', '/coverage/motor-truck-cargo/'],
-  ['cargo coverage', '/coverage/motor-truck-cargo/'],
-  ['cargo insurance', '/coverage/motor-truck-cargo/'],
+  ['garage liability', '/coverage/garage-liability/'],
+  ['garagekeepers', '/coverage/garage-keepers/'],
+  ['garagekeepers insurance', '/coverage/garage-keepers/'],
+  ['dealers open lot', '/coverage/dealers-open-lot/'],
   ['general liability', '/coverage/general-liability/'],
-  ['non-trucking liability', '/coverage/non-trucking-liability/'],
-  ['bobtail coverage', '/coverage/non-trucking-liability/'],
-  ['bobtail insurance', '/coverage/non-trucking-liability/'],
-  ['trailer interchange', '/coverage/trailer-interchange/'],
   ['workers\' compensation', '/coverage/workers-compensation/'],
   ['workers compensation', '/coverage/workers-compensation/'],
   ['workers\' comp', '/coverage/workers-compensation/'],
   ['workers comp', '/coverage/workers-compensation/'],
-  ['umbrella coverage', '/coverage/umbrella-excess-liability/'],
-  ['umbrella liability', '/coverage/umbrella-excess-liability/'],
-  ['excess liability', '/coverage/umbrella-excess-liability/'],
-  ['occupational accident', '/coverage/occupational-accident/'],
+  ['commercial property', '/coverage/commercial-property/'],
+  ['commercial auto', '/coverage/commercial-auto/'],
+  ['cyber liability', '/coverage/cyber-liability/'],
+  ['umbrella coverage', '/coverage/umbrella-excess/'],
+  ['umbrella liability', '/coverage/umbrella-excess/'],
+  ['excess liability', '/coverage/umbrella-excess/'],
+  ['employment practices', '/coverage/employment-practices/'],
 
   // Industries
-  ['owner-operators', '/industries/owner-operators/'],
-  ['owner operators', '/industries/owner-operators/'],
-  ['small fleets', '/industries/small-fleets/'],
-  ['large fleets', '/industries/large-fleets/'],
-  ['hot shot trucking', '/industries/hot-shot-trucking/'],
-  ['hot shot', '/industries/hot-shot-trucking/'],
-  ['LTL', '/industries/ltl-last-mile/'],
-  ['last mile', '/industries/ltl-last-mile/'],
-  ['intermodal', '/industries/intermodal/'],
-  ['refrigerated', '/industries/refrigerated/'],
-  ['flatbed', '/industries/flatbed/'],
-  ['hazmat', '/industries/hazmat/'],
-  ['car haulers', '/industries/car-haulers/'],
+  ['franchise dealerships', '/industries/franchise-dealerships/'],
+  ['used car dealers', '/industries/used-car-dealers/'],
+  ['luxury dealers', '/industries/luxury-specialty-dealers/'],
+  ['auto repair shops', '/industries/auto-repair-shops/'],
+  ['repair shops', '/industries/auto-repair-shops/'],
+  ['collision shops', '/industries/collision-body-shops/'],
+  ['body shops', '/industries/collision-body-shops/'],
+  ['parts distributors', '/industries/parts-distributors/'],
+  ['fleet management', '/industries/fleet-management/'],
+  ['car rental', '/industries/car-rental/'],
+  ['tire shops', '/industries/tire-shops/'],
+  ['auto detailing', '/industries/auto-detailing/'],
 
-  // States (only match when followed by common context words to avoid over-linking)
+  // States
   ['Alabama', '/states/alabama/'], ['Alaska', '/states/alaska/'], ['Arizona', '/states/arizona/'],
   ['Arkansas', '/states/arkansas/'], ['California', '/states/california/'], ['Colorado', '/states/colorado/'],
   ['Connecticut', '/states/connecticut/'], ['Delaware', '/states/delaware/'], ['Florida', '/states/florida/'],
@@ -62,9 +58,7 @@ const LINK_MAP = [
   ['West Virginia', '/states/west-virginia/'], ['Wisconsin', '/states/wisconsin/'], ['Wyoming', '/states/wyoming/'],
 
   // Resources
-  ['FMCSA requirements', '/resources/fmcsa-insurance-requirements/'],
-  ['FMCSA', '/resources/fmcsa-insurance-requirements/'],
-  ['MCS-90', '/resources/fmcsa-insurance-requirements/'],
+  ['FTC Safeguards Rule', '/resources/dealership-cyber-guide/'],
 
   // Tools
   ['requirements checker', '/tools/fmcsa-checker/'],
@@ -77,7 +71,7 @@ export default function SmartText({ text, className, style }) {
   if (!text) return null;
 
   // Get current page path to avoid self-linking
-  const currentPath = pathname?.replace(/\/trucking/, '') || '';
+  const currentPath = pathname?.replace(/\/automotive/, '') || '';
   const parts = autoLink(text, currentPath);
 
   return (

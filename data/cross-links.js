@@ -1,54 +1,56 @@
 // Cross-linking maps for dense internal linking
-// Coverage → which industries commonly need this coverage
+// Coverage -> which industries commonly need this coverage
 export const coverageToIndustries = {
-  'auto-liability': ['owner-operators', 'small-fleets', 'large-fleets', 'hot-shot-trucking'],
-  'physical-damage': ['owner-operators', 'small-fleets', 'large-fleets', 'flatbed'],
-  'motor-truck-cargo': ['owner-operators', 'refrigerated', 'flatbed', 'hazmat'],
-  'general-liability': ['large-fleets', 'ltl-last-mile', 'intermodal'],
-  'non-trucking-liability': ['owner-operators', 'hot-shot-trucking'],
-  'trailer-interchange': ['intermodal', 'ltl-last-mile', 'large-fleets'],
-  'workers-compensation': ['small-fleets', 'large-fleets', 'ltl-last-mile'],
-  'umbrella-excess-liability': ['large-fleets', 'hazmat', 'car-haulers'],
-  'occupational-accident': ['owner-operators', 'hot-shot-trucking', 'small-fleets'],
+  'garage-liability': ['franchise-dealerships', 'used-car-dealers', 'auto-repair-shops', 'collision-body-shops'],
+  'garage-keepers': ['franchise-dealerships', 'auto-repair-shops', 'collision-body-shops', 'auto-detailing'],
+  'dealers-open-lot': ['franchise-dealerships', 'used-car-dealers', 'luxury-specialty-dealers'],
+  'general-liability': ['parts-distributors', 'tire-shops', 'auto-detailing'],
+  'workers-compensation': ['franchise-dealerships', 'auto-repair-shops', 'collision-body-shops', 'tire-shops'],
+  'commercial-property': ['franchise-dealerships', 'collision-body-shops', 'parts-distributors'],
+  'commercial-auto': ['parts-distributors', 'fleet-management', 'car-rental'],
+  'cyber-liability': ['franchise-dealerships', 'used-car-dealers', 'fleet-management'],
+  'umbrella-excess': ['franchise-dealerships', 'luxury-specialty-dealers', 'car-rental'],
+  'employment-practices': ['franchise-dealerships', 'used-car-dealers', 'parts-distributors'],
 };
 
-// Coverage → which resources are most relevant
+// Coverage -> which resources are most relevant
 export const coverageToResources = {
-  'auto-liability': ['fmcsa-insurance-requirements', 'trucking-insurance-cost', 'new-authority-insurance'],
-  'physical-damage': ['trucking-insurance-cost', 'lower-trucking-insurance-premiums'],
-  'motor-truck-cargo': ['fmcsa-insurance-requirements', 'trucking-insurance-cost'],
-  'general-liability': ['commercial-auto-vs-trucking-insurance', 'trucking-insurance-glossary'],
-  'non-trucking-liability': ['primary-vs-non-trucking-liability', 'trucking-insurance-glossary'],
-  'trailer-interchange': ['fmcsa-insurance-requirements', 'trucking-insurance-glossary'],
-  'workers-compensation': ['occupational-accident-vs-workers-comp', 'trucking-insurance-cost'],
-  'umbrella-excess-liability': ['trucking-insurance-cost', 'trucking-insurance-claims-guide'],
-  'occupational-accident': ['occupational-accident-vs-workers-comp', 'new-authority-insurance'],
+  'garage-liability': ['automotive-insurance-cost', 'garage-liability-guide', 'garagekeepers-guide'],
+  'garage-keepers': ['garagekeepers-guide', 'automotive-insurance-cost'],
+  'dealers-open-lot': ['dealers-open-lot-guide', 'automotive-insurance-cost'],
+  'general-liability': ['automotive-insurance-cost', 'coi-guide'],
+  'workers-compensation': ['automotive-insurance-cost', 'claims-guide'],
+  'commercial-property': ['automotive-insurance-cost', 'claims-guide'],
+  'commercial-auto': ['test-drive-liability-guide', 'automotive-insurance-cost'],
+  'cyber-liability': ['dealership-cyber-guide', 'automotive-insurance-cost'],
+  'umbrella-excess': ['automotive-insurance-cost', 'claims-guide'],
+  'employment-practices': ['automotive-insurance-cost', 'automotive-insurance-glossary'],
 };
 
-// Industry → top states for that industry
+// Industry -> top states for that industry
 export const industryToStates = {
-  'owner-operators': ['texas', 'california', 'florida', 'georgia', 'ohio'],
-  'small-fleets': ['texas', 'illinois', 'california', 'pennsylvania', 'ohio'],
-  'large-fleets': ['texas', 'california', 'illinois', 'indiana', 'tennessee'],
-  'hot-shot-trucking': ['texas', 'oklahoma', 'louisiana', 'north-dakota', 'colorado'],
-  'ltl-last-mile': ['california', 'texas', 'new-york', 'illinois', 'florida'],
-  'intermodal': ['illinois', 'california', 'new-jersey', 'georgia', 'texas'],
-  'refrigerated': ['california', 'florida', 'texas', 'washington', 'arizona'],
-  'flatbed': ['texas', 'pennsylvania', 'ohio', 'indiana', 'north-carolina'],
-  'hazmat': ['texas', 'louisiana', 'new-jersey', 'ohio', 'california'],
-  'car-haulers': ['michigan', 'texas', 'georgia', 'california', 'indiana'],
+  'franchise-dealerships': ['texas', 'california', 'florida', 'ohio', 'pennsylvania'],
+  'used-car-dealers': ['texas', 'florida', 'california', 'georgia', 'new-york'],
+  'luxury-specialty-dealers': ['california', 'florida', 'new-york', 'texas', 'new-jersey'],
+  'auto-repair-shops': ['texas', 'california', 'florida', 'ohio', 'michigan'],
+  'collision-body-shops': ['california', 'texas', 'florida', 'pennsylvania', 'illinois'],
+  'parts-distributors': ['michigan', 'ohio', 'texas', 'california', 'illinois'],
+  'fleet-management': ['texas', 'california', 'georgia', 'illinois', 'florida'],
+  'car-rental': ['florida', 'california', 'texas', 'new-york', 'nevada'],
+  'tire-shops': ['texas', 'california', 'florida', 'ohio', 'georgia'],
+  'auto-detailing': ['california', 'florida', 'texas', 'new-york', 'new-jersey'],
 };
 
-// Industry → relevant resources
+// Industry -> relevant resources
 export const industryToResources = {
-  'owner-operators': ['trucking-insurance-cost', 'new-authority-insurance', 'occupational-accident-vs-workers-comp'],
-  'small-fleets': ['trucking-insurance-cost', 'lower-trucking-insurance-premiums', 'fmcsa-insurance-requirements'],
-  'large-fleets': ['lower-trucking-insurance-premiums', 'trucking-insurance-claims-guide', 'fmcsa-insurance-requirements'],
-  'hot-shot-trucking': ['new-authority-insurance', 'trucking-insurance-cost', 'fmcsa-insurance-requirements'],
-  'ltl-last-mile': ['trucking-insurance-cost', 'commercial-auto-vs-trucking-insurance'],
-  'intermodal': ['fmcsa-insurance-requirements', 'trucking-insurance-glossary'],
-  'refrigerated': ['trucking-insurance-cost', 'trucking-insurance-claims-guide'],
-  'flatbed': ['trucking-insurance-cost', 'lower-trucking-insurance-premiums'],
-  'hazmat': ['fmcsa-insurance-requirements', 'trucking-insurance-cost'],
-  'car-haulers': ['trucking-insurance-cost', 'lower-trucking-insurance-premiums'],
+  'franchise-dealerships': ['automotive-insurance-cost', 'dealers-open-lot-guide', 'dealership-cyber-guide'],
+  'used-car-dealers': ['automotive-insurance-cost', 'garage-liability-guide', 'garagekeepers-guide'],
+  'luxury-specialty-dealers': ['dealers-open-lot-guide', 'automotive-insurance-cost'],
+  'auto-repair-shops': ['garage-liability-guide', 'garagekeepers-guide', 'automotive-insurance-cost'],
+  'collision-body-shops': ['garage-liability-guide', 'claims-guide', 'automotive-insurance-cost'],
+  'parts-distributors': ['automotive-insurance-cost', 'coi-guide'],
+  'fleet-management': ['automotive-insurance-cost', 'test-drive-liability-guide'],
+  'car-rental': ['automotive-insurance-cost', 'claims-guide'],
+  'tire-shops': ['garage-liability-guide', 'automotive-insurance-cost'],
+  'auto-detailing': ['garagekeepers-guide', 'automotive-insurance-cost'],
 };

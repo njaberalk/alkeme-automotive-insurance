@@ -5,44 +5,45 @@ import { useNavScrollBehavior } from '../hooks/useScrollAnimation';
 import { usePathname } from 'next/navigation';
 
 const coverageItems = [
-  { label: 'Auto Liability', href: '/coverage/auto-liability/' },
-  { label: 'Physical Damage', href: '/coverage/physical-damage/' },
-  { label: 'Motor Truck Cargo', href: '/coverage/motor-truck-cargo/' },
+  { label: 'Garage Liability', href: '/coverage/garage-liability/' },
+  { label: 'Garagekeepers', href: '/coverage/garage-keepers/' },
+  { label: 'Dealers Open Lot', href: '/coverage/dealers-open-lot/' },
   { label: 'General Liability', href: '/coverage/general-liability/' },
-  { label: 'Non-Trucking Liability', href: '/coverage/non-trucking-liability/' },
-  { label: 'Trailer Interchange', href: '/coverage/trailer-interchange/' },
   { label: 'Workers\' Comp', href: '/coverage/workers-compensation/' },
-  { label: 'Umbrella / Excess', href: '/coverage/umbrella-excess-liability/' },
-  { label: 'Occupational Accident', href: '/coverage/occupational-accident/' },
+  { label: 'Commercial Property', href: '/coverage/commercial-property/' },
+  { label: 'Commercial Auto', href: '/coverage/commercial-auto/' },
+  { label: 'Cyber Liability', href: '/coverage/cyber-liability/' },
+  { label: 'Umbrella / Excess', href: '/coverage/umbrella-excess/' },
+  { label: 'Employment Practices', href: '/coverage/employment-practices/' },
 ];
 
 const resourceItems = [
-  { label: '— Tools —', href: null, divider: true },
-  { label: 'FMCSA Requirements Checker', href: '/tools/fmcsa-checker/' },
+  { label: '\u2014 Tools \u2014', href: null, divider: true },
+  { label: 'Coverage Requirements Checker', href: '/tools/fmcsa-checker/' },
   { label: 'State Requirements Lookup', href: '/tools/state-requirements/' },
-  { label: '— Guides —', href: null, divider: true },
-  { label: 'Trucking Insurance Cost', href: '/resources/trucking-insurance-cost/' },
-  { label: 'FMCSA Requirements', href: '/resources/fmcsa-insurance-requirements/' },
-  { label: 'New Authority Insurance', href: '/resources/new-authority-insurance/' },
-  { label: 'Lower Your Premiums', href: '/resources/lower-trucking-insurance-premiums/' },
-  { label: 'Insurance Glossary', href: '/resources/trucking-insurance-glossary/' },
-  { label: '— Insights —', href: null, divider: true },
-  { label: 'Market Trends 2026', href: '/blog/trucking-insurance-market-trends-2026/' },
-  { label: 'Nuclear Verdicts Guide', href: '/blog/nuclear-verdicts-trucking-industry/' },
-  { label: 'New Carrier Mistakes', href: '/blog/mistakes-new-carriers-make-insurance/' },
+  { label: '\u2014 Guides \u2014', href: null, divider: true },
+  { label: 'Automotive Insurance Cost', href: '/resources/automotive-insurance-cost/' },
+  { label: 'Garage Liability Guide', href: '/resources/garage-liability-guide/' },
+  { label: 'Garagekeepers Guide', href: '/resources/garagekeepers-guide/' },
+  { label: 'Dealers Open Lot Guide', href: '/resources/dealers-open-lot-guide/' },
+  { label: 'Insurance Glossary', href: '/resources/automotive-insurance-glossary/' },
+  { label: '\u2014 Insights \u2014', href: null, divider: true },
+  { label: 'Market Trends 2026', href: '/blog/auto-dealer-insurance-trends-2026/' },
+  { label: 'Cyber Threats', href: '/blog/dealership-cyber-threats/' },
+  { label: 'Dealer Mistakes', href: '/blog/dealership-insurance-mistakes/' },
 ];
 
 const industryItems = [
-  { label: 'Owner-Operators', href: '/industries/owner-operators/' },
-  { label: 'Small Fleets', href: '/industries/small-fleets/' },
-  { label: 'Large Fleets', href: '/industries/large-fleets/' },
-  { label: 'Hot Shot', href: '/industries/hot-shot-trucking/' },
-  { label: 'LTL / Last Mile', href: '/industries/ltl-last-mile/' },
-  { label: 'Intermodal', href: '/industries/intermodal/' },
-  { label: 'Refrigerated', href: '/industries/refrigerated/' },
-  { label: 'Flatbed', href: '/industries/flatbed/' },
-  { label: 'Hazmat', href: '/industries/hazmat/' },
-  { label: 'Car Haulers', href: '/industries/car-haulers/' },
+  { label: 'Franchise Dealerships', href: '/industries/franchise-dealerships/' },
+  { label: 'Used Car Dealers', href: '/industries/used-car-dealers/' },
+  { label: 'Luxury & Specialty', href: '/industries/luxury-specialty-dealers/' },
+  { label: 'Auto Repair Shops', href: '/industries/auto-repair-shops/' },
+  { label: 'Collision & Body', href: '/industries/collision-body-shops/' },
+  { label: 'Parts Distributors', href: '/industries/parts-distributors/' },
+  { label: 'Fleet Management', href: '/industries/fleet-management/' },
+  { label: 'Car Rental', href: '/industries/car-rental/' },
+  { label: 'Tire Shops', href: '/industries/tire-shops/' },
+  { label: 'Auto Detailing', href: '/industries/auto-detailing/' },
 ];
 
 function Dropdown({ label, items, isOpen, onToggle, onClose }) {
@@ -101,7 +102,7 @@ export default function Header() {
   const [openDropdown, setOpenDropdown] = useState(null);
   const navRef = useNavScrollBehavior();
   const pathname = usePathname();
-  const isHome = pathname === '/trucking' || pathname === '/trucking/' || pathname === '/';
+  const isHome = pathname === '/automotive' || pathname === '/automotive/' || pathname === '/';
 
   return (
     <>
@@ -202,11 +203,11 @@ export default function Header() {
               <Link href={isHome ? '#states' : '/#states'} onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.16em] font-bold py-2 no-underline" style={{ fontSize: '0.75rem' }}>States & Cities</Link>
 
               <span className="block text-blue-dark uppercase tracking-[0.12em] font-bold pb-2 border-b border-ash mb-3 mt-4" style={{ fontSize: '0.65rem' }}>Tools & Resources</span>
-              <Link href="/tools/fmcsa-checker/" onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.12em] font-semibold py-2 no-underline" style={{ fontSize: '0.7rem' }}>FMCSA Requirements Checker</Link>
+              <Link href="/tools/fmcsa-checker/" onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.12em] font-semibold py-2 no-underline" style={{ fontSize: '0.7rem' }}>Coverage Requirements Checker</Link>
               <Link href="/tools/state-requirements/" onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.12em] font-semibold py-2 no-underline" style={{ fontSize: '0.7rem' }}>State Requirements Lookup</Link>
-              <Link href="/resources/trucking-insurance-cost/" onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.12em] font-semibold py-2 no-underline" style={{ fontSize: '0.7rem' }}>Trucking Insurance Cost</Link>
-              <Link href="/resources/fmcsa-insurance-requirements/" onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.12em] font-semibold py-2 no-underline" style={{ fontSize: '0.7rem' }}>FMCSA Requirements Guide</Link>
-              <Link href="/blog/trucking-insurance-market-trends-2026/" onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.12em] font-semibold py-2 no-underline" style={{ fontSize: '0.7rem' }}>Market Trends 2026</Link>
+              <Link href="/resources/automotive-insurance-cost/" onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.12em] font-semibold py-2 no-underline" style={{ fontSize: '0.7rem' }}>Automotive Insurance Cost</Link>
+              <Link href="/resources/fmcsa-insurance-requirements/" onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.12em] font-semibold py-2 no-underline" style={{ fontSize: '0.7rem' }}>Garage Liability Guide</Link>
+              <Link href="/blog/automotive-insurance-market-trends-2026/" onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.12em] font-semibold py-2 no-underline" style={{ fontSize: '0.7rem' }}>Market Trends 2026</Link>
               <a href="https://alkemeins.com" onClick={() => setMobileOpen(false)} className="block text-blue-dark hover:text-brand uppercase tracking-[0.12em] font-bold py-2 no-underline" style={{ fontSize: '0.65rem' }}>← Back to ALKEME</a>
             </div>
 

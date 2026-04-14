@@ -4,15 +4,16 @@ import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 // Basic coverage metadata for cross-linking
 const allCoverages = {
-  'auto-liability': { title: 'Primary Auto Liability', desc: 'Liability protection for at-fault accidents' },
-  'physical-damage': { title: 'Physical Damage', desc: 'Covers repair or replacement of your vehicles' },
-  'motor-truck-cargo': { title: 'Motor Truck Cargo', desc: 'Protects goods in transit' },
-  'general-liability': { title: 'General Liability', desc: 'Third-party claims outside vehicle operation' },
-  'non-trucking-liability': { title: 'Non-Trucking Liability', desc: 'Coverage for personal use of truck' },
-  'trailer-interchange': { title: 'Trailer Interchange', desc: 'Covers trailers under interchange agreements' },
+  'garage-liability': { title: 'Garage Liability', desc: 'Bodily injury and property damage from garage operations' },
+  'garage-keepers': { title: 'Garagekeepers', desc: 'Customer vehicles in your care, custody, and control' },
+  'dealers-open-lot': { title: 'Dealers Open Lot', desc: 'Vehicle inventory protection against theft, hail, and damage' },
+  'general-liability': { title: 'General Liability', desc: 'Premises, products, and advertising injury coverage' },
   'workers-compensation': { title: 'Workers\' Compensation', desc: 'Employee injury wage and medical benefits' },
-  'umbrella-excess-liability': { title: 'Umbrella / Excess', desc: 'Additional liability protection layer' },
-  'occupational-accident': { title: 'Occupational Accident', desc: 'Coverage for independent contractors' },
+  'commercial-property': { title: 'Commercial Property', desc: 'Buildings, tools, equipment, and parts inventory' },
+  'commercial-auto': { title: 'Commercial Auto', desc: 'Dealer plates, tow trucks, delivery, and loaners' },
+  'cyber-liability': { title: 'Cyber Liability', desc: 'Customer data, DMS, and F&I data breach protection' },
+  'umbrella-excess': { title: 'Umbrella / Excess', desc: 'Additional liability protection layer' },
+  'employment-practices': { title: 'Employment Practices', desc: 'Discrimination, harassment, and wrongful termination' },
 };
 
 export default function RelatedCoverages({ slugs, title = 'Related Coverage' }) {

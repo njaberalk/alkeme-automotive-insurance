@@ -1,579 +1,205 @@
 export const resources = [
   {
-    slug: 'trucking-insurance-cost',
-    title: 'How Much Does Trucking Insurance Cost?',
-    metaTitle: 'How Much Does Trucking Insurance Cost in 2026?',
-    metaDescription: 'Learn what trucking insurance costs for owner-operators and fleets. Breakdown of pricing factors, average premiums by coverage type, and proven ways to reduc...',
+    slug: 'automotive-insurance-cost',
+    title: 'How Much Does Automotive Insurance Cost?',
+    metaTitle: 'How Much Does Auto Dealer Insurance Cost in 2026?',
+    metaDescription: 'Learn what automotive business insurance costs for dealerships, repair shops, and body shops. Breakdown of pricing factors, average premiums, and ways to reduce costs.',
     category: 'Guide',
-    heroHeading: 'How Much Does Trucking Insurance Cost?',
-    heroSubheading:
-      'A detailed breakdown of commercial trucking insurance premiums, what drives them, and how to keep them under control.',
-    overview:
-      'Trucking insurance is one of the largest operating expenses for any motor carrier, often second only to fuel and driver wages. Annual premiums for a single truck can range from $9,000 to over $20,000 depending on your authority status, operating radius, cargo type, and claims history. Understanding how insurers price your risk is the first step toward managing this cost effectively.',
+    heroHeading: 'How Much Does Automotive Insurance Cost?',
+    heroSubheading: 'A detailed breakdown of auto dealer and repair shop insurance premiums, what drives them, and how to control costs.',
+    overview: 'Insurance is one of the largest fixed expenses for any automotive business. Annual premiums for a single-location dealership can range from fifty thousand to over two hundred thousand dollars depending on inventory value, sales volume, service operations, and claims history. Understanding how insurers price your risk is the first step toward managing costs effectively.',
     sections: [
-      {
-        heading: 'Average Cost by Operation Type',
-        content:
-          'Insurance costs vary significantly depending on your operation. A leased owner-operator with physical damage and bobtail liability typically pays between $3,000 and $6,000 per year because the motor carrier\'s policy handles primary liability and cargo coverage. An owner-operator running under their own authority faces a much larger insurance obligation, with total annual premiums commonly falling between $9,000 and $16,000 for a clean operation hauling general freight.\n\nSmall fleets of two to fifteen trucks generally pay between $8,000 and $14,000 per truck per year, with total program costs ranging from $20,000 to over $200,000 depending on fleet size and risk profile. Mid-size and large fleets with strong safety records and favorable loss history may see per-truck costs drop below $7,000 as volume discounts and fleet-rated programs become available.\n\nNew authorities consistently face the highest premiums in the industry. Carriers in their first two years of operation should expect to pay 20 to 40 percent more than established operators with comparable equipment and operating profiles. Some new authority programs start at $14,000 to $22,000 per truck because the insurer has no loss history to evaluate and must price for the unknown.',
-      },
-      {
-        heading: 'Cost Breakdown by Coverage Type',
-        content:
-          'Primary auto liability is the single most expensive component, typically representing 40 to 55 percent of your total insurance spend. For a $1,000,000 policy on a single truck hauling general commodities, expect annual premiums between $5,000 and $9,000 depending on your experience, location, and driving record.\n\nPhysical damage coverage generally costs between 3 and 5 percent of your vehicle\'s stated value annually. A truck insured for $120,000 might carry a physical damage premium of $3,600 to $6,000 per year with a $2,500 deductible. Higher deductibles can reduce this cost meaningfully.\n\nMotor truck cargo insurance runs between $400 and $2,500 per year for standard commodities at $100,000 in coverage. Specialized or high-value freight can push cargo premiums significantly higher. General liability adds another $500 to $1,800 annually, and occupational accident insurance for owner-operators and independent contractors typically costs between $1,200 and $3,600 per year depending on benefit levels.',
-      },
-      {
-        heading: 'Factors That Drive Your Premium',
-        bullets: [
-          'Years of operating authority and verifiable experience under your own MC number',
-          'Driver MVR records, CSA scores, and FMCSA safety rating (Satisfactory, Conditional, or Unsatisfactory)',
-          'Claims history over the past three to five years, including frequency, severity, and types of losses',
-          'Cargo types hauled, with hazardous materials, oversized loads, and high-value goods commanding higher rates',
-          'Operating radius and geography, as long-haul interstate runs price differently than local or regional routes',
-          'Vehicle age, value, and type, including whether equipment is owned or leased',
-          'Annual mileage per unit and total fleet mileage exposure',
-          'Deductible selections across all coverage lines',
-          'Use of electronic logging devices, dash cameras, and telematics platforms',
-        ],
-      },
-      {
-        heading: 'How to Reduce Your Insurance Costs',
-        content:
-          'The most effective way to lower premiums is to maintain a clean loss record. Carriers with three or more years of favorable claims history routinely qualify for rates 15 to 30 percent below new authority pricing. Invest in driver safety programs, pre-trip inspection protocols, and ongoing MVR monitoring to keep your risk profile strong.\n\nRaising your deductibles is an immediate lever. Moving from a $1,000 to a $2,500 collision deductible can reduce physical damage premiums by 10 to 20 percent, though you need cash reserves to absorb the higher out-of-pocket exposure. Bundling all coverage lines with a single insurer or agency often unlocks multi-policy discounts and streamlines administration.\n\nTechnology investments pay for themselves through insurance savings. Carriers using forward-facing dash cameras see average premium reductions of 8 to 15 percent, and comprehensive telematics programs that monitor speed, braking, and hours of service compliance can earn additional discounts. Completing the FMCSA\'s safety audit and maintaining a Satisfactory rating also signals lower risk to underwriters.',
-      },
-      {
-        heading: 'Getting Accurate Quotes',
-        content:
-          'Insurance pricing in trucking is highly individualized, so published averages can only provide a general range. To get an accurate quote, you will need to provide your USDOT number, MC authority information, loss runs from the past three to five years, vehicle schedules with VINs and values, driver lists with dates of birth and CDL numbers, and a description of your commodities and operating lanes.\n\nWork with a broker or agency that specializes in trucking insurance rather than a generalist who writes commercial auto as a sideline. Trucking specialists have access to markets that do not accept submissions from general agents, and they understand how to present your risk in the most favorable light. The difference between a well-prepared submission and a poorly assembled one can easily be 20 percent or more in annual premium.',
-      },
+      { heading: 'Average Cost by Business Type', content: 'Insurance costs vary significantly by operation type. A small independent used car lot with twenty vehicles in inventory and no service department may pay fifteen to thirty thousand dollars per year. A mid-size franchise dealership with a service department, body shop, and two hundred vehicles in inventory can expect seventy-five to one hundred fifty thousand annually. Large multi-location dealer groups pay proportionally more, though volume discounts become available.\n\nRepair shops typically pay less than dealerships because they lack inventory exposure. A three-bay independent repair shop may pay eight to fifteen thousand per year for a basic coverage program. Collision centers with paint operations, expensive equipment, and higher workers compensation exposure may pay twenty to forty thousand annually.' },
+      { heading: 'Cost Breakdown by Coverage Type', content: 'Garage liability typically represents 20 to 30 percent of total premium. For a dealership, expect four to twelve thousand dollars annually depending on revenue, location, and claims history.\n\nDealers open lot is often the single largest premium component, driven by your total inventory value. Expect to pay between 1.5 and 3 percent of your average inventory value annually. A dealership with five million in average inventory might pay seventy-five to one hundred fifty thousand for this coverage alone.\n\nGaragekeepers coverage runs between two and six thousand annually depending on limits and the number of customer vehicles you hold. Workers compensation varies widely based on payroll, classification codes, and your experience modification factor. Commercial property costs depend on building value, equipment, and location.' },
+      { heading: 'Factors That Drive Your Premium', bullets: ['Total vehicle inventory value and average number of units on lot', 'Annual gross sales revenue and number of vehicles sold', 'Service department revenue and number of repair orders annually', 'Claims history over the past three to five years', 'Location, including crime rates, weather exposure, and litigation environment', 'Number of employees and their classification codes', 'Building value, age, and construction type', 'Security measures including cameras, fencing, and alarm systems', 'Years in business and management experience'] },
+      { heading: 'How to Reduce Your Costs', content: 'The most effective strategy is maintaining a clean loss record. Dealerships with three or more years of favorable claims history qualify for rates significantly below new operation pricing. Implement safety programs, maintain proper documentation, and train employees on loss prevention.\n\nSecurity investments reduce both losses and premiums. Cameras, perimeter fencing, key lockboxes, and alarm systems demonstrate risk management to underwriters. Bundling all coverage lines with a single broker often unlocks package discounts.\n\nHigher deductibles provide an immediate premium reduction. Moving from a one thousand to a five thousand dollar deductible on dealers open lot can reduce that premium meaningfully. Work with your broker to model deductible scenarios against your ability to absorb losses.' },
     ],
     faqs: [
-      {
-        q: 'How much does insurance cost for a new trucking authority?',
-        a: 'New authorities typically pay between $14,000 and $22,000 per truck per year for a full coverage program including auto liability, physical damage, cargo, and general liability. Premiums are higher for the first two to three years because insurers have no loss history to evaluate. Rates generally decrease significantly after you build a clean track record.',
-      },
-      {
-        q: 'Why is trucking insurance so expensive?',
-        a: 'Trucking insurance carries high premiums because the loss potential is substantial. A single serious accident involving a commercial vehicle can generate claims of $1,000,000 or more in bodily injury, and jury verdicts in trucking cases have been escalating across the country. Insurers price this severity risk into every policy, along with the high value of the equipment and cargo being insured.',
-      },
-      {
-        q: 'Can I get trucking insurance with no money down?',
-        a: 'Some insurers and premium finance companies offer low down payment options, but completely zero-down programs are rare for new authorities. Most carriers require 20 to 33 percent of the annual premium at inception, with the balance financed over nine or ten monthly installments. Premium financing adds interest charges, so the total cost of insurance is slightly higher than paying in full.',
-      },
-      {
-        q: 'Does my personal driving record affect my trucking insurance rate?',
-        a: 'Yes. Underwriters pull the MVR (motor vehicle report) for every driver on your policy, including you as the owner-operator. Moving violations, accidents, and DUI or DWI convictions on your personal record will increase your commercial insurance premiums and may limit the markets willing to offer you coverage.',
-      },
+      { q: 'How much does dealership insurance cost per year?', a: 'A typical single-location franchise dealership pays between seventy-five and one hundred fifty thousand dollars per year for a comprehensive program including garage liability, dealers open lot, garagekeepers, workers comp, property, and umbrella. Costs vary based on inventory value, revenue, location, and claims history.' },
+      { q: 'Why is dealers open lot so expensive?', a: 'Dealers open lot premiums reflect the massive value of vehicle inventory sitting exposed to weather, theft, and damage around the clock. A lot with five million in inventory represents significant exposure that insurers price accordingly.' },
+      { q: 'Can new dealerships get competitive rates?', a: 'New operations typically pay 15 to 25 percent more than established dealers because insurers have no claims history to evaluate. Rates improve significantly after two to three years of clean operations.' },
+      { q: 'Does my personal driving record affect business insurance?', a: 'If you or your managers are listed drivers on commercial auto or garage liability policies, your personal MVR records can affect rates. Clean records for all listed drivers help keep premiums competitive.' },
     ],
-    relatedResources: ['new-authority-insurance', 'lower-trucking-insurance-premiums'],
-    relatedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    relatedResources: ['garage-liability-guide', 'dealers-open-lot-guide'],
+    relatedCoverages: ['garage-liability', 'dealers-open-lot', 'garage-keepers'],
   },
-
   {
-    slug: 'fmcsa-insurance-requirements',
-    title: 'FMCSA Insurance Requirements for Motor Carriers',
-    metaTitle: 'FMCSA Insurance Requirements for Motor Carriers',
-    metaDescription: 'Complete guide to FMCSA insurance requirements. Minimum liability limits by cargo type, MCS-90 and BMC-91 filings, and how to stay compliant with federal reg...',
+    slug: 'garage-liability-guide',
+    title: 'Understanding Garage Liability Insurance',
+    metaTitle: 'Garage Liability Insurance Guide for Auto Businesses',
+    metaDescription: 'Complete guide to garage liability insurance for dealerships and repair shops. Coverage details, required limits, and how it differs from general liability.',
     category: 'Guide',
-    heroHeading: 'FMCSA Insurance Requirements for Motor Carriers',
-    heroSubheading:
-      'Everything motor carriers need to know about federal insurance requirements, minimum limits, and mandatory filings.',
-    overview:
-      'The Federal Motor Carrier Safety Administration requires all for-hire and private motor carriers operating in interstate commerce to maintain minimum levels of financial responsibility. Failing to meet these requirements results in revocation of your operating authority and the inability to legally haul freight. This guide covers every aspect of FMCSA insurance compliance so you can keep your authority active and your operations running.',
+    heroHeading: 'Understanding Garage Liability Insurance',
+    heroSubheading: 'Everything automotive business owners need to know about their most important coverage.',
+    overview: 'Garage liability is the most important insurance policy for any automotive business, yet it is often the most misunderstood. This guide explains what garage liability covers, how it differs from general liability and commercial auto, what limits you should carry, and how to ensure your policy properly protects your operation.',
     sections: [
-      {
-        heading: 'Minimum Liability Limits by Cargo Type',
-        content:
-          'FMCSA financial responsibility requirements are set by 49 CFR Part 387 and vary based on the type of commodity transported and the weight of the vehicle. For-hire carriers transporting non-hazardous general freight in vehicles over 10,001 pounds must maintain a minimum of $750,000 in public liability coverage.\n\nCarriers transporting hazardous materials face significantly higher minimums. If you haul oil or hazardous waste, the minimum increases to $1,000,000. For carriers transporting certain highly dangerous hazardous materials such as Division 1.1, 1.2, or 1.3 explosives, Division 2.3 poison gas, or highway route-controlled quantities of radioactive materials, the required minimum jumps to $5,000,000.\n\nPrivate carriers transporting their own non-hazardous goods in vehicles over 10,001 pounds must carry at least $750,000 as well. For-hire carriers operating passenger vehicles have separate requirements: $5,000,000 for vehicles designed to seat 16 or more passengers, and $1,500,000 for vehicles seating 15 or fewer passengers.\n\nIt is critical to understand that these are federal minimums. Many shippers, brokers, and freight platforms contractually require higher limits, and industry standard practice for general freight is $1,000,000. Operating at the bare minimum may satisfy the FMCSA but can limit your access to profitable loads.',
-      },
-      {
-        heading: 'MCS-90 Endorsement',
-        content:
-          'The MCS-90 endorsement is a mandatory attachment to the liability policy of every for-hire interstate motor carrier. It functions as a guarantee to the public that the insurer will pay claims arising from the carrier\'s negligence, even if the underlying policy would otherwise exclude or deny the claim.\n\nThe MCS-90 is not additional coverage in the traditional sense. It acts as a safety net that ensures injured parties are compensated regardless of policy technicalities. If the insurer pays a claim under the MCS-90 that would not have been covered under the base policy, the insurer has the right to seek reimbursement from the motor carrier.\n\nYour insurer files the MCS-90 electronically with the FMCSA as part of your proof of financial responsibility. If your policy is cancelled or non-renewed, the insurer must provide 30 days advance notice to the FMCSA through a cancellation filing. During those 30 days, your authority remains active, but you must secure replacement coverage before the cancellation takes effect or your authority will be revoked.',
-      },
-      {
-        heading: 'BMC-91 and BMC-91X Filings',
-        content:
-          'The BMC-91 is the form used by your insurance company to file proof of your liability coverage with the FMCSA. It certifies that you carry at least the minimum required amount of public liability insurance. The BMC-91X serves the same function but is used when coverage is provided through a surplus lines insurer rather than an admitted carrier.\n\nThese filings are electronic and processed through the FMCSA\'s Licensing and Insurance system. Once your insurer submits the BMC-91 or BMC-91X, your authority status in the FMCSA database updates to reflect active, compliant coverage. Brokers and shippers routinely check this status before tendering loads, so timely filing is essential.\n\nSeparately, if you are a freight broker or freight forwarder rather than a motor carrier, you are required to maintain a BMC-84 surety bond or BMC-85 trust fund in the amount of $75,000. This is distinct from the motor carrier liability filing and ensures that brokers can meet their financial obligations to carriers and shippers.',
-      },
-      {
-        heading: 'Cargo Insurance Requirements',
-        content:
-          'While the FMCSA does not set a specific minimum for motor truck cargo insurance for property carriers, cargo coverage is effectively required by the market. Nearly every broker, shipper, and load board requires proof of cargo insurance before tendering freight, and the industry standard minimum is $100,000 per occurrence.\n\nFor-hire household goods carriers are the exception: they are required by FMCSA regulation to offer cargo liability coverage to shippers and must maintain sufficient insurance to meet those obligations. Beyond regulatory requirements, your motor carrier operating agreement and any broker-carrier contracts will specify cargo insurance minimums that you must maintain as a condition of doing business.',
-      },
-      {
-        heading: 'Maintaining Compliance',
-        bullets: [
-          'Ensure your insurer files the BMC-91 or BMC-91X immediately upon binding your policy to avoid any gap in your FMCSA filings',
-          'Monitor your authority status on the FMCSA SAFER System website to confirm your insurance filings are active and current',
-          'Never allow your policy to lapse, as the FMCSA will begin revocation proceedings and your authority status will change to Not Authorized',
-          'Provide 30-day advance notice to your insurer before making changes that could affect coverage, such as adding new vehicle types or commodities',
-          'Review your coverage limits annually and whenever you add new freight types to ensure you meet the correct minimum for your commodity mix',
-          'Keep copies of your insurance certificate, MCS-90 endorsement, and BMC-91 filing confirmation with your operating documents at all times',
-        ],
-      },
+      { heading: 'Garage Liability Explained', content: 'Garage liability is a specialized insurance form developed specifically for businesses that service, sell, store, or park vehicles. It combines elements of general liability and commercial auto liability into a single policy that addresses the unique exposures of automotive operations.\n\nThe policy covers two primary categories: premises and operations liability for injuries at your location, and garage operations auto liability for vehicle-related incidents arising from your business activities. This combination eliminates the coverage gaps that would exist if you tried to piece together protection from separate general liability and commercial auto policies.' },
+      { heading: 'What Makes It Different', content: 'The key distinction between garage liability and other liability policies is the auto operations component. Standard general liability policies exclude vehicle-related claims. Standard commercial auto policies require each vehicle to be individually listed. Garage liability bridges these gaps by covering vehicle operations on a blanket basis.\n\nThis means that when your employees drive customer vehicles, move inventory around your lot, conduct test drives, or deliver vehicles, garage liability responds to any resulting claims without requiring each vehicle to be scheduled on the policy. For a dealership that handles hundreds of different vehicles daily, this blanket approach is essential.' },
+      { heading: 'Recommended Limits', bullets: ['One million per occurrence minimum for most operations', 'Two million per occurrence for high-volume dealerships and operations in litigious states', 'Aggregate limits of at least two million, preferably three million for larger operations', 'Completed operations limits equal to your per-occurrence limit', 'Higher limits for luxury dealerships handling high-value vehicles', 'Umbrella or excess coverage above primary limits for catastrophic protection'] },
+      { heading: 'Common Exclusions', content: 'Garage liability policies contain exclusions that every automotive business owner should understand. Damage to vehicles in your care is typically excluded because that exposure is addressed by garagekeepers coverage. Pollution and environmental contamination are usually excluded and require separate environmental liability coverage.\n\nEmployee injuries are excluded and handled by workers compensation. Employment practices claims are excluded and addressed by EPLI. Professional services errors may be excluded depending on the policy form. Understanding these exclusions is critical to building a complete coverage program without gaps.' },
     ],
     faqs: [
-      {
-        q: 'What happens if my FMCSA insurance filing lapses?',
-        a: 'When your insurer files a cancellation notice with the FMCSA, you have 30 days to secure replacement coverage and file a new BMC-91. If you fail to do so, your operating authority is revoked and your status changes to Not Authorized. You cannot legally operate as a for-hire carrier without active filings, and brokers will immediately stop tendering loads to you.',
-      },
-      {
-        q: 'Do I need the MCS-90 if I am a private carrier?',
-        a: 'The MCS-90 endorsement is required for for-hire motor carriers operating in interstate commerce. Private carriers hauling their own goods are generally not required to carry the MCS-90, though they must still maintain the minimum financial responsibility required by 49 CFR 387 and file proof of coverage with the FMCSA.',
-      },
-      {
-        q: 'Is cargo insurance required by the FMCSA?',
-        a: 'The FMCSA does not set a specific cargo insurance minimum for most property carriers. However, cargo insurance is effectively required by the marketplace. Brokers, shippers, and load boards universally require proof of cargo coverage, and the standard minimum is $100,000. Household goods carriers are an exception and do have specific FMCSA cargo liability requirements.',
-      },
+      { q: 'Is garage liability required by law?', a: 'While not universally required by statute, most state dealer licensing boards require proof of garage liability before issuing a license. Franchise agreements universally require it. Even where not legally mandated, operating without it exposes your business to catastrophic uninsured liability.' },
+      { q: 'Can I use a general liability policy instead?', a: 'No. Standard general liability policies exclude vehicle-related claims, which represent the largest liability exposure for automotive businesses. Garage liability is specifically designed for businesses that handle vehicles and provides coverage that general liability cannot.' },
+      { q: 'Does garage liability cover my employees driving customer cars?', a: 'Yes. Garage operations auto liability within your garage liability policy covers employees operating vehicles as part of your business activities, including moving vehicles, test drives, and deliveries.' },
     ],
-    relatedResources: ['new-authority-insurance', 'trucking-insurance-cost'],
-    relatedCoverages: ['auto-liability', 'motor-truck-cargo', 'general-liability'],
+    relatedResources: ['automotive-insurance-cost', 'garagekeepers-guide'],
+    relatedCoverages: ['garage-liability', 'general-liability', 'umbrella-excess'],
   },
-
   {
-    slug: 'new-authority-insurance',
-    title: 'Insurance for New Trucking Authority',
-    metaTitle: 'Insurance for New Trucking Authority | Guide',
-    metaDescription:
-      'Guide to getting trucking insurance with a new MC authority. What coverage you need, expected costs, and how to secure the best rates with no operating history.',
+    slug: 'garagekeepers-guide',
+    title: 'Garagekeepers Insurance Guide',
+    metaTitle: 'Garagekeepers Insurance Guide for Auto Businesses',
+    metaDescription: 'Complete guide to garagekeepers insurance. Coverage forms explained, recommended limits, and how to protect customer vehicles in your care.',
     category: 'Guide',
-    heroHeading: 'Insurance for New Trucking Authority',
-    heroSubheading:
-      'What every new motor carrier needs to know about securing coverage, meeting FMCSA filing requirements, and managing first-year insurance costs.',
-    overview:
-      'Getting insurance as a new trucking authority is one of the most challenging and expensive steps in launching a motor carrier. With no operating history for underwriters to evaluate, you represent an unknown risk, and insurers price that uncertainty into your premiums. This guide walks you through the process of obtaining coverage, the costs to expect, and strategies to position your operation for better rates as you build a track record.',
+    heroHeading: 'Garagekeepers Insurance Guide',
+    heroSubheading: 'How to protect customer vehicles in your care and why direct primary coverage is the smart choice.',
+    overview: 'Garagekeepers insurance is often confused with garage liability, but they protect against very different risks. This guide explains the three forms of garagekeepers coverage, helps you determine the right limits for your operation, and shows why this coverage is essential for protecting both your customers and your business reputation.',
     sections: [
-      {
-        heading: 'What Coverage You Need Before You Haul',
-        content:
-          'Before your operating authority becomes active, you must have several insurance policies in place and filed with the FMCSA. At a minimum, you need primary auto liability with a BMC-91 filing and MCS-90 endorsement. The minimum limit is $750,000 for general freight carriers, though most brokers and load boards require $1,000,000.\n\nBeyond the federal requirements, you will need motor truck cargo insurance to get access to freight. The standard minimum is $100,000, though many brokers require higher limits for specific commodities. Physical damage coverage is essential if you have a loan or lease on your equipment, and most operators carry it regardless because replacing a total loss out of pocket can be financially devastating.\n\nGeneral liability insurance at $1,000,000 per occurrence is standard for any business and is frequently required by shipper contracts and facility access agreements. Finally, if you are an owner-operator with no employees, occupational accident insurance provides income replacement and medical coverage that you would otherwise lack as an independent contractor not covered by workers compensation.',
-      },
-      {
-        heading: 'Why New Authority Insurance Costs More',
-        content:
-          'Insurers base their pricing on predictable risk, and a new carrier with no loss history is the opposite of predictable. The underwriter has no way to verify how you maintain equipment, how you select and manage drivers, or how your operation actually performs on the road. This uncertainty is reflected in premiums that run 20 to 40 percent higher than what an established carrier with the same equipment and lanes would pay.\n\nThe new authority market has also tightened considerably in recent years. Several insurers have exited the segment entirely after experiencing poor loss ratios with startup carriers. The carriers that remain in the market are selective and disciplined about pricing, which limits competition and keeps rates elevated. As a result, new authorities with fewer than two years of experience often have access to only three to five insurance markets, compared to the dozens available to experienced operators.',
-      },
-      {
-        heading: 'What Underwriters Look For',
-        bullets: [
-          'CDL experience of the owner and all listed drivers, ideally three or more years of verifiable OTR or regional experience',
-          'Clean MVR reports with no DUI, reckless driving, or at-fault accident history in the past three to five years',
-          'A clear CSA profile for any drivers who have operated under a previous carrier DOT number',
-          'Vehicle age and condition, with most new authority markets preferring equipment no older than 10 to 15 years',
-          'A defined operating plan including lanes, commodity types, and expected annual mileage',
-          'Business formation documents and proof that the USDOT and MC numbers are active',
-          'Completion of the FMCSA new entrant safety audit, if applicable',
-          'Prior insurance history, even if from a personal auto or non-trucking policy',
-        ],
-      },
-      {
-        heading: 'How to Get the Best Rate as a New Authority',
-        content:
-          'Start by working with a broker or agency that specializes in new authority placements. These specialists know which markets are actively writing new ventures and can match your profile to the best available options. A generalist agent who writes one or two trucking policies a year simply does not have the market access or underwriting relationships to place new authorities competitively.\n\nPresent a thorough submission package. Include your business plan, driver qualifications, equipment details, and a clear description of your intended operations. Underwriters respond favorably to applicants who demonstrate professionalism and preparedness. If you have prior CDL experience as a company driver, provide verification letters from previous employers showing your years of service and safety record.\n\nConsider starting with higher deductibles to reduce your initial premium. A $2,500 or $5,000 collision deductible will lower your physical damage cost, and you can adjust to a lower deductible once your rates come down after establishing a clean record. Invest in dash cameras and an ELD system before you apply for coverage, as many underwriters view these technologies favorably and some offer explicit discounts for their use.',
-      },
-      {
-        heading: 'Timeline and Process',
-        content:
-          'Insurance for a new authority can typically be bound within one to two weeks of submitting a complete application, though the timeline depends on how quickly you provide all required documentation. The process generally involves completing an application with your agency, submitting driver MVRs and vehicle information, receiving quotes from available markets, binding coverage and making your down payment, and having your insurer file the BMC-91 and MCS-90 with the FMCSA.\n\nOnce the FMCSA processes your insurance filing, your authority status will change from Pending to Authorized, and you can legally begin hauling freight. This filing process typically takes one to three business days after your insurer submits the paperwork. Do not dispatch any loads until your authority status is confirmed as active in the FMCSA SAFER System.',
-      },
+      { heading: 'The Three Coverage Forms', content: 'Garagekeepers coverage is available in three forms, each handling claims differently. Legal liability only pays when your business is legally at fault for the damage to a customer vehicle. If a hailstorm damages vehicles on your lot, legal liability would not respond because you are not at fault for weather.\n\nDirect excess pays for damage to customer vehicles but only after the customer\'s own auto insurance pays first. This can create friction with customers who do not want to file a claim on their own policy and pay their deductible for damage that occurred at your business.\n\nDirect primary pays for damage regardless of fault and without requiring the customer to use their own insurance first. This is the recommended form for most automotive businesses because it provides the smoothest customer experience and protects your reputation.' },
+      { heading: 'Determining Your Limits', content: 'Your garagekeepers limit should reflect the maximum total value of customer vehicles on your premises at any given time. Count the number of vehicles in your service department, body shop, and lot at peak capacity, then multiply by the average vehicle value.\n\nA busy dealership service department holding thirty vehicles with an average value of thirty-five thousand dollars has over one million dollars in customer vehicle exposure. Add body shop vehicles, overnight holds, and any seasonal peaks to determine your appropriate aggregate limit.\n\nPer-vehicle sublimits are also important. If you service luxury vehicles worth one hundred thousand dollars or more, ensure your per-vehicle sublimit accommodates the highest-value vehicle you are likely to hold.' },
+      { heading: 'Best Practices', bullets: ['Choose direct primary coverage for the best customer experience and strongest protection', 'Set aggregate limits based on peak customer vehicle count times average vehicle value', 'Review per-vehicle sublimits to accommodate your highest-value customer vehicles', 'Document vehicle condition at intake with photos to defend against pre-existing damage claims', 'Implement key control procedures to prevent unauthorized vehicle movement', 'Ensure coverage extends to all locations where you hold customer vehicles', 'Review coverage annually as your service volume and customer vehicle values change'] },
     ],
     faqs: [
-      {
-        q: 'How long do I have to pay higher new authority rates?',
-        a: 'Most insurers consider you a new authority for the first two to three years. After that period, assuming you have maintained a clean loss record, your rates will begin to align with standard market pricing. The most significant premium decrease typically occurs at renewal after your second year of continuous coverage with no claims.',
-      },
-      {
-        q: 'Can I get new authority insurance with bad credit?',
-        a: 'Credit history is one of many factors underwriters consider, but it is not typically a disqualifying factor on its own for trucking insurance. A lower credit score may limit your available markets and could result in higher premiums. Some insurers also require a larger down payment from applicants with poor credit history.',
-      },
-      {
-        q: 'Do I need insurance before I get my MC number?',
-        a: 'You apply for your MC number through the FMCSA before you have insurance, but your authority will not become active until your insurer files the required BMC-91 proof of coverage. Most carriers begin the insurance process simultaneously with their authority application so that coverage is ready to bind as soon as the MC number is issued.',
-      },
-      {
-        q: 'What is the minimum down payment for new authority insurance?',
-        a: 'Down payments for new authority policies typically range from 25 to 40 percent of the annual premium. On a $15,000 annual policy, that means $3,750 to $6,000 at inception. Some programs offer lower down payments through premium financing, though interest charges increase the total cost. Be cautious of any program advertising zero down, as these often carry unfavorable terms.',
-      },
+      { q: 'What is the most common garagekeepers claim?', a: 'Hail damage and theft are the most frequent garagekeepers claims. Both can affect multiple vehicles simultaneously, which is why aggregate limits matter more than per-vehicle limits for most operations.' },
+      { q: 'Does garagekeepers cover vehicles in my parking lot?', a: 'Yes. Garagekeepers covers customer vehicles parked on your lot, inside your bays, and anywhere else on your premises. Coverage may also extend to vehicles at secondary locations depending on your policy.' },
+      { q: 'What if a customer claims pre-existing damage?', a: 'Documenting vehicle condition at intake with dated photos is your best defense against fraudulent pre-existing damage claims. Many shops use video walkaround at check-in for this purpose.' },
     ],
-    relatedResources: ['trucking-insurance-cost', 'fmcsa-insurance-requirements'],
-    relatedCoverages: ['auto-liability', 'motor-truck-cargo', 'physical-damage'],
+    relatedResources: ['garage-liability-guide', 'automotive-insurance-cost'],
+    relatedCoverages: ['garage-keepers', 'garage-liability', 'dealers-open-lot'],
   },
-
   {
-    slug: 'lower-trucking-insurance-premiums',
-    title: 'How to Lower Your Trucking Insurance Premiums',
-    metaTitle: 'How to Lower Trucking Insurance Premiums',
-    metaDescription: 'Proven strategies to reduce your trucking insurance costs. Safety programs, technology discounts, deductible strategies, and risk management tips for motor c...',
+    slug: 'dealers-open-lot-guide',
+    title: 'Dealers Open Lot Insurance Guide',
+    metaTitle: 'Dealers Open Lot Insurance Guide for Dealerships',
+    metaDescription: 'Complete guide to dealers open lot insurance. How to protect your vehicle inventory, understand deductibles, and manage catastrophic hail and theft exposure.',
     category: 'Guide',
-    heroHeading: 'How to Lower Your Trucking Insurance Premiums',
-    heroSubheading:
-      'Actionable strategies that help owner-operators and fleet managers reduce insurance costs without sacrificing the coverage they need.',
-    overview:
-      'Insurance premiums are a controllable expense if you understand what drives them and take deliberate steps to improve your risk profile. The strategies in this guide are used by the most well-run fleets in the industry and are equally applicable to owner-operators managing a single truck. Most carriers who implement even a few of these practices see meaningful premium reductions within one to two renewal cycles.',
+    heroHeading: 'Dealers Open Lot Insurance Guide',
+    heroSubheading: 'Protecting your biggest asset: understanding inventory coverage, deductible structures, and catastrophic loss management.',
+    overview: 'Your vehicle inventory is the single largest asset in your dealership, and it sits exposed on an open lot around the clock. Dealers open lot insurance is the coverage that protects this investment. This guide explains how the coverage works, how deductibles are structured, and what you need to know about protecting your inventory from hail, theft, and other catastrophic events.',
     sections: [
-      {
-        heading: 'Build and Maintain a Clean Loss Record',
-        content:
-          'Nothing influences your insurance premium more than your claims history. Underwriters examine the past three to five years of losses when pricing your renewal, and they look at both frequency (how many claims you have) and severity (how much those claims cost). A single large claim can raise your rates, but frequent small claims are often viewed as a greater concern because they suggest systemic operational problems.\n\nDocument every safety measure you take. When you implement a new training program, install safety equipment, or discipline a driver for a violation, create a written record. When your underwriter reviews your account at renewal, a documented safety culture can make the difference between a rate increase and a rate hold. If you do have a claim, cooperate fully and promptly with the investigation to minimize the ultimate cost. The faster a claim closes, the less impact it has on your experience rating.',
-      },
-      {
-        heading: 'Invest in Safety Technology',
-        content:
-          'Forward-facing and dual-facing dash cameras are the single most impactful technology investment for insurance savings. Cameras serve two purposes: they deter unsafe driving behavior, and they provide evidence that can exonerate your driver in not-at-fault accidents. Many insurers offer premium credits of 8 to 15 percent for carriers with active camera programs, and the cameras pay for themselves by reducing fraudulent claims and disputed-fault accidents.\n\nTelematics and fleet management platforms that monitor speed, hard braking, following distance, and hours of service compliance give you real-time visibility into driver behavior. Use this data to coach drivers before bad habits lead to accidents. Some insurers partner with specific telematics providers and offer direct premium discounts when you share your safety data with them.\n\nElectronic logging devices are now mandated for most carriers, but going beyond basic compliance with a fully integrated ELD and fleet management system demonstrates operational maturity to underwriters. Collision mitigation systems, lane departure warnings, and automatic emergency braking are increasingly recognized by insurers as meaningful risk reducers.',
-      },
-      {
-        heading: 'Driver Management Strategies',
-        bullets: [
-          'Implement a rigorous driver hiring process that includes MVR review, PSP report verification, previous employer checks, and road testing',
-          'Conduct annual MVR pulls on every driver and take corrective action immediately when violations appear',
-          'Establish a written driver safety program with documented training on defensive driving, cargo securement, and hours of service compliance',
-          'Use a progressive discipline policy for safety violations that creates a clear paper trail showing how you manage risk',
-          'Require new drivers to complete a ride-along orientation period before operating independently',
-          'Monitor CSA BASIC scores quarterly and address any deterioration before it triggers underwriter concern',
-          'Offer safety bonuses or incentive programs that reward clean driving records and accident-free miles',
-        ],
-      },
-      {
-        heading: 'Optimize Your Coverage Structure',
-        content:
-          'Review your deductibles annually and consider whether higher deductibles make financial sense for your operation. Raising your collision deductible from $1,000 to $2,500 or $5,000 can reduce your physical damage premium by 10 to 25 percent. However, you need sufficient cash reserves to absorb the higher out-of-pocket cost when a claim occurs, so this strategy works best for established carriers with healthy balance sheets.\n\nEnsure your vehicle values are accurate. Over-insuring a truck inflates your physical damage premium, while under-insuring creates a coverage gap when you need to replace the vehicle. Update your vehicle schedule at every renewal with current market values rather than carrying stale numbers from when you originally insured the equipment.\n\nBundle your coverage lines with one insurer or agency wherever possible. Multi-policy programs often carry account pricing credits, and a single insurer with a comprehensive view of your operation can underwrite more favorably than multiple carriers each seeing only a fragment of your risk.',
-      },
-      {
-        heading: 'Work with the Right Insurance Partner',
-        content:
-          'Your choice of insurance broker or agency has a direct impact on your premium. A trucking insurance specialist with strong market relationships can present your risk more effectively to underwriters, negotiate pricing on your behalf, and identify coverage structures that a generalist agent would not know to offer.\n\nAsk your broker what loss control resources they provide. The best trucking insurance agencies offer fleet safety assessments, driver training materials, compliance consulting, and claims advocacy services that help you maintain the risk profile that earns the best rates. If your current broker simply processes paperwork and sends you a renewal bill, you are leaving money on the table.\n\nStart the renewal process 90 to 120 days before your policy expiration. This gives your broker time to market your account broadly, negotiate with multiple underwriters, and secure the most competitive terms. Last-minute renewals limit your options and often result in higher premiums because there is no time for competitive underwriting.',
-      },
+      { heading: 'How Dealers Open Lot Works', content: 'Dealers open lot provides comprehensive and collision physical damage coverage for vehicles you own as inventory. Unlike standard auto insurance that covers individually listed vehicles, dealers open lot covers your entire inventory on a blanket basis. As vehicles are acquired and sold, coverage adjusts automatically without requiring individual scheduling.\n\nThe policy is typically rated based on your average inventory value over the policy period. Insurers may require periodic inventory reporting to ensure your coverage limits remain adequate. Falling below your stated limit can leave you underinsured during a catastrophic event.' },
+      { heading: 'Understanding Deductibles', content: 'Dealers open lot deductibles are structured differently than standard auto physical damage deductibles. Most policies have separate deductibles for collision events and comprehensive events, with additional provisions for catastrophic losses.\n\nA typical structure might include a one thousand dollar per-vehicle collision deductible, a one thousand dollar per-vehicle comprehensive deductible, and a separate aggregate deductible for catastrophic events such as hailstorms that damage multiple vehicles. The catastrophic deductible is usually higher, often fifty thousand dollars or more, reflecting the increased severity of multi-vehicle events.' },
+      { heading: 'Hail and Catastrophic Event Coverage', content: 'Hail is the single most common and costly peril for dealership inventory. A severe hailstorm can damage every vehicle on your lot in minutes, creating hundreds of thousands or millions of dollars in losses. Your policy\'s treatment of hail events, including deductible structure, aggregate limits, and claims handling procedures, deserves careful review.\n\nSome policies define a hail event as all hail damage within a specified time period, typically 72 hours. Others treat each storm as a separate event. The definition matters because it determines whether one deductible or multiple deductibles apply to related storms.' },
+      { heading: 'Inventory Management Best Practices', bullets: ['Maintain accurate inventory records with VINs and values for all vehicles on lot', 'Report inventory values to your insurer as required to avoid underinsurance penalties', 'Implement security measures including cameras, fencing, and key management systems', 'Park highest-value vehicles undercover when possible during severe weather season', 'Document inventory condition regularly with dated photos for claims purposes', 'Coordinate with your floorplan lender on coverage requirements and loss payee endorsements'] },
     ],
     faqs: [
-      {
-        q: 'How much can dash cameras reduce my insurance premium?',
-        a: 'Most insurers offer premium credits of 8 to 15 percent for carriers with active forward-facing or dual-facing camera systems. The actual savings depend on your insurer, the camera system you use, and whether you actively review and use the footage for driver coaching. Beyond the direct premium credit, cameras also reduce claim costs by providing evidence in disputed-fault accidents.',
-      },
-      {
-        q: 'Does my FMCSA safety rating affect my insurance rates?',
-        a: 'Yes. A Satisfactory FMCSA safety rating signals to underwriters that your operation meets federal compliance standards. A Conditional or Unsatisfactory rating will significantly increase your premiums and may cause some insurers to decline coverage entirely. If you do not yet have a rating, completing the new entrant safety audit promptly is viewed favorably by underwriters.',
-      },
-      {
-        q: 'Will raising my deductible actually save me money?',
-        a: 'In most cases, yes. Increasing your collision deductible from $1,000 to $2,500 typically reduces your physical damage premium by 10 to 15 percent, and moving to $5,000 can save 15 to 25 percent. The key is having the financial reserves to absorb the higher deductible when a claim occurs. If a $5,000 out-of-pocket expense would create a cash flow crisis, a lower deductible provides more stability.',
-      },
+      { q: 'What happens if my inventory exceeds my coverage limit?', a: 'If your actual inventory value exceeds your stated coverage limit at the time of a loss, you may be subject to a coinsurance penalty, receiving only a proportional payout. Regular inventory reporting and limit adjustments prevent this.' },
+      { q: 'Are demonstrators covered under dealers open lot?', a: 'Most policies cover demonstrator vehicles as part of your inventory. Some policies require specific endorsements for vehicles regularly driven by employees for commuting or personal use. Confirm demo coverage with your broker.' },
+      { q: 'How are claims handled after a hailstorm?', a: 'After a catastrophic hail event, your insurer typically deploys a dedicated claims team to assess damage across your entire lot. Document all damage with photos before moving or repairing any vehicles. Work with your broker to manage the claims process efficiently.' },
     ],
-    relatedResources: ['trucking-insurance-cost', 'trucking-insurance-claims-guide'],
-    relatedCoverages: ['auto-liability', 'physical-damage', 'occupational-accident'],
+    relatedResources: ['automotive-insurance-cost', 'garagekeepers-guide'],
+    relatedCoverages: ['dealers-open-lot', 'garage-keepers', 'commercial-property'],
   },
-
   {
-    slug: 'commercial-auto-vs-trucking-insurance',
-    title: 'Commercial Auto Insurance vs Trucking Insurance',
-    metaTitle: 'Commercial Auto vs Trucking Insurance Explained',
-    metaDescription: 'Understand the critical differences between commercial auto and trucking insurance. Learn which coverage your operation needs and avoid costly gaps in protec...',
-    category: 'Comparison',
-    heroHeading: 'Commercial Auto Insurance vs Trucking Insurance',
-    heroSubheading:
-      'Two distinct coverage types that serve different operations, and choosing the wrong one can leave you dangerously exposed.',
-    overview:
-      'Commercial auto insurance and trucking insurance are often confused, but they are designed for fundamentally different operations. Commercial auto policies cover businesses that use vehicles as part of their work, such as contractors, delivery services, and sales fleets. Trucking insurance is a specialized program built for motor carriers operating under USDOT authority who haul freight for hire. Understanding which one fits your operation is essential to avoiding coverage gaps that can be financially devastating.',
-    sections: [
-      {
-        heading: 'What Commercial Auto Insurance Covers',
-        content:
-          'Commercial auto insurance is designed for businesses that own or operate vehicles in the course of their work but are not in the business of transporting goods for hire. This includes service companies using work trucks, sales organizations with company cars, delivery businesses using vans and straight trucks, and contractors hauling their own tools and materials to job sites.\n\nA standard commercial auto policy provides liability coverage for bodily injury and property damage caused by your business vehicles, plus optional physical damage coverage for your own vehicles. Policies are typically written on standard ISO forms and are widely available from most business insurance carriers. Premiums are generally lower than trucking insurance because the risk profile is less severe: commercial vehicles tend to be smaller, operate in more limited geographies, and are driven by employees rather than long-haul operators.',
-      },
-      {
-        heading: 'What Trucking Insurance Covers',
-        content:
-          'Trucking insurance is a specialized program designed for motor carriers operating under FMCSA authority. It addresses the unique regulatory requirements and risk exposures of for-hire transportation including the MCS-90 endorsement, BMC-91 filings, and compliance with 49 CFR Part 387 minimum financial responsibility standards.\n\nA trucking insurance program typically includes primary auto liability with the MCS-90 endorsement, physical damage, motor truck cargo liability, general liability, and may extend to non-trucking liability, trailer interchange coverage, and occupational accident or workers compensation. These coverages are coordinated to address the full spectrum of risk that a motor carrier faces, from at-fault accidents and cargo damage to regulatory compliance and contractual obligations.\n\nTrucking policies are underwritten by specialty markets that understand the industry. Underwriters evaluate operating authority history, CSA scores, commodity types, lane profiles, and fleet composition in ways that a standard commercial auto underwriter would not. This specialization means better risk assessment but also means fewer available markets compared to standard commercial auto.',
-      },
-      {
-        heading: 'Key Differences',
-        bullets: [
-          'Regulatory filings: trucking insurance includes the MCS-90 endorsement and BMC-91 filing required by the FMCSA, while commercial auto does not',
-          'Cargo coverage: trucking programs include motor truck cargo liability for freight in your care, custody, and control, which is not part of commercial auto',
-          'Underwriting approach: trucking policies are underwritten based on authority history, CSA data, and commodity types, while commercial auto focuses on vehicle use, driver records, and mileage',
-          'Coverage scope: trucking insurance addresses the full motor carrier risk profile including hired auto, trailer interchange, and bobtail or non-trucking liability',
-          'Premium level: trucking insurance premiums are significantly higher due to the greater severity exposure of heavy commercial vehicles operating interstate',
-          'Market availability: trucking insurance is written by a smaller group of specialty carriers, while commercial auto is broadly available across the insurance market',
-        ],
-      },
-      {
-        heading: 'When You Need Trucking Insurance',
-        content:
-          'You need trucking insurance if you operate under your own USDOT number and MC authority, if you haul freight for hire, or if you are an owner-operator running under your own operating authority. Any vehicle that requires FMCSA registration and operates in interstate commerce hauling goods for compensation must be covered under a trucking insurance program that satisfies federal financial responsibility requirements.\n\nA common and dangerous mistake is purchasing a standard commercial auto policy for a trucking operation because it is cheaper. The commercial auto policy will not include the MCS-90 endorsement or BMC-91 filing, which means your authority is not properly supported. More critically, a commercial auto insurer that does not write trucking risks may deny a claim involving a loaded tractor-trailer because the vehicle was being used for for-hire transportation, which falls outside the policy terms.',
-      },
-      {
-        heading: 'Coverage Gaps to Avoid',
-        content:
-          'The most dangerous gap is using a commercial auto policy for a for-hire trucking operation. Beyond the missing regulatory filings, a standard commercial auto policy may exclude coverage for vehicles over a certain weight class, for operations involving the transportation of goods for hire, or for accidents occurring during loaded interstate hauls. These exclusions can void your entire claim in the event of a serious accident.\n\nAnother common gap involves owner-operators who lease on to a carrier and purchase a non-trucking liability policy thinking it provides full coverage. NTL only applies when you are not under dispatch. If you have an accident while hauling a load or driving to pick up a load assignment, the NTL policy does not respond. You must understand exactly when your carrier\'s policy covers you and when your own coverage needs to apply.',
-      },
-    ],
-    faqs: [
-      {
-        q: 'Can I use a commercial auto policy for my trucking company?',
-        a: 'No. If you operate under USDOT authority and haul freight for hire, you need a trucking insurance program that includes the MCS-90 endorsement and BMC-91 filing. A standard commercial auto policy does not satisfy FMCSA requirements and may exclude coverage for for-hire transportation, leaving you uninsured when you need protection most.',
-      },
-      {
-        q: 'Is trucking insurance more expensive than commercial auto?',
-        a: 'Yes, significantly. Trucking insurance premiums are higher because the risk exposure is greater. Heavy commercial vehicles operating interstate present much higher severity potential than light-duty commercial vehicles used for local business purposes. A single tractor-trailer accident can produce claims exceeding $1,000,000, and insurers price this severity into trucking policies.',
-      },
-      {
-        q: 'Do hotshot carriers need trucking insurance or commercial auto?',
-        a: 'Hotshot carriers operating under their own MC authority and hauling freight for hire need trucking insurance, even if they are using medium-duty trucks rather than Class 8 tractors. The determining factor is not the size of the vehicle but whether you are operating as a for-hire motor carrier under FMCSA authority. Some insurers offer modified trucking programs for hotshot operators that reflect the different risk profile of lighter equipment.',
-      },
-    ],
-    relatedResources: ['fmcsa-insurance-requirements', 'primary-vs-non-trucking-liability'],
-    relatedCoverages: ['auto-liability', 'general-liability', 'motor-truck-cargo'],
-  },
-
-  {
-    slug: 'primary-vs-non-trucking-liability',
-    title: 'Primary Liability vs Non-Trucking Liability Explained',
-    metaTitle: 'Primary vs Non-Trucking Liability Insurance',
-    metaDescription: 'Learn the critical difference between primary liability and non-trucking liability insurance for truckers.',
-    category: 'Comparison',
-    heroHeading: 'Primary Liability vs Non-Trucking Liability Explained',
-    heroSubheading:
-      'Understanding when each coverage applies is essential for every owner-operator who leases onto a motor carrier.',
-    overview:
-      'Primary liability and non-trucking liability are two different coverage types that apply at different times during a trucker\'s operations. Confusing the two, or failing to coordinate them properly with your carrier\'s policy, is one of the most common and costly insurance mistakes owner-operators make. This guide explains exactly when each coverage responds, how they interact, and how to ensure you are never left without protection.',
-    sections: [
-      {
-        heading: 'Primary Liability Insurance',
-        content:
-          'Primary auto liability insurance is the foundational coverage required for any motor carrier operating under its own authority. It covers bodily injury and property damage that your commercial vehicle causes to third parties. When an owner-operator runs under their own MC number, their primary liability policy is what responds in an at-fault accident.\n\nFor owner-operators who lease onto a carrier, the carrier\'s primary liability policy typically covers the leased-on operator while they are under dispatch. Under FMCSA leasing regulations (49 CFR 376), the carrier must assume full responsibility for the operation of the leased vehicle during the term of the lease and when the vehicle is being used in the carrier\'s service. This means the carrier\'s insurance, not the owner-operator\'s, responds to liability claims arising from dispatched operations.\n\nThe key question for any leased-on owner-operator is: what exactly counts as being under dispatch? The answer varies by carrier and by lease agreement, and the gray areas are where coverage gaps occur. Some carriers define dispatch as only the time between load pickup and delivery. Others extend it to include driving to the shipper for pickup. Understanding your specific carrier\'s definition is critical.',
-      },
-      {
-        heading: 'Non-Trucking Liability Insurance',
-        content:
-          'Non-trucking liability, sometimes called NTL or deadhead insurance, provides coverage for owner-operators when they are using their truck for purposes not related to their carrier\'s business. If you are leased onto a carrier and you use your truck for personal errands, drive to a mechanic for maintenance, or travel home after completing a delivery, non-trucking liability covers you during those activities.\n\nNTL specifically excludes coverage when you are under dispatch or performing any activity related to your carrier\'s business. It is designed to fill the gap between your carrier\'s insurance, which covers you while working, and the times when you are using your commercial vehicle for non-business purposes. Without NTL, you have no liability coverage during personal use because your truck is a commercial vehicle that is not covered by a personal auto policy.\n\nPremiums for non-trucking liability are relatively modest, typically ranging from $400 to $1,200 per year, because the coverage only applies during limited periods of personal use when the vehicle is less likely to be involved in a high-severity accident.',
-      },
-      {
-        heading: 'Bobtail Liability: A Third Option',
-        content:
-          'Bobtail liability is sometimes confused with non-trucking liability, but there is an important distinction. Bobtail insurance specifically covers you while operating your tractor without a trailer attached, which is the literal meaning of bobtailing. Some bobtail policies cover you regardless of whether you are on business or personal use, while others mirror the NTL exclusion for dispatched operations.\n\nThe practical difference matters most when you are driving your tractor without a trailer to pick up an empty trailer or driving to your next load assignment. Under a strict non-trucking liability policy, this type of trip might be considered business-related and therefore excluded. A bobtail policy that covers all non-dispatched operation would still respond.\n\nMany modern policies blend elements of both coverages, and the specific policy language controls when coverage applies. Do not rely on the label; read the insuring agreement and exclusions to understand exactly what your policy covers.',
-      },
-      {
-        heading: 'Common Mistakes and Coverage Gaps',
-        bullets: [
-          'Assuming the carrier\'s insurance covers you 24/7 when it only applies during dispatched operations as defined in your lease agreement',
-          'Purchasing NTL but using your truck for business activities like deadheading to your next load, which NTL typically excludes',
-          'Failing to read the specific exclusions in your NTL policy, as definitions of personal use versus business use vary between insurers',
-          'Not carrying any coverage for non-dispatch periods, leaving you completely uninsured during personal use of your commercial vehicle',
-          'Confusing bobtail coverage with non-trucking liability and discovering the distinction only after a claim is denied',
-          'Dropping NTL coverage to save money and then having a serious at-fault accident while driving home from a delivery',
-        ],
-      },
-      {
-        heading: 'How to Coordinate Your Coverage',
-        content:
-          'Start by reading your carrier lease agreement carefully. It should specify when the carrier\'s insurance applies and when it does not. Then review your NTL or bobtail policy to confirm it covers the exact periods when the carrier\'s policy does not. The goal is seamless coverage with no gaps between the two policies.\n\nAsk your insurance agent to review both policies side by side and identify any scenarios where neither policy would respond. Common gray areas include driving to a shipper for your first load pickup of the day, deadheading between loads without an active dispatch, and using your truck for personal errands during a rest break between dispatched loads. If any gaps exist, discuss endorsement options or policy language changes that can close them.\n\nKeep your carrier\'s certificate of insurance on file and provide your NTL or bobtail certificate to your carrier. In the event of a claim, having both policies documented streamlines the process of determining which insurer responds and prevents delays in coverage.',
-      },
-    ],
-    faqs: [
-      {
-        q: 'Do I need non-trucking liability if I lease onto a carrier?',
-        a: 'Yes. Your carrier\'s insurance covers you only while you are under dispatch. Any time you use your truck for personal purposes, drive home, or operate the vehicle outside of your carrier\'s business, you need your own liability coverage. Non-trucking liability fills this gap at a relatively low cost, typically $400 to $1,200 per year.',
-      },
-      {
-        q: 'What is the difference between bobtail and non-trucking liability?',
-        a: 'Non-trucking liability covers personal use of your truck when you are not under dispatch. Bobtail liability covers operation of your tractor without a trailer, and depending on the policy, may apply during both business and personal use. The terms are sometimes used interchangeably, but the coverage triggers can differ significantly. Always read the specific policy language rather than relying on the label.',
-      },
-      {
-        q: 'Am I covered while deadheading to my next load?',
-        a: 'This depends on your carrier\'s definition of dispatch and the specific language in both the carrier\'s policy and your NTL policy. Some carriers consider you under dispatch until you notify them you are available, while others define dispatch as only the active load assignment. If your carrier\'s policy does not cover deadheading and your NTL excludes business-related driving, you could have a gap. Clarify this with your carrier and your insurance agent.',
-      },
-    ],
-    relatedResources: ['commercial-auto-vs-trucking-insurance', 'fmcsa-insurance-requirements'],
-    relatedCoverages: ['auto-liability', 'bobtail-liability', 'physical-damage'],
-  },
-
-  {
-    slug: 'occupational-accident-vs-workers-comp',
-    title: "Occupational Accident vs Workers' Comp for Truckers",
-    metaTitle: "Occupational Accident vs Workers' Comp | Trucking Insurance",
-    metaDescription: "Compare occupational accident insurance and workers' compensation for truckers. Coverage differences, compliance requirements, and which one your operation n...",
-    category: 'Comparison',
-    heroHeading: "Occupational Accident vs Workers' Comp for Truckers",
-    heroSubheading:
-      'Two approaches to protecting truckers against on-the-job injuries, each designed for a different employment classification.',
-    overview:
-      "Workers' compensation and occupational accident insurance both provide financial protection when a trucker is injured on the job, but they are designed for fundamentally different employment relationships. Workers' comp is a state-mandated insurance program for employees, while occupational accident insurance is a voluntary coverage designed for independent contractors. Understanding which applies to your operation, and ensuring your classification is correct, is both a compliance issue and a coverage issue.",
-    sections: [
-      {
-        heading: "Workers' Compensation Insurance",
-        content:
-          "Workers' compensation is a state-regulated insurance program that provides medical benefits, wage replacement, and disability payments to employees who are injured or become ill as a result of their job. Every state except Texas requires employers to carry workers' compensation coverage for their employees, though specific requirements, benefit levels, and exemptions vary by state.\n\nFor trucking companies with employee drivers, workers' comp is mandatory. The policy covers medical treatment related to the work injury, a portion of lost wages during recovery (typically 60 to 70 percent of the average weekly wage), permanent disability benefits if the injury results in lasting impairment, and death benefits to the family of an employee killed on the job.\n\nWorkers' compensation operates as a no-fault system. The injured employee receives benefits regardless of who caused the injury, and in exchange, the employee generally gives up the right to sue the employer for negligence. This quid pro quo provides certainty for both parties. Premiums are based on payroll, job classification codes, and the employer's experience modification factor, which reflects historical claim activity.",
-      },
-      {
-        heading: 'Occupational Accident Insurance',
-        content:
-          "Occupational accident insurance, commonly called OA or occ/acc, is a voluntary coverage designed specifically for independent contractors who are not eligible for workers' compensation. In trucking, this primarily means owner-operators and other ICs who are classified as self-employed business owners rather than employees of the carrier they lease onto.\n\nOA policies provide benefits similar to workers' comp, including accident medical expense coverage, disability income benefits (both temporary and permanent), and accidental death and dismemberment benefits. However, because OA is not regulated like workers' comp, the specific benefits, limits, and exclusions vary widely between policies. Some OA plans are comprehensive with $1,000,000 or more in accident medical coverage, while others offer minimal protection with low benefit limits and restrictive terms.\n\nMany motor carriers require leased-on owner-operators to carry occupational accident insurance as a condition of the lease agreement. Some carriers sponsor group OA programs that offer better rates and coverage terms than individual policies. If your carrier offers a group program, compare its benefits and costs against individual market options before enrolling.",
-      },
-      {
-        heading: 'Key Differences',
-        bullets: [
-          "Workers' comp is mandatory for employees in nearly every state; occupational accident insurance is voluntary for independent contractors",
-          "Workers' comp benefits are set by state statute and provide consistent, guaranteed coverage levels; OA benefits vary by policy and insurer",
-          "Workers' comp premiums are based on payroll and experience rating; OA premiums are per-person and based on coverage selections and risk factors",
-          "Workers' comp includes an exclusive remedy provision that generally prevents employees from suing the employer; OA carries no such protection for the carrier",
-          "Workers' comp covers occupational diseases and repetitive stress injuries; many OA policies only cover injuries caused by specific accidents",
-          "Workers' comp claims are managed through a state-regulated system with formal dispute resolution; OA claims are handled through the insurance contract and may involve arbitration",
-          "Workers' comp provides unlimited medical coverage for the work injury in most states; OA policies have defined medical expense limits that can be exhausted",
-        ],
-      },
-      {
-        heading: 'The Classification Question',
-        content:
-          "The threshold issue in choosing between workers' comp and occupational accident insurance is whether your drivers are employees or independent contractors. This classification is not a matter of preference: it is determined by the nature of the working relationship under federal and state law. The IRS, the Department of Labor, state workforce agencies, and courts all apply tests that examine the degree of control the carrier exercises over the driver.\n\nMisclassifying an employee as an independent contractor to avoid workers' compensation obligations is a serious legal and financial risk. If an injured driver classified as an IC is later determined to be an employee, the carrier faces retroactive workers' comp premiums, penalties for operating without required coverage, potential personal injury lawsuits that workers' comp would have otherwise barred, and regulatory enforcement actions.\n\nThe trucking industry has faced increased scrutiny on this issue in recent years, with several states aggressively reclassifying owner-operators as employees for workers' compensation purposes. Before relying on occupational accident insurance in place of workers' comp, confirm that your drivers genuinely meet the independent contractor tests applicable in your state and in the states where they operate.",
-      },
-      {
-        heading: 'Choosing the Right Coverage',
-        content:
-          "If your drivers are W-2 employees, you need workers' compensation insurance. There is no substitute or alternative. The penalty for failing to carry workers' comp when required ranges from fines and stop-work orders to criminal prosecution in some states.\n\nIf your drivers are legitimate 1099 independent contractors, occupational accident insurance is the appropriate coverage. When evaluating OA policies, look carefully at the accident medical expense limit (aim for at least $500,000, with $1,000,000 preferred), the weekly disability benefit amount and duration, whether the policy covers occupational diseases or only traumatic injuries, any exclusions for pre-existing conditions or specific types of accidents, and whether the policy includes a survivor benefit.\n\nSome carriers maintain both coverages: workers' comp for their employee drivers and an OA program for their leased owner-operators. This is often the most compliant and protective approach for carriers with a mixed workforce of employees and independent contractors.",
-      },
-    ],
-    faqs: [
-      {
-        q: "Does an owner-operator need workers' comp?",
-        a: "Owner-operators who are legitimately classified as independent contractors are generally not required to carry workers' compensation for themselves, though requirements vary by state. Some states require owner-operators to carry workers' comp or have specific exemption procedures. Occupational accident insurance is the standard alternative for ICs, but you should verify the requirements in your state of domicile and the states where you operate.",
-      },
-      {
-        q: 'What does occupational accident insurance typically cost?',
-        a: 'Individual occupational accident insurance premiums typically range from $100 to $300 per month depending on the benefit levels selected, the nature of your operations, and your risk profile. Group programs offered through carriers can sometimes reduce costs. Key variables include the accident medical expense limit, the disability benefit amount, and whether the policy includes accidental death coverage.',
-      },
-      {
-        q: 'Can a motor carrier require owner-operators to carry occupational accident insurance?',
-        a: "Yes. Many motor carriers require leased-on owner-operators to maintain occupational accident insurance as a condition of the lease agreement. This protects both the owner-operator and the carrier. Some carriers sponsor group OA programs and deduct the premium from settlement payments, while others require the owner-operator to obtain individual coverage and provide proof of insurance.",
-      },
-    ],
-    relatedResources: ['commercial-auto-vs-trucking-insurance', 'trucking-insurance-glossary'],
-    relatedCoverages: ['occupational-accident', 'workers-compensation', 'auto-liability'],
-  },
-
-  {
-    slug: 'trucking-insurance-claims-guide',
-    title: 'What to Do After a Trucking Accident: Claims Guide',
-    metaTitle: 'Trucking Accident Claims Guide | Step by Step',
-    metaDescription: 'Step-by-step guide for handling a trucking insurance claim after an accident. What to document, who to contact, and how to protect your rights throughout the...',
+    slug: 'dealership-cyber-guide',
+    title: 'Cybersecurity Guide for Auto Dealerships',
+    metaTitle: 'Auto Dealership Cybersecurity & Cyber Insurance Guide',
+    metaDescription: 'Cybersecurity guide for auto dealerships. FTC Safeguards Rule compliance, DMS security, and cyber insurance requirements for protecting customer data.',
     category: 'Guide',
-    heroHeading: 'What to Do After a Trucking Accident: Claims Guide',
-    heroSubheading:
-      'A step-by-step roadmap for navigating the insurance claims process after a commercial vehicle accident.',
-    overview:
-      'How you handle the first hours and days after a trucking accident directly impacts the outcome of your insurance claim. Proper documentation, timely reporting, and cooperation with your insurer can mean the difference between a claim that resolves efficiently and one that drags on for months with a worse outcome. This guide covers every step of the process from the scene of the accident through final claim resolution.',
+    heroHeading: 'Cybersecurity Guide for Auto Dealerships',
+    heroSubheading: 'Protecting customer data, meeting FTC requirements, and insuring against the growing cyber threat targeting automotive retail.',
+    overview: 'Auto dealerships are among the most targeted businesses for cyberattacks. The volume of sensitive customer data you collect, including Social Security numbers, financial records, and credit applications, makes your DMS and F&I systems valuable targets. This guide covers FTC Safeguards Rule compliance, common attack vectors, and how cyber insurance protects your dealership.',
     sections: [
-      {
-        heading: 'At the Scene: Immediate Steps',
-        content:
-          'Safety is the first priority. Check for injuries to yourself, your passengers, and occupants of other vehicles. Call 911 if anyone is injured or if there is significant property damage. Move vehicles out of traffic if it is safe to do so, and set up reflective triangles or flares to warn approaching traffic.\n\nOnce the scene is secured, begin documenting everything. Use your phone to take photographs of all vehicles involved from multiple angles, the accident scene including road conditions, traffic signals, and signage, any visible injuries, skid marks, debris patterns, and the positions of vehicles before they are moved. If you have a dash camera, preserve the footage immediately and note the time stamp of the incident.\n\nExchange information with the other driver or drivers, including name, phone number, insurance company and policy number, driver license number, license plate number, and vehicle make and model. Collect contact information from any witnesses. When law enforcement arrives, cooperate with the investigation, provide factual information, and obtain the accident report number.\n\nDo not admit fault, apologize for the accident, or make statements about what you think caused the collision. Anything you say at the scene can be used against you later. Stick to the facts and let the investigation determine fault.',
-      },
-      {
-        heading: 'Reporting the Accident',
-        content:
-          'Notify your insurance company or broker as soon as possible, ideally within 24 hours of the accident. Most trucking insurance policies require prompt notice of any accident or incident, and failure to report promptly can jeopardize your coverage. Have the following information ready when you call: date, time, and location of the accident, names and contact information for all parties involved, the police report number, a brief factual description of what happened, and the extent of injuries and property damage.\n\nIf you are an owner-operator leased onto a carrier, you must also notify the carrier immediately. The carrier\'s safety department will have reporting procedures to follow, and their insurance may be the primary responding policy depending on whether you were under dispatch at the time of the accident. Report to both your carrier and your own insurer to ensure all applicable policies are activated.\n\nFor accidents involving injuries, fatalities, or vehicles that must be towed from the scene, FMCSA regulations may require the carrier to file a crash report. Your carrier\'s safety department should handle this filing, but be aware of the obligation and confirm it has been completed.',
-      },
-      {
-        heading: 'Documentation Checklist',
-        bullets: [
-          'Photographs of all vehicle damage, the accident scene, road conditions, and any visible injuries',
-          'Dash camera footage covering the period before, during, and after the collision',
-          'The police accident report, which you can typically obtain from the responding agency within a few days',
-          'Names, phone numbers, and insurance information for all parties involved',
-          'Contact information for all witnesses at the scene',
-          'Written notes about what happened, recorded as soon as possible while details are fresh',
-          'Medical records and treatment documentation if you were injured, starting from the date of the accident',
-          'Repair estimates for your vehicle from qualified commercial truck repair facilities',
-          'Towing and storage receipts if your vehicle was removed from the scene',
-          'Copies of your bills of lading and dispatch records showing what you were hauling and your operational status at the time',
-          'Your ELD records for the 24 hours surrounding the accident',
-        ],
-      },
-      {
-        heading: 'Working with the Claims Adjuster',
-        content:
-          'Your insurance company will assign a claims adjuster to investigate the accident and manage your claim. The adjuster will contact you to take a recorded statement, review your documentation, inspect the vehicle damage, and assess liability. Cooperate fully with your adjuster, answer questions honestly, and provide all requested documentation promptly.\n\nIf the other party\'s insurer contacts you, you are not obligated to provide a recorded statement to them. Consult with your own insurer or an attorney before speaking with the other party\'s adjuster. Anything you say in a recorded statement can be used to minimize or deny your claim.\n\nFor physical damage claims, the adjuster or an appraiser will inspect your vehicle and prepare a damage estimate. If you disagree with the valuation, particularly in a total loss situation, you have the right to provide comparable vehicle listings, recent maintenance and upgrade documentation, and an independent appraisal to support a higher value. Many policies include an appraisal clause that provides a formal dispute resolution process when you and the insurer cannot agree on the value.',
-      },
-      {
-        heading: 'What to Expect in the Claims Process',
-        content:
-          'Simple claims involving only property damage and clear liability can resolve in two to four weeks. More complex claims involving injuries, disputed fault, or multiple parties can take several months to a year or longer. Throughout the process, stay in regular contact with your adjuster and respond promptly to any requests for additional information.\n\nIf your vehicle is being repaired, your insurer will work with the repair facility on estimates, supplemental damage findings, and payment. If the vehicle is declared a total loss, the insurer will offer a settlement based on the actual cash value of the vehicle at the time of loss, minus your deductible. If you carry agreed value or stated amount coverage, the settlement will be based on the pre-agreed value on your policy.\n\nFor cargo damage claims, your motor truck cargo insurer will investigate the cause and extent of the damage. Preserve any damaged cargo for inspection and do not dispose of it until the adjuster authorizes release. Cargo claims are resolved based on the value of the goods and the terms of the bill of lading, subject to your policy limits and deductible.',
-      },
+      { heading: 'The FTC Safeguards Rule', content: 'The FTC Safeguards Rule requires auto dealerships to develop, implement, and maintain a comprehensive information security program. The updated rule, which took effect in 2023, includes specific requirements for risk assessments, access controls, encryption, multi-factor authentication, employee training, and incident response plans.\n\nNon-compliance can result in FTC enforcement actions, fines, and state attorney general investigations. Beyond regulatory penalties, a breach that occurs while you are out of compliance exposes your dealership to enhanced legal liability in customer lawsuits.' },
+      { heading: 'Common Attack Vectors', content: 'Ransomware attacks encrypt your DMS and operational systems, shutting down your ability to process deals, manage inventory, and serve customers until a ransom is paid or systems are restored from backups. The CDK Global incident demonstrated the impact at industry scale.\n\nPhishing and social engineering attacks target employees through email, tricking them into revealing credentials, transferring funds, or installing malware. Business email compromise schemes targeting F&I departments and accounting staff are particularly common and costly.\n\nVendor and supply chain attacks compromise your systems through trusted third-party software providers, IT vendors, or DMS platforms. These attacks are difficult to prevent because they exploit your trust in established business relationships.' },
+      { heading: 'Cyber Insurance Essentials', bullets: ['First-party coverage for breach response, forensics, notification, and business interruption', 'Third-party coverage for customer lawsuits and regulatory defense', 'Ransomware and cyber extortion coverage including negotiation and payment', 'Social engineering and funds transfer fraud coverage', 'Dependent business interruption for vendor and DMS provider outages', 'Regulatory defense and penalty coverage for FTC and state privacy law violations', 'Crisis management and public relations resources'] },
     ],
     faqs: [
-      {
-        q: 'How quickly do I need to report an accident to my insurer?',
-        a: 'Report every accident to your insurance company within 24 hours. Most trucking policies require prompt notice, and many specify that late reporting can be grounds for claim denial. Call your broker or insurer\'s claims hotline as soon as you have addressed immediate safety concerns at the scene. Early reporting gives the insurer the best opportunity to investigate, preserve evidence, and manage the claim effectively.',
-      },
-      {
-        q: 'Should I give a recorded statement to the other driver\'s insurance company?',
-        a: 'You are not obligated to provide a recorded statement to the other party\'s insurer, and doing so without guidance can harm your claim. Consult with your own insurance company or an attorney before speaking with the opposing adjuster. Your own insurer may advise you on what to say or handle communications on your behalf.',
-      },
-      {
-        q: 'What if I disagree with the insurance company\'s damage estimate?',
-        a: 'If you believe the damage estimate or total loss valuation is too low, provide supporting evidence such as comparable vehicle listings, documentation of recent upgrades and maintenance, and an independent appraisal from a qualified appraiser. Many trucking policies include an appraisal clause that provides a binding process when you and the insurer cannot agree on value. Discuss this option with your adjuster or broker.',
-      },
-      {
-        q: 'Does filing a claim always increase my premiums?',
-        a: 'Not always, but frequently. The impact depends on the type and severity of the claim and whether you were at fault. A large at-fault liability claim will almost certainly increase your premiums at renewal. A comprehensive claim for a weather event or theft may have less impact. Some insurers offer claim forgiveness for the first incident. The long-term cost of a premium increase sometimes exceeds the claim payment itself, so discuss the financial implications with your broker before filing small claims.',
-      },
+      { q: 'Is the FTC Safeguards Rule mandatory for all dealerships?', a: 'Yes. The FTC Safeguards Rule applies to all auto dealerships as financial institutions under the Gramm-Leach-Bliley Act. This includes franchise dealers, independent dealers, and any automotive business that extends or arranges credit.' },
+      { q: 'How much does a dealership data breach cost?', a: 'The average cost depends on the number of records compromised, but dealership breaches routinely cost hundreds of thousands of dollars when accounting for forensic investigation, customer notification, credit monitoring, legal defense, and business interruption. Large-scale breaches can exceed one million dollars.' },
+      { q: 'Does cyber insurance cover a CDK-type vendor outage?', a: 'Many cyber policies include dependent or contingent business interruption coverage that responds when a third-party technology provider suffers a cyber event. This coverage is essential for dealerships that rely on cloud-based DMS platforms.' },
     ],
-    relatedResources: ['lower-trucking-insurance-premiums', 'trucking-insurance-glossary'],
-    relatedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    relatedResources: ['automotive-insurance-cost', 'coi-guide'],
+    relatedCoverages: ['cyber-liability', 'commercial-property', 'umbrella-excess'],
   },
-
   {
-    slug: 'trucking-insurance-glossary',
-    title: 'Trucking Insurance Glossary: Key Terms Explained',
-    metaTitle: 'Trucking Insurance Glossary | 30+ Key Terms',
-    metaDescription: 'Comprehensive glossary of trucking insurance terms. Clear definitions of MCS-90, BMC-91, bobtail liability, cargo insurance, and 30+ other essential industry...',
+    slug: 'test-drive-liability-guide',
+    title: 'Test Drive Liability Guide for Dealerships',
+    metaTitle: 'Test Drive Liability & Insurance Guide for Dealerships',
+    metaDescription: 'Guide to test drive liability for auto dealerships. Coverage requirements, risk management, and insurance protection for customer and employee test drives.',
+    category: 'Guide',
+    heroHeading: 'Test Drive Liability Guide',
+    heroSubheading: 'Managing the risk every time a customer gets behind the wheel of your inventory.',
+    overview: 'Test drives are an essential part of selling vehicles, but they create one of the most significant liability exposures for any dealership. When a customer drives your inventory vehicle on public roads, you face simultaneous risks of bodily injury liability, property damage liability, and physical damage to your own vehicle. Understanding and managing this exposure is critical for every dealer.',
+    sections: [
+      { heading: 'Test Drive Coverage Framework', content: 'Test drive liability is covered through a combination of garage liability and dealers open lot insurance. Garage liability responds to bodily injury and property damage claims arising from accidents during test drives. Dealers open lot covers physical damage to your inventory vehicle.\n\nThe interplay between these coverages is important. If a customer causes an accident during a test drive that injures a pedestrian and damages your inventory vehicle, garage liability covers the pedestrian injury claim while dealers open lot covers the damage to your vehicle. Your commercial auto policy may also come into play depending on how the test drive vehicle is classified.' },
+      { heading: 'Risk Management Best Practices', content: 'Effective test drive risk management begins before the customer starts the engine. Copy the customer\'s driver\'s license and verify it is valid and current. Ask about insurance coverage and note the carrier and policy number. Have the customer sign a test drive agreement that outlines expectations and liability acknowledgments.\n\nPlan test drive routes that minimize risk by avoiding high-traffic intersections, highway merges, and school zones. Accompany the customer whenever possible, especially on first test drives of high-value vehicles. Brief the customer on vehicle-specific features before departing, particularly for high-performance or unfamiliar vehicle types.' },
+      { heading: 'Test Drive Procedures', bullets: ['Copy and verify customer driver\'s license before any test drive', 'Have customers sign a written test drive agreement', 'Record customer insurance information', 'Plan standard test drive routes that minimize high-risk driving situations', 'Accompany customers on test drives, especially for high-value or high-performance vehicles', 'Brief customers on vehicle features, performance characteristics, and controls', 'Document any incidents immediately, including photos and witness statements', 'Review test drive procedures with all sales staff quarterly'] },
+    ],
+    faqs: [
+      { q: 'Is the dealership liable if a customer causes an accident on a test drive?', a: 'Yes. As the vehicle owner, the dealership can be held liable for accidents involving its vehicles even when a customer is driving. Garage liability provides defense and indemnity for these claims. The customer\'s own auto insurance may also contribute to the claim resolution.' },
+      { q: 'Do unaccompanied test drives create more liability?', a: 'Yes. Unaccompanied test drives increase risk because you have no ability to intervene if the customer drives recklessly or outside the planned route. Many insurers recommend accompanying all test drives, and some policies have specific provisions regarding unaccompanied drives.' },
+      { q: 'What if a customer damages the vehicle during a test drive?', a: 'Damage to your inventory vehicle is a dealers open lot collision claim. You can pursue the customer for the deductible and any uninsured costs, which is why capturing their insurance information before the test drive is important.' },
+    ],
+    relatedResources: ['garage-liability-guide', 'automotive-insurance-cost'],
+    relatedCoverages: ['garage-liability', 'dealers-open-lot', 'commercial-auto'],
+  },
+  {
+    slug: 'coi-guide',
+    title: 'Certificates of Insurance Guide for Auto Businesses',
+    metaTitle: 'Certificate of Insurance Guide for Auto Dealerships',
+    metaDescription: 'Guide to certificates of insurance for automotive businesses. Understanding COI requirements, additional insured endorsements, and compliance for franchise and lender agreements.',
+    category: 'Guide',
+    heroHeading: 'Certificates of Insurance Guide',
+    heroSubheading: 'Understanding COI requirements, additional insured endorsements, and insurance compliance for your franchise and lender agreements.',
+    overview: 'Certificates of insurance are documents that prove you carry required coverage to manufacturers, lenders, landlords, and business partners. For automotive businesses, COI management is a constant administrative requirement. This guide explains how certificates work, what additional insured endorsements mean, and how to manage compliance across multiple requirements.',
+    sections: [
+      { heading: 'What COIs Contain', content: 'A certificate of insurance is a standardized form, typically the ACORD 25, that summarizes your insurance coverages, limits, and policy periods. It identifies your insurer, your agent or broker, and any additional insureds or loss payees listed on your policies.\n\nCOIs do not change your coverage. They are evidence of existing coverage, not amendments to your policy. Adding a certificate holder does not give them coverage under your policy unless they are also named as an additional insured through a policy endorsement.' },
+      { heading: 'Common Requirements', content: 'Franchise manufacturers require certificates annually and may audit your coverage mid-term. Requirements typically include specific minimum limits for garage liability, dealers open lot, garagekeepers, umbrella, and workers compensation. Some manufacturers require specific endorsement forms.\n\nFloorplan lenders require certificates naming them as loss payee on your dealers open lot policy. If your coverage lapses or limits fall below requirements, the lender may force-place coverage at your expense. Landlords require certificates for commercial property and general liability with the landlord named as additional insured.' },
+      { heading: 'Managing COI Compliance', bullets: ['Maintain a master list of all parties requiring certificates and their specific requirements', 'Request certificates from your broker as soon as policies are bound or renewed', 'Review certificate requests against your actual policy terms before issuing', 'Calendar annual renewal dates for all certificate holders to avoid lapses', 'Understand the difference between certificate holder and additional insured status', 'Work with your broker to ensure endorsements match certificate language', 'Respond to mid-term audit requests promptly to avoid compliance issues'] },
+    ],
+    faqs: [
+      { q: 'Does adding a certificate holder change my coverage?', a: 'No. A certificate holder simply receives a copy of your certificate as evidence of coverage. It does not grant them any coverage rights. Additional insured status, which requires a policy endorsement, does extend certain coverage to the named party.' },
+      { q: 'What if my manufacturer requires higher limits than I carry?', a: 'You will need to increase your limits to meet the requirement before a certificate can be issued. Your broker can provide options including limit increases, umbrella coverage, or alternative program structures to meet manufacturer minimums.' },
+      { q: 'How quickly can I get a certificate?', a: 'Standard certificates can typically be issued within 24 hours. Rush requests for specific endorsements or non-standard certificate language may take longer if underwriter approval is required.' },
+    ],
+    relatedResources: ['automotive-insurance-cost', 'garage-liability-guide'],
+    relatedCoverages: ['garage-liability', 'dealers-open-lot', 'umbrella-excess'],
+  },
+  {
+    slug: 'claims-guide',
+    title: 'Auto Business Insurance Claims Guide',
+    metaTitle: 'Insurance Claims Guide for Auto Dealerships & Repair Shops',
+    metaDescription: 'How to file and manage insurance claims for your automotive business. Step-by-step process for garage liability, garagekeepers, and dealers open lot claims.',
+    category: 'Guide',
+    heroHeading: 'Insurance Claims Guide',
+    heroSubheading: 'What to do when an incident occurs at your dealership or shop, and how to manage the claims process effectively.',
+    overview: 'How you handle an insurance claim in the first hours after an incident significantly affects the outcome. This guide walks through the claims process for the most common automotive business insurance claims, including what to document, who to contact, and how to work with your insurer for the best resolution.',
+    sections: [
+      { heading: 'Immediate Steps After an Incident', content: 'Safety first. Ensure all parties are safe and call emergency services if anyone is injured. Once the immediate situation is stabilized, document everything. Take photos of all damage, the scene, and any contributing conditions. Collect contact information and statements from all witnesses.\n\nNotify your insurance broker and carrier as soon as possible. Most policies require prompt notification, and delays can complicate the claims process. Provide your broker with a factual summary of what happened, when, where, and who was involved. Do not admit fault or make statements about liability to anyone other than your broker and insurer.' },
+      { heading: 'Claim Types and Process', content: 'Garage liability claims arise from bodily injury or property damage at your location or from your operations. These are reported to your garage liability carrier, which assigns a claims adjuster to investigate, evaluate liability, and manage the resolution.\n\nGaragekeepers claims involve damage to customer vehicles. Report these to your garagekeepers carrier and notify the affected customer promptly. With direct primary coverage, the claims process is straightforward because your policy pays regardless of fault.\n\nDealers open lot claims involve damage to your own inventory. Document all affected vehicles with photos and VINs, and report the loss to your carrier. For catastrophic events like hailstorms, your carrier will typically deploy a dedicated team.' },
+      { heading: 'Claims Best Practices', bullets: ['Report all incidents to your broker within 24 hours, even if you are unsure a claim will result', 'Document the scene with dated photos and video before anything is moved or repaired', 'Collect witness contact information and written statements when possible', 'Do not admit fault, apologize for the incident, or make promises about payment', 'Cooperate fully with your insurance adjuster and provide all requested documentation promptly', 'Keep detailed records of all claim-related communications and expenses', 'Consult your broker before making any public statements about a significant incident', 'Follow up regularly with your adjuster to keep the claims process moving'] },
+    ],
+    faqs: [
+      { q: 'Will filing a claim increase my premiums?', a: 'It depends on the type, severity, and frequency of claims. A single minor claim may not affect your rates, while multiple claims or a large loss will likely impact your premium at renewal. Your broker can help you evaluate whether to file a claim or handle a minor loss out of pocket.' },
+      { q: 'How long does the claims process take?', a: 'Simple claims can be resolved in weeks. Complex liability claims involving injuries may take months or years. Catastrophic events like hailstorms affecting dozens of vehicles may take several months to fully resolve due to the volume of damage assessments and repairs involved.' },
+      { q: 'Can I choose my own repair shop for a claim?', a: 'For property damage to your own assets, you generally have the right to choose your repair facility. For customer vehicle claims under garagekeepers, the customer may have preferences. Work with your adjuster to ensure repairs meet all parties expectations.' },
+    ],
+    relatedResources: ['automotive-insurance-cost', 'garagekeepers-guide'],
+    relatedCoverages: ['garage-liability', 'garage-keepers', 'dealers-open-lot'],
+  },
+  {
+    slug: 'automotive-insurance-glossary',
+    title: 'Automotive Insurance Glossary',
+    metaTitle: 'Auto Dealer Insurance Glossary | Key Terms Defined',
+    metaDescription: 'Comprehensive glossary of automotive insurance terms. Definitions for garage liability, garagekeepers, dealers open lot, and other key coverage terms for auto businesses.',
     category: 'Reference',
-    heroHeading: 'Trucking Insurance Glossary: Key Terms Explained',
-    heroSubheading:
-      'Clear, plain-language definitions of the terms you will encounter when purchasing and managing trucking insurance.',
-    overview:
-      'Trucking insurance has its own vocabulary, and understanding these terms is essential for making informed coverage decisions. This glossary covers more than 30 terms that motor carriers, owner-operators, and fleet managers encounter regularly when dealing with insurance policies, regulatory filings, and claims. Each definition is written in practical language with context on how the term applies to your operation.',
+    heroHeading: 'Automotive Insurance Glossary',
+    heroSubheading: 'Key insurance terms every auto dealer, repair shop, and body shop operator should understand.',
+    overview: 'The automotive insurance industry uses specialized terminology that can be confusing. This glossary defines the key terms you will encounter when purchasing and managing insurance for your dealership, repair shop, or other automotive business.',
     sections: [
-      {
-        heading: 'Regulatory and Filing Terms',
-        content:
-          'BMC-91: The form used by an insurance company to file proof of a motor carrier\'s public liability coverage with the FMCSA. The BMC-91 certifies that the carrier maintains at least the federally required minimum liability insurance.\n\nBMC-91X: The version of the BMC-91 filing used when coverage is provided by a surplus lines insurer rather than an admitted insurance carrier. It serves the same purpose as the standard BMC-91.\n\nBMC-84: A surety bond required for freight brokers and freight forwarders in the amount of $75,000. This bond protects carriers and shippers against financial loss resulting from the broker\'s failure to meet its obligations.\n\nBMC-85: A trust fund agreement that serves as an alternative to the BMC-84 surety bond for freight brokers. The broker deposits $75,000 into a qualifying trust fund rather than purchasing a surety bond.\n\nMCS-90: A mandatory endorsement attached to the liability policy of every for-hire interstate motor carrier. The MCS-90 guarantees that the insurer will pay valid public liability claims up to the minimum required limit, even if a policy exclusion would otherwise apply.\n\nFMCSA: The Federal Motor Carrier Safety Administration, the agency within the U.S. Department of Transportation that regulates the trucking industry. The FMCSA sets insurance requirements, safety standards, and licensing rules for motor carriers.\n\nUSDOT Number: A unique identification number assigned by the FMCSA to every commercial motor carrier operating in interstate commerce. The USDOT number is used to track safety information and compliance status.\n\nMC Number: The Motor Carrier operating authority number issued by the FMCSA to for-hire carriers. An active MC number with proper insurance filings is required before a carrier can legally transport freight for compensation in interstate commerce.\n\nCSA: Compliance, Safety, Accountability, the FMCSA\'s data-driven safety program. CSA assigns scores in seven Behavioral Analysis and Safety Improvement Categories (BASICs) based on inspection, crash, and violation data. Insurers use CSA scores as an underwriting factor.\n\nSAFER System: Safety and Fitness Electronic Records System, the FMCSA\'s online database where the public can access motor carrier registration, safety, and insurance information. Brokers and shippers check the SAFER System to verify a carrier\'s authority and insurance status.',
-      },
-      {
-        heading: 'Liability Coverage Terms',
-        content:
-          'Primary Auto Liability: The foundational liability coverage that pays for bodily injury and property damage your commercial vehicle causes to third parties. Required by the FMCSA for all motor carriers at minimum limits ranging from $750,000 to $5,000,000 depending on commodities transported.\n\nGeneral Liability: Coverage for bodily injury and property damage claims arising from your business operations that are not related to the operation of a vehicle. This includes slip-and-fall injuries at your terminal, damage caused by your employees during loading and unloading, and other premises and operations liability.\n\nUmbrella/Excess Liability: A policy that provides additional liability limits above and beyond your primary auto liability and general liability policies. An umbrella policy increases your total available limit for catastrophic claims that exceed your underlying coverage.\n\nNon-Trucking Liability (NTL): Coverage for owner-operators who lease onto a carrier, providing liability protection during personal use of the truck when the driver is not under dispatch. Also called deadhead liability or bobtail insurance, though these terms have technical distinctions.\n\nBobtail Liability: Coverage for operating a tractor without an attached trailer. Depending on the policy, bobtail coverage may apply during both business and personal use or may be limited to non-business operations similar to NTL.\n\nHired Auto Liability: Coverage for liability arising from vehicles you rent, borrow, or hire for business use. This extends your liability protection to vehicles you do not own but are temporarily using in your operations.\n\nTrailer Interchange Coverage: Insurance that covers physical damage to trailers you are pulling under a trailer interchange agreement with another party. Standard physical damage policies often exclude non-owned trailers, making this endorsement necessary when you haul trailers owned by others.',
-      },
-      {
-        heading: 'Property and Cargo Terms',
-        content:
-          'Physical Damage: Insurance covering damage to your own vehicles. Physical damage policies include two components: collision coverage (damage from striking another object or overturning) and comprehensive coverage (damage from theft, fire, weather, vandalism, and other non-collision events).\n\nCollision Coverage: The component of physical damage insurance that pays to repair or replace your vehicle after it collides with another vehicle, object, or overturns. Coverage applies regardless of fault.\n\nComprehensive Coverage: The component of physical damage insurance that covers non-collision damage including theft, fire, vandalism, windstorm, hail, flood, falling objects, and animal strikes.\n\nMotor Truck Cargo Insurance: Coverage for loss or damage to freight in your care, custody, and control while you are transporting it. Cargo insurance responds when goods are damaged, destroyed, or stolen during transit, loading, or unloading.\n\nActual Cash Value (ACV): A valuation method that determines the value of a damaged or total loss vehicle based on its fair market value at the time of the loss, accounting for depreciation. ACV is the standard valuation basis in most physical damage policies.\n\nAgreed Value: A valuation method where you and the insurer pre-agree on the value of the vehicle at policy inception. In a total loss, the insurer pays the agreed amount rather than an ACV assessment. This eliminates depreciation disputes and ensures a predictable settlement.\n\nStated Amount: A valuation method where you declare the value of the vehicle on the policy. In a total loss, the insurer pays the lesser of the stated amount, the actual cash value, or the cost of repair. Stated amount is not the same as agreed value because the insurer can still apply depreciation.\n\nDeductible: The amount you pay out of pocket before your insurance coverage begins to pay on a claim. Higher deductibles reduce your premium but increase your financial exposure when a loss occurs.',
-      },
-      {
-        heading: 'Workers Protection Terms',
-        content:
-          "Workers' Compensation: State-mandated insurance that provides medical benefits, wage replacement, and disability payments to employees injured on the job. Required for trucking companies with employee drivers in every state except Texas.\n\nOccupational Accident Insurance (OA): Voluntary coverage designed for independent contractors that provides benefits similar to workers' compensation, including accident medical expenses, disability income, and accidental death and dismemberment benefits. The standard injury coverage for owner-operators who are not classified as employees.\n\nEmployers Liability: A component of the workers' compensation policy that covers lawsuits brought by employees alleging employer negligence. While the exclusive remedy provision of workers' comp generally bars employee lawsuits, exceptions exist, and employers liability responds in those situations.\n\nExperience Modification Factor (EMR or E-Mod): A multiplier applied to workers' compensation premiums based on a company's historical claim experience compared to the industry average. An EMR below 1.0 indicates better-than-average loss experience and results in lower premiums. An EMR above 1.0 indicates worse-than-average experience and higher premiums.",
-      },
-      {
-        heading: 'Underwriting and Policy Terms',
-        content:
-          'Premium: The amount you pay for your insurance coverage, typically expressed as an annual amount and payable in installments. Premiums are determined by underwriting factors including your loss history, driver records, fleet size, commodities hauled, and operating radius.\n\nLoss Run: A report from your current or prior insurance company showing your claims history over a specified period, typically three to five years. Loss runs include claim dates, types, amounts paid, and amounts reserved. Underwriters require loss runs when quoting your renewal or new business.\n\nLoss Ratio: The ratio of claims paid by the insurer to premiums collected, expressed as a percentage. A loss ratio of 60 percent means the insurer paid 60 cents in claims for every dollar of premium collected. High loss ratios lead to premium increases or non-renewal.\n\nMVR (Motor Vehicle Report): A record of a driver\'s history from the state department of motor vehicles, including violations, accidents, license suspensions, and DUI convictions. Underwriters pull MVRs for every driver on a trucking policy as a primary risk assessment tool.\n\nPSP (Pre-Employment Screening Program): An FMCSA program that provides motor carriers access to a driver\'s crash and inspection history from the previous five years. PSP reports are used in the hiring process to evaluate driver safety records.\n\nExclusion: A specific risk, situation, or type of loss that your insurance policy does not cover. Understanding exclusions is critical because a claim falling within an exclusion will be denied regardless of how much premium you pay.\n\nEndorsement: A written modification to your insurance policy that adds, removes, or changes coverage terms. Endorsements can broaden or restrict the base policy and are attached as addenda to the policy document.\n\nCertificate of Insurance (COI): A document issued by your insurer that summarizes your coverage types, limits, and effective dates. Brokers, shippers, and other parties frequently require COIs as proof that you maintain adequate insurance.\n\nPremium Finance: An arrangement where a finance company pays your insurance premium to the insurer and you repay the finance company in monthly installments with interest. Premium financing reduces the upfront cash required to bind coverage but increases the total cost.\n\nSubrogation: The process by which your insurer, after paying your claim, seeks reimbursement from the party that caused the loss. If another driver was at fault in your accident, your insurer may pursue subrogation against that driver\'s insurance to recover the claim payment.\n\nIndemnity: The principle that insurance restores you to the financial position you were in before the loss, no better and no worse. Insurance payments are designed to indemnify you for your actual loss, not to provide a profit.\n\nAdditional Insured: A person or organization added to your insurance policy who receives coverage under your policy for claims arising from your operations. Shippers and brokers frequently require motor carriers to add them as additional insureds on their liability policies.',
-      },
+      { heading: 'Coverage Terms', content: 'Garage Liability: A combined liability policy for automotive businesses covering both premises liability and auto operations liability in a single form. It is the foundational coverage for any business that sells, services, or stores vehicles.\n\nGaragekeepers Insurance: Coverage for physical damage to customer-owned vehicles while in the care, custody, and control of the insured business. Available in legal liability, direct primary, and direct excess forms.\n\nDealers Open Lot: Physical damage coverage for vehicles the insured owns as inventory, providing comprehensive and collision protection against theft, hail, fire, vandalism, and other perils.\n\nCompleted Operations: Coverage for claims arising from work you have finished. In the automotive context, this covers claims from repairs, services, or installations that cause damage or injury after the customer takes the vehicle.\n\nGarage Operations Auto Liability: The auto liability component within a garage liability policy, covering vehicle-related claims arising from business operations without requiring individual vehicle scheduling.' },
+      { heading: 'Policy Structure Terms', content: 'Per Occurrence Limit: The maximum amount the insurer will pay for a single claim or incident. Most garage liability policies are written with per-occurrence limits.\n\nAggregate Limit: The maximum total amount the insurer will pay for all claims during the policy period. Garagekeepers and general liability policies typically have aggregate limits.\n\nDeductible: The amount you pay out of pocket before insurance coverage applies. Dealers open lot policies often have separate deductibles for collision, comprehensive, and catastrophic events.\n\nAdditional Insured: A party added to your policy through an endorsement, extending certain coverage protections to them. Commonly required by manufacturers, landlords, and lenders.\n\nLoss Payee: A party with a financial interest in your insured property, named to receive claim payments. Floorplan lenders are named as loss payees on dealers open lot policies.\n\nDirect Primary: A garagekeepers coverage form that pays for damage to customer vehicles regardless of fault and without requiring the customer to use their own insurance first.' },
+      { heading: 'Additional Key Terms', bullets: ['Blanket Coverage: Coverage that applies to a group of items without individually scheduling each one, such as dealers open lot covering all inventory vehicles', 'Coinsurance: A provision requiring you to maintain coverage equal to a specified percentage of your property value, with penalties for underinsurance', 'Experience Modification Factor: A multiplier applied to workers compensation premiums based on your claims history relative to industry averages', 'Subrogation: The insurer\'s right to recover claim payments from a responsible third party', 'Waiver of Subrogation: An endorsement preventing your insurer from seeking recovery from a specific third party, often required by contracts', 'Named Perils: A policy that covers only specifically listed causes of loss, as opposed to all-risk coverage', 'All-Risk or Open Perils: Coverage that protects against all causes of loss unless specifically excluded', 'Business Income Coverage: Protection replacing lost revenue and covering ongoing expenses during a period when your business is shut down by a covered loss'] },
     ],
     faqs: [
-      {
-        q: 'What is the difference between a COI and the actual insurance policy?',
-        a: 'A certificate of insurance (COI) is a summary document that shows your coverage types, limits, and effective dates. It does not confer any coverage rights or alter the terms of the policy itself. The actual insurance policy is the full legal contract between you and the insurer containing the insuring agreement, exclusions, conditions, and endorsements. When questions arise about what is or is not covered, the policy language controls, not the COI.',
-      },
-      {
-        q: 'What does it mean to be named as an additional insured?',
-        a: 'When another party is named as an additional insured on your policy, they receive coverage under your policy for claims arising from your operations. For example, if a shipper is an additional insured on your auto liability policy and is sued because your truck caused an accident while hauling their freight, your policy would respond to defend and indemnify the shipper. This is a common contractual requirement in the trucking industry.',
-      },
-      {
-        q: 'How is a loss run different from a claims history?',
-        a: 'A loss run is an official report generated by your insurance company that provides a verified record of all claims filed under your policy during a specified period. A claims history is a more general term for your record of past claims. Underwriters require loss runs specifically because they are verified documents from the insurer, not self-reported. You can request loss runs from your current and prior insurance carriers at any time.',
-      },
+      { q: 'What is the difference between named perils and all-risk coverage?', a: 'Named perils coverage only protects against causes of loss specifically listed in the policy. All-risk or open perils coverage protects against all causes of loss unless specifically excluded. All-risk provides broader protection and is preferred when available.' },
+      { q: 'What does experience modification factor mean for my business?', a: 'Your experience mod is a multiplier applied to your workers compensation premium. A mod above 1.0 means your claims history is worse than average, increasing your premium. Below 1.0 means better than average, reducing your premium. Managing your mod is one of the most effective ways to control workers comp costs.' },
+      { q: 'What is the difference between additional insured and certificate holder?', a: 'A certificate holder simply receives proof of your coverage. An additional insured is added to your policy through an endorsement and receives certain coverage protections. Additional insured status provides much stronger protection for the named party.' },
     ],
-    relatedResources: ['fmcsa-insurance-requirements', 'trucking-insurance-claims-guide'],
-    relatedCoverages: ['auto-liability', 'motor-truck-cargo', 'general-liability'],
+    relatedResources: ['automotive-insurance-cost', 'garage-liability-guide'],
+    relatedCoverages: ['garage-liability', 'garage-keepers', 'dealers-open-lot'],
   },
 ];
 

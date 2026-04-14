@@ -13,11 +13,11 @@ export default function Testimonial() {
           </svg>
         </div>
         <blockquote className="text-stone font-light leading-relaxed mb-8" style={{ fontSize: 'clamp(1.25rem, 3vw, 1.6rem)', lineHeight: '1.6' }}>
-          Working with this team made it easy to secure the right coverage for our fleet. They understood our operation, moved quickly, and gave us confidence that our risks were properly covered.
+          Working with this team made it easy to secure the right coverage for our dealership. They understood our operations, moved quickly, and gave us confidence that our inventory and customers were properly protected.
         </blockquote>
         <div>
-          <div className="text-stone font-bold" style={{ fontSize: '1rem' }}>James Mitchell</div>
-          <div className="text-cream/70" style={{ fontSize: '0.85rem' }}>Operations Manager, Regional Freight Carrier</div>
+          <div className="text-stone font-bold" style={{ fontSize: '1rem' }}>Robert Hernandez</div>
+          <div className="text-cream/70" style={{ fontSize: '0.85rem' }}>General Manager, Multi-Brand Franchise Dealership</div>
         </div>
       </div>
     </section>

@@ -1,12 +1,12 @@
 import HomeContent from './HomeContent';
 
 export const metadata = {
-  title: 'Commercial Trucking Insurance Solutions',
-  description: 'ALKEME Insurance Services provides specialized trucking insurance for owner-operators, fleets, and transportation businesses. Coverage for auto liability, cargo, physical damage, and more.',
+  title: 'Automotive Insurance Solutions',
+  description: 'ALKEME Insurance Services provides specialized automotive insurance for dealerships, repair shops, and auto businesses. Coverage for garage liability, dealers open lot, garagekeepers, and more.',
   openGraph: {
-    title: 'Trucking Insurance | ALKEME Insurance Services',
-    description: 'Specialized trucking insurance for owner-operators, fleets, and transportation businesses across all 50 states.',
-    url: 'https://alkemeins.com/trucking/',
+    title: 'Automotive Insurance | ALKEME Insurance Services',
+    description: 'Specialized automotive insurance for dealerships, repair shops, and auto businesses across all 50 states.',
+    url: 'https://alkemeins.com/automotive/',
   },
 };
 
@@ -26,7 +26,7 @@ export default function HomePage() {
             url: 'https://alkemeins.com',
             telephone: '+18559255363',
             email: 'info@alkemeins.com',
-            description: 'ALKEME Insurance Services provides specialized commercial trucking insurance solutions for owner-operators, fleets, and transportation businesses across all 50 states.',
+            description: 'ALKEME Insurance Services provides specialized automotive insurance solutions for dealerships, repair shops, and auto businesses across all 50 states.',
             areaServed: { '@type': 'Country', name: 'United States' },
             parentOrganization: {
               '@type': 'Organization',
@@ -35,19 +35,19 @@ export default function HomePage() {
             },
             foundingDate: '2003',
             numberOfEmployees: { '@type': 'QuantitativeValue', value: 100 },
-            knowsAbout: ['Commercial Trucking Insurance', 'Fleet Insurance', 'Motor Truck Cargo', 'FMCSA Compliance'],
+            knowsAbout: ['Commercial Automotive Insurance', 'Dealership Insurance', 'Garagekeepers Insurance', 'Dealer Compliance'],
             hasCredential: { '@type': 'EducationalOccupationalCredential', credentialCategory: 'Professional License', name: 'Licensed Insurance Brokerage' },
             serviceType: [
-              'Commercial Trucking Insurance',
-              'Fleet Insurance',
-              'Owner-Operator Insurance',
-              'Motor Truck Cargo Insurance',
-              'Commercial Auto Liability',
-              'Physical Damage Coverage',
-              'Transportation Insurance',
+              'Commercial Automotive Insurance',
+              'Dealership Insurance',
+              'Repair Shop Insurance',
+              'Dealers Open Lot Insurance',
+              'Garage Liability Insurance',
+              'Garagekeepers Coverage',
+              'Automotive Business Insurance',
             ],
             citation: { '@type': 'CreativeWork', name: 'Insurance Information Institute', url: 'https://www.iii.org' },
-            about: { '@type': 'Thing', name: 'Commercial Trucking Insurance' },
+            about: { '@type': 'Thing', name: 'Commercial Automotive Insurance' },
           }),
         }}
       />
@@ -60,26 +60,26 @@ export default function HomePage() {
             mainEntity: [
               {
                 '@type': 'Question',
-                name: 'What insurance does a trucking company need?',
+                name: 'What insurance does an auto dealership need?',
                 acceptedAnswer: {
                   '@type': 'Answer',
-                  text: 'At minimum, most trucking operations require primary auto liability, physical damage, and cargo coverage. Depending on your operation, you may also need general liability, workers\' compensation, non-trucking liability, trailer interchange, and umbrella/excess coverage. We help you identify exactly what your operation requires based on your authority type, cargo, and operating radius.',
+                  text: 'At minimum, most dealerships need garage liability, dealers open lot, garagekeepers, and workers compensation. We help you identify exactly what your operation requires based on your business type, inventory value, and service volume.',
                 },
               },
               {
                 '@type': 'Question',
-                name: 'Do you insure both owner-operators and fleets?',
+                name: 'Do you insure both dealerships and repair shops?',
                 acceptedAnswer: {
                   '@type': 'Answer',
-                  text: 'Yes. We work with independent owner-operators running a single unit as well as fleets of all sizes — from small operations with a handful of trucks to large carriers with hundreds of power units. Our coverage programs are scaled and customized to match the size and complexity of each operation.',
+                  text: 'Yes. We work with franchise dealerships, independent used car lots, repair shops, body shops, and other automotive businesses of all sizes. Our programs are customized to match each operation.',
                 },
               },
               {
                 '@type': 'Question',
-                name: 'Can you help with contract and compliance requirements?',
+                name: 'Can you help with manufacturer and lender compliance?',
                 acceptedAnswer: {
                   '@type': 'Answer',
-                  text: 'Absolutely. We understand the insurance requirements that shippers, brokers, and regulatory bodies impose on carriers. We can help ensure your certificates of insurance, policy endorsements, and filing requirements align with your contractual obligations and FMCSA standards.',
+                  text: 'Absolutely. We understand the insurance requirements that manufacturers, lenders, and licensing boards impose. We ensure your coverage aligns with all contractual obligations.',
                 },
               },
               {
@@ -92,18 +92,18 @@ export default function HomePage() {
               },
               {
                 '@type': 'Question',
-                name: 'Do you offer cargo and physical damage coverage?',
+                name: 'Do you offer dealers open lot and garagekeepers coverage?',
                 acceptedAnswer: {
                   '@type': 'Answer',
-                  text: 'Yes. Motor truck cargo coverage protects the goods you haul, while physical damage coverage protects your trucks and trailers. We can tailor both coverages to your specific cargo types, vehicle values, and deductible preferences.',
+                  text: 'Yes. Dealers open lot protects your vehicle inventory, while garagekeepers protects customer vehicles in your care. We tailor both coverages to your specific values and preferences.',
                 },
               },
               {
                 '@type': 'Question',
-                name: 'Can coverage be customized for my operation?',
+                name: 'Can coverage be customized for my business?',
                 acceptedAnswer: {
                   '@type': 'Answer',
-                  text: 'Every policy we place is built around your specific operation. We consider your equipment, routes, cargo types, loss history, and business goals to design a program that provides the right coverage at a competitive price — not a generic package.',
+                  text: 'Every program we place is built around your specific business. We consider your inventory, service volume, employees, and claims history to design a program at a competitive price.',
                 },
               },
             ],
@@ -116,7 +116,7 @@ export default function HomePage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Commercial Trucking Insurance Solutions',
+            headline: 'Automotive Insurance Solutions',
             datePublished: '2025-06-01',
             dateModified: '2026-04-01',
             author: { '@type': 'Organization', name: 'ALKEME Insurance Services', url: 'https://alkemeins.com' },

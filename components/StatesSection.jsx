@@ -7,13 +7,13 @@ const featuredStates = [
   { name: 'Texas', slug: 'texas', abbr: 'TX' },
   { name: 'California', slug: 'california', abbr: 'CA' },
   { name: 'Florida', slug: 'florida', abbr: 'FL' },
-  { name: 'Georgia', slug: 'georgia', abbr: 'GA' },
-  { name: 'Illinois', slug: 'illinois', abbr: 'IL' },
   { name: 'Ohio', slug: 'ohio', abbr: 'OH' },
   { name: 'Pennsylvania', slug: 'pennsylvania', abbr: 'PA' },
-  { name: 'Indiana', slug: 'indiana', abbr: 'IN' },
-  { name: 'Tennessee', slug: 'tennessee', abbr: 'TN' },
-  { name: 'North Carolina', slug: 'north-carolina', abbr: 'NC' },
+  { name: 'Michigan', slug: 'michigan', abbr: 'MI' },
+  { name: 'Georgia', slug: 'georgia', abbr: 'GA' },
+  { name: 'New York', slug: 'new-york', abbr: 'NY' },
+  { name: 'Illinois', slug: 'illinois', abbr: 'IL' },
+  { name: 'New Jersey', slug: 'new-jersey', abbr: 'NJ' },
 ];
 
 const allStates = [
@@ -39,10 +39,10 @@ export default function StatesSection() {
             Nationwide Coverage
           </p>
           <h2 className="text-stone font-bold leading-[1.3] tracking-tight mb-5" style={{ fontSize: 'clamp(2.2rem, 4vw, 2.6rem)' }}>
-            Trucking Insurance Across All 50 States
+            Automotive Insurance Across All 50 States
           </h2>
           <p className="text-cream font-light" style={{ lineHeight: '22px' }}>
-            State-specific requirements, corridors, and coverage guidance — wherever your fleet operates.
+            State-specific dealer licensing, DMV requirements, and coverage guidance for your automotive business.
           </p>
         </div>
 
@@ -82,7 +82,7 @@ export default function StatesSection() {
 
         {/* All 100 Trucking Cities */}
         <div className="mt-14 text-center">
-          <h3 className="text-stone font-bold mb-6" style={{ fontSize: '1.3rem' }}>Major Trucking Cities</h3>
+          <h3 className="text-stone font-bold mb-6" style={{ fontSize: '1.3rem' }}>Major Automotive Markets</h3>
           <div className="flex flex-wrap justify-center gap-2">
             {cities.map((c) => (
               <Link

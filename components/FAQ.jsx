@@ -3,12 +3,12 @@ import { useState, useRef, useEffect } from 'react';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 const faqs = [
-  { q: 'What insurance does a trucking company need?', a: 'At minimum, most trucking operations require primary auto liability, physical damage, and cargo coverage. Depending on your operation, you may also need general liability, workers\' compensation, non-trucking liability, trailer interchange, and umbrella/excess coverage. We help you identify exactly what your operation requires based on your authority type, cargo, and operating radius.' },
-  { q: 'Do you insure both owner-operators and fleets?', a: 'Yes. We work with independent owner-operators running a single unit as well as fleets of all sizes — from small operations with a handful of trucks to large carriers with hundreds of power units. Our coverage programs are scaled and customized to match the size and complexity of each operation.' },
-  { q: 'Can you help with contract and compliance requirements?', a: 'Absolutely. We understand the insurance requirements that shippers, brokers, and regulatory bodies impose on carriers. We can help ensure your certificates of insurance, policy endorsements, and filing requirements align with your contractual obligations and FMCSA standards.' },
-  { q: 'How quickly can I get a quote?', a: 'In most cases, we can provide an initial quote within 24 hours of receiving your completed information. For more complex accounts or large fleets, the process may take slightly longer to ensure we explore the best options across our carrier network.' },
-  { q: 'Do you offer cargo and physical damage coverage?', a: 'Yes. Motor truck cargo coverage protects the goods you haul, while physical damage coverage protects your trucks and trailers. We can tailor both coverages to your specific cargo types, vehicle values, and deductible preferences.' },
-  { q: 'Can coverage be customized for my operation?', a: 'Every policy we place is built around your specific operation. We consider your equipment, routes, cargo types, loss history, and business goals to design a program that provides the right coverage at a competitive price — not a generic package.' },
+  { q: 'What insurance does an auto dealership need?', a: 'At minimum, most dealerships need garage liability, dealers open lot, garagekeepers, and workers compensation. Depending on your operation, you may also need general liability, commercial auto, cyber liability, umbrella coverage, and employment practices liability. We help you identify exactly what your business requires.' },
+  { q: 'Do you insure both dealerships and repair shops?', a: 'Yes. We work with franchise dealerships, independent used car lots, auto repair shops, collision centers, body shops, parts distributors, fleet management companies, and other automotive businesses of all sizes.' },
+  { q: 'Can you help with manufacturer and lender compliance?', a: 'Absolutely. We understand the insurance requirements that manufacturers, floorplan lenders, and landlords impose. We ensure your coverage, certificates, and endorsements align with all contractual obligations.' },
+  { q: 'How quickly can I get a quote?', a: 'In most cases, we can provide an initial quote within 24 hours of receiving your completed information. Complex multi-location dealer groups may require additional time to ensure comprehensive market analysis.' },
+  { q: 'Do you offer dealers open lot and garagekeepers coverage?', a: 'Yes. Dealers open lot protects your vehicle inventory, while garagekeepers protects customer vehicles in your care. We tailor both to your inventory values, customer volume, and deductible preferences.' },
+  { q: 'Can coverage be customized for my specific operation?', a: 'Every program we place is built around your specific business. We consider your inventory value, service volume, employee count, location, and claims history to design a program that provides the right coverage at a competitive price.' },
 ];
 
 function FaqItem({ faq, isOpen, onClick }) {
@@ -66,7 +66,7 @@ export default function FAQ() {
         <div ref={headerRef} className="text-center mb-14 fade-in-view">
           <p className="text-blue uppercase tracking-[0.15em] font-bold mb-4" style={{ fontSize: '0.85rem' }}>Frequently Asked Questions</p>
           <h2 className="text-brand font-bold leading-[1.3] tracking-tight" style={{ fontSize: 'clamp(2.2rem, 4vw, 2.6rem)' }}>
-            Common Questions About Trucking Insurance
+            Common Questions About Automotive Insurance
           </h2>
         </div>
 

@@ -1,637 +1,217 @@
 export const industries = [
   {
-    slug: 'owner-operators',
-    title: 'Owner-Operators',
-    metaTitle: 'Trucking Insurance for Owner-Operators',
-    metaDescription:
-      'Specialized owner-operator trucking insurance with competitive rates on auto liability, physical damage, and occupational accident coverage. Get a quote today.',
-    heroHeading: 'Insurance Built for Owner-Operators',
-    heroSubheading:
-      'Protect your livelihood with coverage designed for independent truckers who own their equipment and run their own authority.',
-    overview:
-      'Owner-operators face a unique set of challenges that fleet drivers never encounter. You are simultaneously the driver, the business owner, and the risk manager, which means a single uncovered claim can threaten everything you have built. Our programs are structured specifically for independent truckers, whether you operate under your own authority or lease on to a carrier, so you get the protection you actually need without paying for coverage you do not.',
+    slug: 'franchise-dealerships',
+    title: 'Franchise Dealerships',
+    metaTitle: 'Insurance for Franchise Auto Dealerships',
+    metaDescription: 'Specialized insurance programs for franchise auto dealerships. Garage liability, dealers open lot, garagekeepers, and manufacturer-compliant coverage solutions.',
+    heroHeading: 'Insurance for Franchise Dealerships',
+    heroSubheading: 'Comprehensive coverage programs designed to meet manufacturer requirements and protect your franchise investment.',
+    overview: 'Franchise dealerships operate under stringent manufacturer requirements that dictate minimum insurance standards, coverage types, and policy endorsements. Meeting these requirements while controlling costs requires an insurance partner who understands the franchise model. Our programs are built specifically for franchise dealers, addressing the full spectrum of exposures from showroom floor to service bay to open lot.',
     sections: [
-      {
-        heading: 'Coverage Tailored to Your Operation',
-        content:
-          'As an owner-operator, your truck is more than a vehicle. It is your primary income-producing asset, your office, and often your home on the road. A standard commercial auto policy rarely accounts for the way independent operators actually work, which is why our programs are built from the ground up around your reality.\n\nWhether you haul under your own MC number or operate under a carrier lease agreement, we structure policies that align with your specific operating model. If you run your own authority, you need primary liability, cargo coverage, and potentially a BMC-91 filing. If you lease on, your carrier may provide some base coverage, but you almost certainly need bobtail or non-trucking liability, plus physical damage on the equipment you own.\n\nWe also help owner-operators navigate the gaps that catch many independent truckers off guard, such as coverage during deadhead miles, layover periods, and personal use of a commercial vehicle. These are the exposures that generate denied claims, and we address them before they become problems.',
-      },
-      {
-        heading: 'Common Risks for Owner-Operators',
-        content:
-          'The biggest risk most owner-operators face is being underinsured without realizing it. Many independent truckers carry policies that were sold to them based on price rather than fit, leaving critical gaps in protection. A common example is the owner-operator who leases onto a carrier and assumes the carrier\'s policy covers them in all situations, only to discover after an accident during a personal errand that no coverage applies.\n\nEquipment breakdown is another major exposure. Unlike fleet operators who can redistribute loads when a truck goes down, an owner-operator with a disabled vehicle has zero revenue until repairs are complete. Downtime coverage and towing protection are not luxuries for independents; they are essential business continuity tools.\n\nCargo liability presents a particular challenge for owner-operators who haul diverse freight types. If your commodity mix changes from month to month, a policy written for one cargo class may not respond when you are hauling something different. We build flexibility into cargo coverage so your protection keeps pace with the loads you actually run.',
-      },
-      {
-        heading: 'Our Approach to Owner-Operator Insurance',
-        content:
-          'We start every owner-operator engagement with a straightforward question: how do you actually make money? The answer shapes every coverage decision that follows. An owner-operator running dedicated lanes for a single shipper has a very different risk profile than one who brokers loads on the spot market, and their insurance should reflect that difference.\n\nOur team includes former trucking operations professionals who understand the economics of independent trucking. We know what a cost-per-mile analysis looks like, we understand the difference between revenue and operating authority, and we recognize that every dollar spent on insurance has to be justified against what it protects. That perspective drives how we design coverage, not by stacking unnecessary endorsements, but by targeting the exposures that would actually put you out of business.',
-      },
-      {
-        heading: 'What We Recommend',
-        bullets: [
-          'Primary auto liability at $1M minimum, with excess options for high-value freight or contract requirements',
-          'Physical damage coverage with agreed-value endorsement to reflect your truck\'s actual replacement cost, not a depreciated book value',
-          'Bobtail or non-trucking liability if you lease onto a carrier, covering the truck when it is not under dispatch',
-          'Motor truck cargo insurance matched to the commodity types you haul, with broad-form coverage where available',
-          'Occupational accident insurance to replace income and cover medical expenses, since owner-operators are not covered by workers\' compensation',
-          'Downtime coverage to replace lost revenue while your truck is being repaired after a covered loss',
-        ],
-      },
+      { heading: 'Coverage for Franchise Operations', content: 'Franchise dealerships face a unique combination of exposures that require coordinated coverage across multiple policy types. Your manufacturer franchise agreement specifies minimum limits for garage liability, dealers open lot, garagekeepers, and umbrella coverage. Falling below these minimums can trigger franchise compliance issues and jeopardize your dealer agreement.\n\nBeyond manufacturer requirements, franchise dealers must address exposures from high-volume service operations, F&I departments handling sensitive customer data, large parts inventories, and significant real estate holdings. We coordinate all coverage lines into a unified program that satisfies franchise compliance while eliminating gaps and overlaps between policies.\n\nMulti-brand and multi-location franchise groups face additional complexity with varying manufacturer requirements across brands and state-specific regulations across locations. We build programs that standardize coverage across your entire group while accommodating brand-specific and state-specific variations.' },
+      { heading: 'Common Risks for Franchise Dealers', content: 'Inventory exposure is typically the largest single risk for franchise dealerships. New vehicle allocations can place millions of dollars of manufacturer inventory on your lot, all financed through floorplan lines that require comprehensive physical damage protection. Hail, theft, and flood events can create catastrophic losses affecting dozens or hundreds of vehicles simultaneously.\n\nService department liability is another major exposure. Franchise service departments perform warranty work, scheduled maintenance, and complex repairs under manufacturer guidelines. Completed operations claims arising from service work can surface weeks or months after the vehicle leaves your shop, and the manufacturer relationship amplifies the reputational impact of any service-related incident.\n\nCyber risk has grown significantly for franchise dealers. DMS platforms, manufacturer portals, and F&I systems create an interconnected digital environment where a single breach can compromise thousands of customer records containing Social Security numbers, credit data, and financial information.' },
+      { heading: 'Our Approach', content: 'We begin every franchise dealer engagement by reviewing your manufacturer compliance requirements alongside your actual risk profile. Many dealers carry coverage that satisfies the letter of their franchise agreement but leaves meaningful gaps in protection. We identify those gaps and build a program that provides genuine protection, not just compliance documentation.\n\nOur team maintains current knowledge of coverage requirements for every major manufacturer, so we can advise on changes before your next audit or renewal. We also coordinate directly with your manufacturer\'s insurance compliance department when needed to ensure your program passes review without delays.' },
+      { heading: 'What We Recommend', bullets: ['Garage liability at manufacturer-required minimums, typically one million to two million per occurrence', 'Dealers open lot with limits matching your peak inventory value and floorplan lender requirements', 'Garagekeepers direct primary coverage to protect customer vehicles and maintain service reputation', 'Umbrella liability at five million or higher per manufacturer and lender requirements', 'Cyber liability with DMS business interruption and FTC Safeguards Rule compliance coverage', 'Workers compensation with multi-classification rating for sales, service, and body shop employees'] },
     ],
-    recommendedCoverages: [
-      'auto-liability',
-      'physical-damage',
-      'bobtail-liability',
-      'motor-truck-cargo',
-      'occupational-accident',
-    ],
+    recommendedCoverages: ['garage-liability', 'dealers-open-lot', 'garage-keepers', 'umbrella-excess', 'cyber-liability'],
     faqs: [
-      {
-        q: 'Do I need my own insurance if I lease onto a carrier?',
-        a: 'Yes. While the carrier\'s policy typically covers you when you are under dispatch, it does not protect your truck when you are driving without a load assignment. You need bobtail or non-trucking liability for those periods, plus physical damage coverage on your own equipment. Some carriers also require you to carry occupational accident insurance as a condition of the lease.',
-      },
-      {
-        q: 'What is the difference between bobtail and non-trucking liability?',
-        a: 'Bobtail liability covers you while driving without a trailer, regardless of the purpose of the trip. Non-trucking liability covers personal use of your truck when you are not under dispatch. The distinction matters because some policies exclude certain types of driving. We help you determine which form, or a combination of both, fits your actual operations.',
-      },
-      {
-        q: 'How is physical damage coverage valued for owner-operators?',
-        a: 'We recommend agreed-value coverage, which pays a predetermined amount in the event of a total loss rather than the actual cash value at the time of the claim. Depreciation-based payouts often leave owner-operators unable to replace their truck with a comparable unit, which can effectively end their business. Agreed-value costs slightly more in premium but eliminates the risk of a shortfall when it matters most.',
-      },
-      {
-        q: 'Can I get insurance if I have a less-than-perfect driving record?',
-        a: 'We work with markets that specialize in non-standard risk. While a clean CSA score and MVR will always get you the best rates, we can typically find coverage for owner-operators with prior incidents. The key is being upfront about your history so we can place you with the right carrier from the start and avoid mid-term cancellations.',
-      },
+      { q: 'What insurance does my franchise agreement require?', a: 'Requirements vary by manufacturer but typically include garage liability, dealers open lot, garagekeepers, general liability, umbrella coverage, and workers compensation at specified minimum limits. We review your specific franchise agreement and build a program that meets all requirements.' },
+      { q: 'How do multi-brand dealers handle different manufacturer requirements?', a: 'We build a unified program that meets the highest requirement across all your brands, ensuring compliance with every manufacturer while avoiding the complexity and cost of maintaining separate policies for each brand.' },
+      { q: 'Can you help with manufacturer insurance audits?', a: 'Yes. We provide documentation, certificates, and endorsements in the formats manufacturers require and can coordinate directly with their compliance departments to resolve any questions during the audit process.' },
+      { q: 'How do floorplan lender requirements affect my coverage?', a: 'Floorplan lenders require dealers open lot coverage with specific limits, deductibles, and loss payee endorsements. We structure your coverage to satisfy both manufacturer and lender requirements simultaneously.' },
     ],
   },
   {
-    slug: 'small-fleets',
-    title: 'Small Fleets (2-15 Units)',
-    metaTitle: 'Small Fleet Trucking Insurance | 2-15 Units',
-    metaDescription:
-      'Insurance programs for small trucking fleets with 2-15 units. Fleet auto liability, hired and non-owned coverage, and fleet management risk solutions.',
-    heroHeading: 'Insurance for Small Trucking Fleets',
-    heroSubheading:
-      'Purpose-built coverage for fleets of 2 to 15 units that need enterprise-level protection without enterprise-level complexity.',
-    overview:
-      'Small fleet operators occupy the most challenging insurance segment in trucking. You are too large to qualify for owner-operator programs but too small to command the volume discounts and dedicated underwriting that large carriers enjoy. Our small fleet programs bridge that gap with coverage structures, pricing, and risk management resources scaled to operations running 2 to 15 power units.',
+    slug: 'used-car-dealers',
+    title: 'Used Car Dealers',
+    metaTitle: 'Insurance for Used Car Dealerships',
+    metaDescription: 'Insurance programs for independent used car dealers. Garage liability, dealers open lot, and garagekeepers coverage tailored for pre-owned vehicle operations.',
+    heroHeading: 'Insurance for Used Car Dealers',
+    heroSubheading: 'Practical coverage programs built for independent used car operations, from single-lot dealers to multi-location groups.',
+    overview: 'Independent used car dealers face distinct insurance challenges compared to franchise operations. Without manufacturer backing and standardized processes, used car dealers must build their own risk management framework. Vehicle quality variability, buy-here-pay-here financing exposure, auction acquisition risks, and the absence of franchise-mandated insurance standards all create unique coverage needs that require an experienced insurance partner.',
     sections: [
-      {
-        heading: 'Coverage for Growing Operations',
-        content:
-          'A small fleet is a fundamentally different business than a single-truck operation. The moment you put a second driver in a truck you do not personally control, your liability exposure multiplies in ways that go far beyond just adding another vehicle to a policy. You are now responsible for hiring decisions, driver supervision, vehicle maintenance oversight, and compliance management, all of which directly affect your insurance costs and claims outcomes.\n\nOur small fleet programs address these realities with coverage designed for multi-unit operations. Fleet auto liability policies cover all scheduled vehicles under a single policy with consistent limits, eliminating the coverage gaps that occur when individual trucks carry separate policies with different carriers. We also structure hired and non-owned auto coverage for situations where you use independent contractors or rent additional equipment to handle overflow freight.\n\nAs your fleet grows, we adjust coverage in real time. Adding a truck does not require a new policy; it requires a certificate update and a premium adjustment on your existing program. That kind of operational simplicity matters when you are focused on running loads, not managing paperwork.',
-      },
-      {
-        heading: 'Common Risks for Small Fleets',
-        content:
-          'Driver quality is the single largest variable in a small fleet\'s risk profile. Unlike large carriers that can absorb the cost of one problematic driver across hundreds of units, a small fleet operator with a driver who causes a serious accident can see insurance costs spike to unsustainable levels at the next renewal. We help small fleets implement driver selection and monitoring practices that reduce this exposure before it shows up in your loss history.\n\nMaintenance risk is another area where small fleets are particularly vulnerable. Without a dedicated maintenance department, deferred repairs can lead to roadside breakdowns, DOT violations, and, in serious cases, mechanical-failure accidents. Insurers scrutinize maintenance records closely for fleets in this size range, and documented preventive maintenance programs can meaningfully reduce your premiums.\n\nCash flow volatility also creates insurance challenges for small fleets. Premium financing, flexible payment structures, and pay-as-you-go options can keep coverage in force during lean months when freight rates dip. We build payment plans that align with the revenue cycles of trucking, not the billing preferences of insurance companies.',
-      },
-      {
-        heading: 'Our Approach to Small Fleet Insurance',
-        content:
-          'We treat small fleet accounts as relationship business, not transactional commodity placements. Your account is assigned to a team that understands multi-unit operations and can respond when you need a certificate at midnight, when you need to add a truck on a weekend, or when a driver has an accident on a holiday.\n\nOur underwriting partnerships include carriers that specialize in the 2-to-15-unit segment and actually want to write this class of business. That matters because many standard markets either decline small fleets outright or price them as if they are single-truck operations with all the overhead of a large fleet. We place your business with underwriters who understand the economics of your operation and price accordingly.',
-      },
-      {
-        heading: 'What We Recommend',
-        bullets: [
-          'Fleet auto liability with a single combined limit across all units, providing consistent coverage regardless of which truck is involved in a loss',
-          'General liability to cover premises, completed operations, and contractual exposure beyond the truck itself',
-          'Hired and non-owned auto coverage if you ever use independent contractors, rental equipment, or personal vehicles for business purposes',
-          'Workers\' compensation structured for interstate operations, with proper classifications for drivers versus shop and office staff',
-          'Umbrella or excess liability to satisfy shipper and broker contract requirements that frequently demand $2M to $5M in total limits',
-        ],
-      },
+      { heading: 'Coverage for Used Car Operations', content: 'Used car dealers need the same core coverage types as franchise dealers — garage liability, dealers open lot, garagekeepers, and commercial auto — but the specific risks and coverage structures differ. Inventory values fluctuate more widely, vehicles carry higher mechanical risk, and customer demographics may differ in ways that affect claims patterns.\n\nBuy-here-pay-here dealers face additional exposure from in-house financing operations, including the risk of repossession-related claims, customer disputes over vehicle condition, and regulatory compliance requirements under state and federal lending laws. Coverage must address both the automotive and financial aspects of these operations.\n\nWe structure used car dealer programs to accommodate the realities of independent operations: flexible inventory reporting, competitive pricing for mixed-age inventory, and coverage forms that do not penalize you for the higher average age of your vehicle stock.' },
+      { heading: 'Common Risks', content: 'Vehicle condition liability is the defining risk for used car dealers. Pre-owned vehicles carry inherent uncertainty about their mechanical condition, accident history, and remaining useful life. A vehicle that fails shortly after sale can generate claims ranging from simple warranty disputes to serious personal injury if the failure causes an accident.\n\nTitle and disclosure issues create another layer of exposure. Selling a vehicle with an undisclosed salvage title, flood damage, or odometer discrepancy can result in consumer protection lawsuits, regulatory penalties, and significant reputational damage.\n\nInventory acquisition risks are also elevated. Vehicles purchased at auction or through trade-ins may have undisclosed mechanical issues, liens, or theft history that create downstream liability for the dealer.' },
+      { heading: 'What We Recommend', bullets: ['Garage liability with completed operations coverage for post-sale vehicle failures', 'Dealers open lot with flexible reporting for fluctuating inventory levels', 'Garagekeepers coverage for trade-in vehicles and service department holdings', 'General liability with products and completed operations for retail parts and accessories', 'Commercial auto for dealer-plated vehicles, tow trucks, and delivery vehicles', 'Cyber liability if you process credit applications or maintain customer financial data'] },
     ],
-    recommendedCoverages: [
-      'auto-liability',
-      'general-liability',
-      'physical-damage',
-      'workers-compensation',
-      'umbrella-excess',
-    ],
+    recommendedCoverages: ['garage-liability', 'dealers-open-lot', 'garage-keepers', 'general-liability', 'commercial-auto'],
     faqs: [
-      {
-        q: 'At what point does my operation qualify as a fleet instead of multiple single trucks?',
-        a: 'Most insurers define a fleet as two or more power units under common ownership or control. Once you reach that threshold, you typically qualify for fleet-rated policies, which offer administrative simplicity and often better pricing than insuring each truck individually. The transition point where fleet programs become clearly advantageous is usually around three to five units.',
-      },
-      {
-        q: 'How do driver records affect my fleet insurance rates?',
-        a: 'Driver records are a primary rating factor for small fleets. Insurers evaluate each driver\'s motor vehicle report and CSA data, and a single driver with serious violations can increase your entire fleet\'s premium substantially. We recommend running MVR checks before hiring and at least annually thereafter, and we can help you establish a driver acceptance policy that keeps your fleet within preferred underwriting guidelines.',
-      },
-      {
-        q: 'Can I add and remove trucks during the policy period?',
-        a: 'Yes. Fleet policies are designed for equipment changes. You can add new units or remove sold vehicles with a simple endorsement request, and your premium adjusts pro-rata for the remaining policy term. We recommend notifying us before a new truck goes on the road so that coverage is confirmed from day one.',
-      },
-      {
-        q: 'Do I need an umbrella policy for a small fleet?',
-        a: 'In most cases, yes. Shipper contracts, broker agreements, and freight platform requirements increasingly mandate total liability limits of $2M or more. A commercial umbrella or excess policy provides that additional limit on top of your primary auto liability at a fraction of the cost of increasing the primary limit itself.',
-      },
+      { q: 'Is insurance more expensive for used car dealers than franchise dealers?', a: 'Not necessarily. Premiums depend on inventory value, sales volume, claims history, and location. Used car dealers typically have lower inventory values, which reduces dealers open lot premiums, but may face higher garage liability rates due to the increased risk profile of pre-owned vehicles.' },
+      { q: 'Do I need dealers open lot if I only have a few vehicles?', a: 'Yes. Even a small inventory represents significant exposure. A single hailstorm or theft can wipe out your entire stock. Most floorplan lenders require it regardless of inventory size.' },
+      { q: 'What about buy-here-pay-here operations?', a: 'BHPH dealers need additional coverage considerations including repossession liability, customer dispute exposure, and compliance with state and federal lending regulations. We structure programs that address these unique risks.' },
+      { q: 'How do I insure auction-purchased vehicles in transit?', a: 'Most dealers open lot policies include transit coverage for vehicles being transported from auction to your lot. Verify your policy includes this coverage and understand any value limits for vehicles in transit.' },
     ],
   },
   {
-    slug: 'large-fleets',
-    title: 'Large Fleets',
-    metaTitle: 'Enterprise Fleet Insurance | Large Carrier Programs',
-    metaDescription: 'Enterprise trucking insurance for large fleets and carriers. Custom risk management, loss-sensitive programs, and dedicated claims advocacy for 50+ unit oper...',
-    heroHeading: 'Enterprise Insurance for Large Fleets',
-    heroSubheading:
-      'Sophisticated risk management and insurance programs engineered for carriers operating at scale.',
-    overview:
-      'Large fleet operations require insurance programs that go well beyond off-the-shelf policies. At the enterprise level, insurance becomes a strategic financial tool that directly affects your operating ratio, your ability to secure contracts, and your competitive position in the market. We design and manage comprehensive risk transfer programs for carriers with significant fleet size, including loss-sensitive structures, captive participation, and dedicated claims management.',
+    slug: 'luxury-specialty-dealers',
+    title: 'Luxury & Specialty Dealers',
+    metaTitle: 'Insurance for Luxury & Specialty Auto Dealerships',
+    metaDescription: 'Insurance for luxury, exotic, and specialty vehicle dealerships. High-value inventory coverage, agreed-value policies, and elevated liability protection.',
+    heroHeading: 'Insurance for Luxury & Specialty Dealers',
+    heroSubheading: 'Elevated coverage for dealerships handling high-value, exotic, and collectible vehicles where standard programs fall short.',
+    overview: 'Luxury and specialty vehicle dealerships operate in a different risk universe than standard automotive retailers. Individual vehicles worth hundreds of thousands or millions of dollars, clientele with elevated expectations, and the reputational sensitivity of the luxury market demand insurance programs that go well beyond off-the-shelf dealer packages. We build programs for dealers handling Porsche, Ferrari, Lamborghini, Bentley, Rolls-Royce, McLaren, classic cars, and other high-value inventory.',
     sections: [
-      {
-        heading: 'Programs Built for Scale',
-        content:
-          'Enterprise fleets generate enough premium volume and loss data to move beyond guaranteed-cost insurance into structures that reward strong safety performance. Large deductible programs, retrospectively rated policies, and captive insurance arrangements allow you to retain a manageable portion of risk in exchange for significantly lower fixed premiums. When your safety investments reduce claims, the savings flow directly to your bottom line rather than subsidizing other policyholders.\n\nWe design these programs with actuarial precision, modeling expected losses against retention levels to find the structure that optimizes your total cost of risk. For carriers operating 50 or more power units, the difference between a well-designed loss-sensitive program and a standard guaranteed-cost policy can represent hundreds of thousands of dollars annually.\n\nOur enterprise programs also address the complexity of multi-state operations, subsidiary structures, and diverse equipment types. Whether you operate dry van, specialized, and refrigerated divisions under a single DOT number or manage distinct operating authorities across multiple entities, we unify your coverage under a coordinated program that eliminates gaps and overlaps.',
-      },
-      {
-        heading: 'Risk Exposures at the Enterprise Level',
-        content:
-          'Nuclear verdicts represent the most significant emerging threat to large fleet operators. Jury awards exceeding $10 million in trucking cases have become increasingly common, and verdicts above $100 million are no longer extraordinary. Adequate excess liability limits, combined with proactive litigation management, are essential defenses. We work with our carrier partners to ensure your excess tower is structured to respond effectively and that coverage terms across layers are properly aligned.\n\nRegulatory compliance risk intensifies at scale. A single ELD violation may be a minor issue for a small fleet, but systematic compliance failures across a large operation can trigger targeted FMCSA interventions, conditional safety ratings, and corresponding insurance market restrictions. Our risk management resources include compliance audit support and CSA score monitoring to identify trends before they reach enforcement thresholds.\n\nWorkforce management creates additional exposure for large carriers. Driver turnover, training consistency, and hiring practices across multiple terminals or divisions require standardized protocols. Insurers evaluate these practices during underwriting, and carriers with documented, enforced safety cultures consistently achieve better insurance outcomes.',
-      },
-      {
-        heading: 'Our Enterprise Approach',
-        content:
-          'Enterprise accounts receive a dedicated service team that includes a senior account executive, a claims advocate, and access to risk management consulting resources. We manage your program as an ongoing engagement, not an annual transaction, with quarterly stewardship reviews, loss trending analysis, and market strategy sessions that prepare for renewal well in advance.\n\nOur market access includes the specialty excess and surplus lines carriers that write the majority of large fleet business. We maintain established relationships with the underwriting teams that handle enterprise trucking accounts, which means your submission receives senior-level review and your renewal is not processed by an algorithm.',
-      },
-      {
-        heading: 'What We Recommend',
-        bullets: [
-          'Loss-sensitive primary auto liability structured as a large deductible or retrospectively rated program to reward strong safety performance',
-          'Layered excess liability with limits appropriate to your exposure, typically $10M minimum and often significantly higher for high-value freight or passenger-exposure operations',
-          'Fleet physical damage with scheduled equipment values and agreed-amount endorsements on high-value tractors and specialized trailers',
-          'Workers\' compensation with experience modification factor management and return-to-work program support',
-          'Comprehensive general liability, employment practices liability, and directors and officers coverage for the corporate entity',
-        ],
-      },
+      { heading: 'Coverage for High-Value Inventory', content: 'Standard dealers open lot policies may not adequately cover exotic and luxury inventory. Per-vehicle values that exceed one hundred thousand, five hundred thousand, or even one million dollars require agreed-value coverage that reflects the true market value of each unit. Standard actual cash value policies can leave you significantly underinsured on rare and appreciating vehicles.\n\nWe work with specialty insurers who understand the luxury and exotic vehicle market and can provide appropriate coverage forms including agreed value, blanket coverage for high-value lots, and worldwide transit coverage for vehicles being shipped from international sources or between dealer locations.' },
+      { heading: 'Unique Risks', content: 'Test drive exposure is amplified in the luxury segment. A customer test-driving a vehicle worth three hundred thousand dollars creates immediate exposure for both liability and physical damage at levels that standard garage liability limits may not adequately address.\n\nTheft and vandalism targeting luxury inventory is a persistent threat. Organized theft rings specifically target dealerships with exotic and luxury vehicles. Security measures and comprehensive physical damage coverage with appropriate limits are essential.\n\nTransportation risk is elevated for specialty dealers who source vehicles nationally or internationally. Enclosed transport, international shipping, and event display all create coverage needs beyond standard dealer programs.' },
+      { heading: 'What We Recommend', bullets: ['Dealers open lot with agreed-value coverage for high-value inventory', 'Garage liability with elevated limits to match the value of vehicles in your care', 'Garagekeepers with high per-vehicle sublimits for luxury customer vehicles', 'Worldwide transit coverage for vehicles being shipped or transported', 'Umbrella liability at elevated limits reflecting your clientele and inventory values', 'Event and show coverage for vehicles displayed at concours, rallies, and exhibitions'] },
     ],
-    recommendedCoverages: [
-      'auto-liability',
-      'umbrella-excess',
-      'workers-compensation',
-      'general-liability',
-      'physical-damage',
-    ],
+    recommendedCoverages: ['dealers-open-lot', 'garage-liability', 'garage-keepers', 'umbrella-excess', 'commercial-property'],
     faqs: [
-      {
-        q: 'What is a loss-sensitive insurance program and is it right for our fleet?',
-        a: 'Loss-sensitive programs, including large deductible and retrospective rating structures, allow you to retain a portion of each claim\'s cost in exchange for lower fixed premiums. They make financial sense when your fleet is large enough to generate statistically credible loss data, typically around 50 or more units, and when your safety program is strong enough to control claim frequency and severity. We model the financial impact of different retention levels against your actual loss history to determine the optimal structure.',
-      },
-      {
-        q: 'How much excess liability do we need to protect against nuclear verdicts?',
-        a: 'There is no universal answer, but current verdict trends suggest that $10M in total limits is a baseline for large carriers, and many operations carrying high-value or hazardous freight should consider significantly higher limits. We analyze your specific exposure factors, including route profiles, cargo types, and jurisdictional risk, to recommend appropriate limits and structure the excess tower for cost efficiency.',
-      },
-      {
-        q: 'Can you manage insurance across multiple operating entities and DOT numbers?',
-        a: 'Yes. We regularly design programs for carriers with multiple subsidiaries, divisions, or affiliated entities. A coordinated program ensures consistent coverage terms across all entities, avoids duplicated premium, and presents a unified risk profile to underwriters. This approach typically results in better pricing than insuring each entity separately.',
-      },
+      { q: 'Can standard dealer insurance cover exotic vehicles?', a: 'Standard policies may not adequately cover vehicles worth hundreds of thousands of dollars. Agreed-value coverage from specialty insurers ensures you receive the actual market value in the event of a total loss, not a depreciated or undervalued payout.' },
+      { q: 'How do you insure a million-dollar vehicle on a test drive?', a: 'We structure garage liability and dealers open lot coverage with limits and endorsements appropriate for your inventory values. Additional excess coverage may be recommended for dealerships regularly handling vehicles above certain value thresholds.' },
+      { q: 'Do you cover vehicles at shows and events?', a: 'Yes. Event and exhibition coverage can be added to protect vehicles while displayed at concours, car shows, rallies, and other events away from your premises.' },
+      { q: 'What about classic and collectible vehicles?', a: 'Classic and collectible vehicles often appreciate rather than depreciate, making agreed-value coverage essential. We work with insurers who specialize in the collector vehicle market and understand how to properly value these assets.' },
     ],
   },
   {
-    slug: 'hot-shot-trucking',
-    title: 'Hot Shot Trucking',
-    metaTitle: 'Hot Shot Trucking Insurance | Expedited Freight Coverage',
-    metaDescription: 'Hot shot trucking insurance for expedited freight haulers. Coverage for Class 3-5 trucks, gooseneck trailers, and time-critical cargo with flexible premium o...',
-    heroHeading: 'Insurance for Hot Shot Trucking',
-    heroSubheading:
-      'Specialized coverage for expedited freight operators running lighter equipment on time-sensitive loads.',
-    overview:
-      'Hot shot trucking occupies a distinct niche in the transportation industry, and its insurance needs are equally specialized. Operators using Class 3 through 5 trucks with gooseneck or bumper-pull trailers face a different risk profile than conventional tractor-trailer operations, yet many insurance programs try to force hot shot operators into policies designed for 80,000-pound rigs. Our hot shot programs are built specifically for this segment, with coverage forms, pricing, and underwriting criteria that reflect how expedited freight haulers actually operate.',
+    slug: 'auto-repair-shops',
+    title: 'Auto Repair Shops',
+    metaTitle: 'Insurance for Auto Repair Shops & Service Centers',
+    metaDescription: 'Insurance programs for independent auto repair shops and service centers. Garage liability, garagekeepers, and workers compensation for mechanics and technicians.',
+    heroHeading: 'Insurance for Auto Repair Shops',
+    heroSubheading: 'Comprehensive coverage for independent repair shops, service centers, and mechanical specialists.',
+    overview: 'Independent auto repair shops face a concentration of liability risk that demands specialized coverage. Every vehicle you service becomes a potential liability exposure when it returns to public roads. Customer vehicles worth tens of thousands of dollars sit in your care daily. Mechanics work in physically demanding conditions with heavy equipment and chemicals. Our repair shop programs address these overlapping exposures with coordinated coverage that protects your business, your employees, and your customers.',
     sections: [
-      {
-        heading: 'Coverage for Expedited Freight',
-        content:
-          'Hot shot trucking involves a unique combination of lighter equipment, time-sensitive freight, and often longer hours behind the wheel. Standard commercial auto policies frequently misclassify hot shot trucks or apply inappropriate rating factors, resulting in either overpriced coverage or dangerous gaps. Our programs correctly classify hot shot equipment and operations, ensuring that your premium reflects the actual risk rather than a generic trucking category.\n\nCargo coverage for hot shot operations requires particular attention because expedited freight often carries value disproportionate to its size and weight. A single pallet of aerospace components on a gooseneck trailer can be worth more than a full truckload of general commodities. We structure cargo limits and terms to match the value of what you actually haul, not just the weight capacity of your equipment.\n\nTrailer coverage is another area where hot shot operators need specialized attention. Gooseneck and dovetail trailers have specific valuation considerations, and many standard policies underinsure or exclude non-commercial trailer types. We ensure your trailer is properly classified and valued within your physical damage coverage.',
-      },
-      {
-        heading: 'Common Risks for Hot Shot Haulers',
-        content:
-          'Fatigue is an elevated risk factor in hot shot trucking. Time-critical deliveries create pressure to push hours-of-service limits, and the relative comfort of a pickup truck compared to a sleeper cab can mask the effects of extended driving. Insurers recognize this exposure, and your safety practices around driver fatigue management directly influence your rates and claims outcomes.\n\nEquipment mismatch is another frequent risk. Hot shot operators sometimes accept loads that exceed their equipment\'s safe capacity, either by weight or by dimension, creating liability exposure that their insurance may not cover if the load exceeds the policy\'s specified equipment ratings. We help you understand where your coverage boundaries are and how to stay within them while maximizing your revenue potential.\n\nBecause hot shot trucks are also commonly used as personal vehicles, the line between commercial and personal use can create coverage disputes. Clear policy language defining when commercial coverage applies and when personal auto coverage takes over is essential to avoid gaps.',
-      },
-      {
-        heading: 'Our Approach to Hot Shot Insurance',
-        content:
-          'We recognize that hot shot operators often enter the trucking industry from construction, oilfield services, or agricultural backgrounds rather than traditional freight hauling. Our underwriting partners value relevant equipment-handling experience even when it does not appear on a standard trucking application. We present your full operational history to underwriters in a way that highlights applicable experience and demonstrates competence.\n\nOur hot shot programs include markets that write Class 3 through 5 equipment without applying heavy-truck surcharges, and we offer flexible payment structures that accommodate the variable revenue patterns common in expedited freight.',
-      },
-      {
-        heading: 'What We Recommend',
-        bullets: [
-          'Commercial auto liability rated specifically for hot shot equipment classes, not heavy-truck categories',
-          'Physical damage with agreed-value coverage on both the truck and trailer, reflecting the actual replacement cost of your specific equipment configuration',
-          'Motor truck cargo insurance with limits adequate for the highest-value loads you accept, including coverage for time-sensitive freight where delay constitutes a loss',
-          'Non-trucking liability or personal use endorsements to clearly define coverage when the truck is not under commercial dispatch',
-          'Inland marine coverage for any specialized equipment, straps, chains, or load securement tools carried on the trailer',
-        ],
-      },
+      { heading: 'Coverage for Repair Operations', content: 'Garage liability is the foundational policy for any repair shop, covering both premises liability and auto operations liability. Your completed operations exposure is particularly significant because the work you perform directly affects vehicle safety. A failed brake repair, a loose wheel, or an improperly installed component can cause an accident weeks or months after the vehicle leaves your shop.\n\nGaragekeepers coverage protects the customer vehicles parked in your lot and inside your bays. A busy shop may have twenty or more customer vehicles on premises at any time, representing a combined value that can easily exceed five hundred thousand dollars.\n\nWorkers compensation is essential given the physical nature of repair work. Mechanics face risks from vehicle lifts, power tools, chemicals, and working beneath suspended vehicles. Proper classification and safety programs help control these costs.' },
+      { heading: 'Common Risks', content: 'Completed operations claims represent the most significant ongoing risk. Unlike a dealership where the primary transaction is a vehicle sale, a repair shop\'s entire revenue stream comes from service work that creates post-completion liability. Every repair, maintenance service, and inspection you perform carries the potential for a claim if something goes wrong after the customer drives away.\n\nPremises liability is also elevated in repair shops. Oil on floors, parts and equipment creating trip hazards, vehicles moving through tight spaces, and customers entering work areas all create injury potential. Environmental exposure from used oil, brake fluid, refrigerant, and other automotive chemicals adds another dimension of risk.' },
+      { heading: 'What We Recommend', bullets: ['Garage liability with strong completed operations limits reflecting your repair volume', 'Garagekeepers direct primary coverage for customer vehicles in your care', 'Workers compensation with proper classification for mechanics and shop staff', 'Commercial property covering tools, lifts, diagnostic equipment, and parts inventory', 'Commercial auto for tow trucks, mobile service vehicles, and customer shuttles', 'Umbrella liability providing additional limits above all underlying policies'] },
     ],
-    recommendedCoverages: [
-      'auto-liability',
-      'physical-damage',
-      'motor-truck-cargo',
-      'non-trucking-liability',
-      'inland-marine',
-    ],
+    recommendedCoverages: ['garage-liability', 'garage-keepers', 'workers-compensation', 'commercial-property', 'umbrella-excess'],
     faqs: [
-      {
-        q: 'Do I need a different type of insurance for hot shot trucking versus regular trucking?',
-        a: 'Yes. Hot shot operations use lighter equipment that is rated differently by insurers. A policy designed for Class 8 tractor-trailers will typically overcharge a hot shot operator or misclassify the equipment, potentially creating coverage issues at claim time. Purpose-built hot shot programs apply correct equipment classifications and rating factors, resulting in appropriate premiums and clean coverage.',
-      },
-      {
-        q: 'Can I use my hot shot truck for personal use and still maintain commercial coverage?',
-        a: 'You can, but the policy must clearly address dual-use situations. We recommend either a non-trucking liability endorsement or a personal use provision that defines when commercial coverage ends and personal coverage begins. Without this clarity, an accident during personal use could result in a coverage denial from both your commercial and personal auto insurers.',
-      },
-      {
-        q: 'What cargo limits should a hot shot operator carry?',
-        a: 'Cargo limits should reflect the maximum value of any single load you might accept, not the average load. Many hot shot operators carry $100,000 in cargo coverage, but if you haul specialized equipment, energy sector components, or high-value manufactured goods, you may need $250,000 or more. We analyze your typical freight profile to recommend a limit that protects you without paying for unnecessary capacity.',
-      },
-      {
-        q: 'Is hot shot insurance more expensive than standard trucking insurance?',
-        a: 'Not necessarily. Because hot shot equipment is lighter and generally presents lower severity potential than Class 8 trucks, premiums for equivalent liability limits are often lower. However, rates vary significantly based on your operating radius, commodity types, and driving record. The key is finding a market that properly rates hot shot risk rather than one that lumps it in with heavy trucking.',
-      },
+      { q: 'What is the most important coverage for a repair shop?', a: 'Garage liability with strong completed operations coverage. Every repair you perform creates ongoing liability exposure. If your work contributes to an accident, garage liability provides the defense and indemnity your business needs.' },
+      { q: 'Do I need garagekeepers if customers leave their cars?', a: 'Yes. Any time customer vehicles are on your premises, you need garagekeepers coverage. Even with proper care, vehicles can be damaged by weather, theft, fire, or other events beyond your control.' },
+      { q: 'How does sublet work affect my insurance?', a: 'If you sublet work to other shops, your garage liability may still respond to claims arising from that work. Require certificates of insurance from sublet vendors and ensure they carry their own garage liability and garagekeepers coverage.' },
+      { q: 'Are mobile repair operations covered?', a: 'Mobile repair work away from your premises may require specific endorsements on your garage liability policy. Discuss your mobile operations with your broker to ensure coverage extends to off-premises work.' },
     ],
   },
   {
-    slug: 'ltl-last-mile',
-    title: 'LTL / Last Mile',
-    metaTitle: 'LTL & Last Mile Delivery Insurance',
-    metaDescription:
-      'LTL and last mile delivery insurance for carriers handling multiple shipments and high-frequency stops. Cargo, auto liability, and general liability solutions.',
-    heroHeading: 'Insurance for LTL and Last Mile Delivery',
-    heroSubheading:
-      'Coverage designed for the high-frequency, multi-stop reality of less-than-truckload and final mile operations.',
-    overview:
-      'LTL and last mile delivery operations handle more individual shipments, make more stops, and interact with more consignees in a single day than most truckload carriers do in a week. That operational intensity creates a risk profile dominated by frequency rather than severity, and it demands an insurance approach built around that reality. Our LTL and last mile programs address the specific exposures of multi-stop operations, from the dock to the doorstep.',
+    slug: 'collision-body-shops',
+    title: 'Collision & Body Shops',
+    metaTitle: 'Insurance for Collision & Body Repair Shops',
+    metaDescription: 'Insurance for collision repair centers and auto body shops. Coverage for paint operations, customer vehicles, environmental liability, and specialized equipment.',
+    heroHeading: 'Insurance for Collision & Body Shops',
+    heroSubheading: 'Specialized coverage addressing the unique exposures of collision repair, paint operations, and structural work on customer vehicles.',
+    overview: 'Collision and body repair shops face a distinct risk profile driven by the nature of structural repair work, paint and finishing operations, and the high value of damaged vehicles entrusted to their care. Environmental exposures from paint solvents, isocyanates, and waste disposal add layers of regulatory and liability risk that general automotive policies may not adequately address.',
     sections: [
-      {
-        heading: 'Coverage for High-Frequency Operations',
-        content:
-          'LTL and last mile carriers face insurance challenges that truckload operators rarely encounter. Every stop is a potential claim event, whether it involves a backing accident at a congested delivery point, a cargo damage allegation from a residential consignee, or a slip-and-fall injury on a customer\'s property. The frequency of these exposures requires coverage that responds reliably across hundreds or thousands of individual delivery events per week.\n\nCargo coverage for LTL operations must account for the unique liability structure of handling multiple shippers\' goods on a single vehicle. Commingled cargo creates attribution challenges when damage occurs, and your policy needs to address how claims are valued when individual shipments within a larger load are affected. We structure cargo coverage that aligns with the released-value and full-value liability tiers that LTL carriers typically offer.\n\nLast mile delivery adds another layer of complexity because it often involves entering residential and commercial properties, navigating tight spaces, and sometimes providing threshold or room-of-choice delivery that puts drivers in direct contact with end consumers and their property. General liability coverage is not optional for last mile operations; it is an essential component of your insurance program.',
-      },
-      {
-        heading: 'Risks Specific to LTL and Last Mile',
-        content:
-          'Backing accidents are the most frequent auto liability claim for LTL and last mile carriers. The sheer number of stops per day, combined with unfamiliar delivery locations, loading docks shared with other carriers, and residential driveways, makes backing incidents statistically inevitable over time. Telematics, camera systems, and structured backing protocols can significantly reduce this frequency, and insurers recognize these investments through premium credits.\n\nProduct and property damage claims from consignees are another significant exposure. When a consumer receives a damaged appliance or a business receives a crushed pallet, the delivery carrier is the first target for the claim regardless of whether the damage occurred in transit, at the cross-dock, or at the origin. Clear documentation of shipment condition at every handoff point is your strongest defense, and we help our LTL clients build processes that create a defensible paper trail.\n\nWorkers\' compensation costs in LTL and last mile operations tend to be higher than in truckload, because drivers are physically handling freight, climbing in and out of trucks dozens of times per day, and using liftgates and dollies. Musculoskeletal injuries, particularly to the back, shoulders, and knees, drive claim frequency in this segment.',
-      },
-      {
-        heading: 'Our Approach to LTL and Last Mile',
-        content:
-          'We understand that LTL and last mile economics run on tight margins and high volume. Our insurance programs are priced to reflect the actual loss characteristics of multi-stop operations rather than applying truckload rating models that do not fit. We also provide risk management resources focused on the specific exposures of frequent-stop delivery, including driver training protocols for residential delivery situations and cargo handling best practices for cross-dock operations.\n\nFor last mile carriers working with major retailers and e-commerce platforms, we ensure your insurance meets the contractual requirements of these partners, including the certificate language, additional insured endorsements, and waiver of subrogation provisions that large shippers increasingly demand.',
-      },
-      {
-        heading: 'What We Recommend',
-        bullets: [
-          'Commercial auto liability with coverage terms that address the multi-stop exposure pattern, including backing, loading zone, and residential delivery scenarios',
-          'General liability with products-completed operations coverage for claims arising from delivered goods and on-premises injuries during delivery',
-          'Motor truck cargo insurance structured for LTL commingling with appropriate per-shipment and per-occurrence limits',
-          'Workers\' compensation with classifications specific to driver-handlers who load and unload freight, not just over-the-road drivers',
-          'Garagekeepers or bailee coverage if you operate cross-dock facilities where customers\' goods are temporarily stored',
-        ],
-      },
+      { heading: 'Coverage for Body Shop Operations', content: 'Body shops require all the standard automotive business coverages plus additional protections for their specialized operations. Garage liability must specifically address structural repair and paint operations, where the consequences of faulty work can be severe. An improperly repaired structural component that fails in a subsequent accident can generate catastrophic liability claims.\n\nGaragekeepers exposure is elevated in body shops because you often hold high-value vehicles for extended periods during complex repairs. A vehicle undergoing a months-long restoration or a collision repair may be in your possession for weeks, during which time it is exposed to fire, theft, and other perils.\n\nEnvironmental liability is a significant additional exposure. Paint booths, solvent storage, waste disposal, and VOC emissions create regulatory compliance requirements and potential cleanup liability that standard policies may not cover.' },
+      { heading: 'Common Risks', content: 'Fire is the most catastrophic risk for body shops. Paint booths, solvent storage, welding operations, and heat lamps create multiple ignition sources in close proximity to flammable materials. A body shop fire can destroy the building, all equipment, and every customer vehicle inside, creating a total loss that can reach millions of dollars.\n\nWorkers compensation exposure is elevated due to respiratory hazards from paint fumes and isocyanates, chemical exposure from solvents and strippers, and physical hazards from welding, grinding, and structural pulling equipment. Proper PPE programs and ventilation systems are both regulatory requirements and premium-reducing risk management measures.' },
+      { heading: 'What We Recommend', bullets: ['Garage liability with elevated completed operations coverage for structural and paint work', 'Garagekeepers with limits reflecting extended possession of high-value vehicles', 'Commercial property with equipment breakdown for paint booths and specialized equipment', 'Environmental liability or pollution coverage for paint operations and chemical storage', 'Workers compensation with proper classification for body technicians and painters', 'Business income coverage for extended closure scenarios following a major loss event'] },
     ],
-    recommendedCoverages: [
-      'auto-liability',
-      'general-liability',
-      'motor-truck-cargo',
-      'workers-compensation',
-      'umbrella-excess',
-    ],
+    recommendedCoverages: ['garage-liability', 'garage-keepers', 'commercial-property', 'workers-compensation', 'umbrella-excess'],
     faqs: [
-      {
-        q: 'How does cargo insurance work differently for LTL versus truckload?',
-        a: 'LTL cargo insurance must account for multiple shippers\' goods on a single vehicle. Unlike truckload, where one policy limit applies to one shipper\'s freight, LTL coverage needs per-shipment sub-limits within an overall per-occurrence limit. It also needs to address liability under the Carmack Amendment and any released-value tiers you offer to shippers, which affect how claims are valued and paid.',
-      },
-      {
-        q: 'What type of general liability coverage does a last mile carrier need?',
-        a: 'Last mile carriers need general liability that specifically covers premises liability at delivery locations, products-completed operations for damage attributed to the delivery process, and personal and advertising injury for situations involving customer interactions. If your drivers enter homes or businesses to place products, the exposure is substantially higher than a dock-to-dock operation, and your coverage should reflect that.',
-      },
-      {
-        q: 'How can we reduce the frequency of backing accidents across our operation?',
-        a: 'The most effective approach combines technology with training. Rear-facing cameras with in-cab displays, audible proximity sensors, and telematics that track backing events give drivers real-time assistance and management actionable data. Structured backing protocols, such as requiring a GOAL (Get Out And Look) before every reverse maneuver, reduce frequency by 40 to 60 percent in most operations. We can help you implement these programs and secure corresponding insurance credits.',
-      },
+      { q: 'Does standard garage liability cover structural repair work?', a: 'Standard garage liability includes completed operations coverage, but body shops should ensure their policy limits are adequate for the severity of structural repair claims. A structural failure in a subsequent accident can generate claims far exceeding typical repair shop exposures.' },
+      { q: 'Do I need environmental or pollution coverage?', a: 'Body shops using paint, solvents, and chemicals should carry environmental liability coverage. Standard policies typically exclude pollution claims. A chemical spill, fire-related contamination, or improper waste disposal can create cleanup costs and third-party liability that only environmental coverage addresses.' },
+      { q: 'How do DRP programs affect insurance?', a: 'Direct Repair Program agreements with insurers can affect your liability exposure and certificate requirements. We help DRP shops ensure their coverage aligns with the obligations in their DRP agreements.' },
+      { q: 'What about customer vehicles held for extended repairs?', a: 'Extended possession increases your garagekeepers exposure. Ensure your aggregate limit accounts for the number and value of vehicles you hold at peak capacity, including vehicles awaiting parts or approval.' },
     ],
   },
   {
-    slug: 'intermodal',
-    title: 'Intermodal',
-    metaTitle: 'Intermodal Trucking Insurance | Drayage Coverage',
-    metaDescription:
-      'Intermodal and drayage trucking insurance covering port operations, container hauling, chassis liability, and rail yard exposure. Specialized coverage for IMCs.',
-    heroHeading: 'Insurance for Intermodal Operations',
-    heroSubheading:
-      'Specialized coverage for drayage carriers, intermodal marketing companies, and container transport operations.',
-    overview:
-      'Intermodal trucking operates at the intersection of ocean, rail, and highway freight, creating insurance complexities that do not exist in conventional over-the-road hauling. Port and rail terminal environments, chassis interchange agreements, container condition disputes, and multi-party liability chains all require coverage structures specifically designed for the intermodal ecosystem. Our programs are built for carriers who understand that the mile between the port gate and the chassis yard can be the most complex mile in all of trucking.',
+    slug: 'parts-distributors',
+    title: 'Parts Distributors',
+    metaTitle: 'Insurance for Auto Parts Distributors & Wholesalers',
+    metaDescription: 'Insurance for automotive parts distributors and wholesalers. Product liability, commercial auto, warehouse coverage, and supply chain risk management.',
+    heroHeading: 'Insurance for Parts Distributors',
+    heroSubheading: 'Product liability, warehouse protection, and delivery fleet coverage for automotive parts distribution operations.',
+    overview: 'Automotive parts distributors occupy a critical position in the supply chain, distributing components that directly affect vehicle safety and performance. Product liability exposure from parts that fail in service, delivery fleet risks from constant road operations, and warehouse property exposure from large inventories create a complex insurance profile that requires specialized underwriting and coverage structure.',
     sections: [
-      {
-        heading: 'Coverage for Intermodal Operations',
-        content:
-          'Intermodal drayage involves risks that standard trucking policies were never designed to address. Operating within port complexes and rail terminals subjects your drivers and equipment to facility-specific rules, congestion hazards, and heavy equipment interactions that do not exist on public roadways. Your auto liability and physical damage coverage must apply within these controlled environments, and not all standard policies do.\n\nChassis-related coverage is a defining issue for intermodal carriers. Whether you own your chassis, use pool equipment through UIIA agreements, or interchange chassis with steamship lines, the liability for damage to chassis while in your possession creates an exposure that requires specific policy language. Chassis interchange or trailer interchange coverage protects you from claims for damage to equipment you do not own but are responsible for during the drayage move.\n\nCargo coverage in intermodal operations must address the multi-modal nature of the freight. Containerized goods may pass through ocean carrier, rail, and drayage custody, and determining when your coverage attaches and detaches requires careful policy drafting. We ensure your motor truck cargo insurance has clear triggering language so there is no ambiguity about which carrier is responsible at each stage of the move.',
-      },
-      {
-        heading: 'Risks Unique to Intermodal Carriers',
-        content:
-          'Port and terminal congestion creates a concentrated accident environment. Trucks operating in tight quarters with other drayage vehicles, container handling equipment, railcars, and pedestrian dock workers face elevated collision and injury risk. Wait times at congested ports also contribute to driver fatigue and schedule pressure that can increase accident frequency on the subsequent highway portion of the move.\n\nContainer condition disputes are a persistent issue for drayage operators. When a shipper or receiver discovers damage to containerized freight, the drayage carrier is often the first party blamed, even when the damage occurred during the ocean voyage or rail segment. Photographic documentation of container condition at pickup and delivery is critical, and your insurance should include defense coverage for these third-party claims.\n\nEnvironmental liability at port facilities presents an exposure that many drayage operators overlook. Fuel spills, leaking containers, and hazardous material releases within port complexes can trigger cleanup obligations and third-party claims under environmental regulations that impose strict liability. If you operate in or near port environments, environmental coverage should be part of your program.',
-      },
-      {
-        heading: 'Our Intermodal Expertise',
-        content:
-          'Our team includes professionals with direct experience in intermodal operations, including familiarity with UIIA agreements, port authority insurance requirements, and the unique contractual structures of intermodal marketing companies. We understand the difference between a street turn and a rail mount, we know what an equipment interchange receipt means for your liability, and we recognize the operational distinctions between a port drayage carrier and an over-the-road intermodal truck.\n\nThis operational knowledge allows us to design coverage that addresses real intermodal exposures rather than generic trucking risks. It also enables us to present your account to underwriters in terms they can evaluate accurately, resulting in better coverage terms and more competitive pricing.',
-      },
-      {
-        heading: 'What We Recommend',
-        bullets: [
-          'Commercial auto liability with coverage that specifically applies within port complexes, rail terminals, and intermodal yards',
-          'Trailer or chassis interchange insurance to cover damage to non-owned chassis while in your possession under interchange agreements',
-          'Motor truck cargo insurance with clear attachment and detachment language for containerized intermodal freight',
-          'Environmental liability coverage appropriate for port and terminal operations where spill exposure exists',
-          'General liability with contractual liability coverage to meet the indemnification requirements of port authorities and intermodal marketing companies',
-        ],
-      },
+      { heading: 'Coverage for Distribution Operations', content: 'Parts distributors need a combination of product liability, commercial auto, and property coverage that standard automotive packages may not address. Product liability is the defining exposure: if a part you distributed fails and causes injury or damage, you face claims as a link in the distribution chain even if the defect originated with the manufacturer.\n\nCommercial auto coverage for your delivery fleet is essential. Parts delivery vehicles operate continuously, making multiple stops daily in commercial and residential areas. The combination of frequent driving, time pressure, and varied delivery locations creates significant auto liability exposure.\n\nWarehouse and inventory protection requires commercial property coverage scaled to the value of your stock. A well-stocked distribution center can hold millions of dollars in parts inventory.' },
+      { heading: 'Common Risks', content: 'Product liability claims can be severe when automotive parts are involved. Brake components, steering parts, suspension components, and tires that fail in service can cause accidents resulting in serious injury or death. As a distributor, you may be named in these lawsuits alongside the manufacturer and the installer.\n\nDelivery fleet accidents create both first-party and third-party liability. Your drivers are on the road more than most commercial vehicle operators, increasing their exposure to accidents. Cargo damage during delivery can also generate claims from your customers.' },
+      { heading: 'What We Recommend', bullets: ['General liability with strong product liability limits for distributed automotive components', 'Commercial auto for your delivery fleet with appropriate liability and physical damage limits', 'Commercial property covering warehouse facilities and parts inventory', 'Umbrella liability providing excess limits above general liability, commercial auto, and employers liability', 'Workers compensation for warehouse, delivery, and office staff', 'Business income coverage for supply chain disruptions'] },
     ],
-    recommendedCoverages: [
-      'auto-liability',
-      'trailer-interchange',
-      'motor-truck-cargo',
-      'general-liability',
-      'environmental-liability',
-    ],
+    recommendedCoverages: ['general-liability', 'commercial-auto', 'commercial-property', 'umbrella-excess', 'workers-compensation'],
     faqs: [
-      {
-        q: 'What is trailer interchange coverage and do intermodal carriers need it?',
-        a: 'Trailer interchange coverage, sometimes called chassis interchange coverage in the intermodal context, protects you from liability for physical damage to non-owned chassis or containers while they are in your possession under a written interchange agreement. If you pull pool chassis or interchange equipment under the UIIA, this coverage is essential. Without it, you are personally liable for repair or replacement costs if the equipment is damaged during your drayage move.',
-      },
-      {
-        q: 'Does my auto liability cover accidents inside a port or rail terminal?',
-        a: 'Not always. Some commercial auto policies contain exclusions for operations on non-public roadways or within certain controlled facilities. Intermodal carriers need to verify that their auto liability applies within port complexes, rail yards, and intermodal terminals, because these are precisely the environments where congestion-related accidents are most likely to occur. We ensure this coverage is confirmed in your policy.',
-      },
-      {
-        q: 'How do I prove that cargo damage did not occur during my portion of the intermodal move?',
-        a: 'Documentation is your primary defense. Photographing the container seal number and condition at pickup, noting any existing damage on the equipment interchange receipt, and photographing the seal and container condition again at delivery creates a defensible record. If a claim arises, this documentation can demonstrate that the damage was pre-existing or occurred during another segment of the intermodal chain. We can help you implement a mobile documentation protocol for your drivers.',
-      },
+      { q: 'Am I liable for defective parts I did not manufacture?', a: 'Yes. As a distributor in the supply chain, you can be named in product liability lawsuits even when the defect originated with the manufacturer. Product liability coverage in your general liability policy addresses this exposure.' },
+      { q: 'How do I insure a large delivery fleet?', a: 'Fleet commercial auto policies provide comprehensive coverage for multiple delivery vehicles under a single policy. Fleet pricing may reduce your per-vehicle costs compared to insuring each vehicle individually.' },
+      { q: 'What about recalled parts in my inventory?', a: 'Product recall expense coverage, available as an endorsement or standalone policy, covers the costs of identifying, retrieving, and replacing recalled parts. This is increasingly important as recall volumes grow in the automotive industry.' },
+      { q: 'Do I need cyber coverage as a parts distributor?', a: 'If you process customer data, maintain electronic ordering systems, or store financial information, cyber liability coverage is recommended. Supply chain disruptions from cyberattacks on your systems can also impact your customers and create liability exposure.' },
     ],
   },
   {
-    slug: 'refrigerated',
-    title: 'Refrigerated',
-    metaTitle: 'Refrigerated Trucking Insurance | Reefer Coverage',
-    metaDescription:
-      'Reefer trucking insurance for temperature-controlled freight haulers. Coverage for spoilage, mechanical breakdown, and high-value perishable cargo liability.',
-    heroHeading: 'Insurance for Refrigerated Trucking',
-    heroSubheading:
-      'Comprehensive coverage for carriers hauling temperature-sensitive freight where a mechanical failure can turn a full load into a total loss.',
-    overview:
-      'Refrigerated trucking is one of the highest-stakes segments in the industry because the cargo is perishable, the equipment is mechanically complex, and the margin for error is essentially zero. A reefer unit failure, a temperature excursion, or a door seal breach can destroy an entire load of product worth far more per pound than conventional dry freight. Our refrigerated trucking programs address the specific exposures of temperature-controlled hauling, from reefer breakdown coverage to spoilage liability, with the depth of understanding that comes from insuring carriers who move the nation\'s food supply.',
+    slug: 'fleet-management',
+    title: 'Fleet Management Companies',
+    metaTitle: 'Insurance for Fleet Management & Vehicle Leasing',
+    metaDescription: 'Insurance for fleet management companies and vehicle leasing operations. Coverage for managed fleets, maintenance operations, and driver risk programs.',
+    heroHeading: 'Insurance for Fleet Management',
+    heroSubheading: 'Coverage programs for companies that manage, maintain, and lease vehicle fleets on behalf of business customers.',
+    overview: 'Fleet management companies operate at the intersection of automotive service, vehicle leasing, and risk management. Your exposure profile combines elements of a dealership, a repair shop, and a transportation company, creating unique insurance requirements that standard programs do not address. We build coverage programs for fleet managers that protect your operations, your managed vehicles, and your contractual obligations to clients.',
     sections: [
-      {
-        heading: 'Coverage for Temperature-Controlled Operations',
-        content:
-          'Standard motor truck cargo policies were not designed for refrigerated freight, and applying them to reefer operations creates dangerous gaps. Perishable cargo requires coverage that addresses the unique ways in which temperature-sensitive goods can be damaged or destroyed, including gradual spoilage from a slowly failing reefer unit, contamination from improper temperature settings, and total loss events where an entire load must be condemned due to a temperature excursion.\n\nOur refrigerated cargo coverage includes reefer breakdown as a covered peril, which many standard cargo policies explicitly exclude. We also address the consequential costs of a spoilage event, including load rejection, disposal fees, and the shipper\'s lost product value, which often exceeds the carrier\'s standard cargo liability limit.\n\nPhysical damage coverage for refrigerated trailers must account for the reefer unit itself, which represents a substantial portion of the trailer\'s total value. A replacement Thermo King or Carrier reefer unit can cost $30,000 to $50,000, and your policy needs to include this equipment at its actual replacement value rather than treating the trailer as a standard dry van.',
-      },
-      {
-        heading: 'Risks Specific to Refrigerated Hauling',
-        content:
-          'Reefer unit mechanical failure is the defining risk of temperature-controlled transportation. Even with diligent preventive maintenance, compressors fail, fuel lines clog, and control systems malfunction. When a reefer unit goes down mid-transit, the clock starts immediately. Depending on the commodity, ambient temperature, and insulation quality of the trailer, you may have hours or even minutes before the load crosses from salvageable to condemned. Insurance cannot prevent mechanical failures, but it can ensure you are not financially responsible for a six-figure cargo loss on top of the repair bill.\n\nTemperature documentation disputes are increasingly common as shippers deploy their own monitoring devices alongside the carrier\'s reefer unit readout. Discrepancies between the shipper\'s data logger and the reefer\'s temperature record can create claims where the carrier must prove the load was maintained at the correct temperature throughout transit. Continuous temperature monitoring with downloadable data is both a risk management tool and a claims defense asset.\n\nFood safety regulatory exposure adds another dimension to refrigerated hauling risk. FSMA (Food Safety Modernization Act) requirements for sanitary transportation impose specific obligations on carriers, including trailer cleanliness standards, temperature monitoring, and written procedures. Non-compliance can result in FDA enforcement action and creates additional liability if contaminated product reaches consumers.',
-      },
-      {
-        heading: 'Our Approach to Reefer Insurance',
-        content:
-          'We insure a significant volume of refrigerated freight haulers and have developed expertise in the specific loss patterns, claim types, and underwriting factors that drive this segment. Our team understands the difference between a continuous-run and a cycle-sentry reefer operation, we know why pre-cool procedures matter to underwriters, and we can explain to a claims adjuster why a load of fresh strawberries and a load of frozen chicken have completely different spoilage dynamics.\n\nThis depth of knowledge means we place refrigerated accounts with underwriters who specialize in this class of business and can evaluate reefer operations on their merits rather than applying generic trucking rating factors that do not fit.',
-      },
-      {
-        heading: 'What We Recommend',
-        bullets: [
-          'Motor truck cargo insurance with reefer breakdown explicitly included as a covered peril and limits adequate for the highest-value perishable loads you haul',
-          'Physical damage coverage with reefer unit values separately scheduled to ensure full replacement cost coverage on your refrigeration equipment',
-          'Equipment breakdown or mechanical breakdown coverage for the reefer unit independent of the trailer physical damage policy',
-          'Spoilage or contamination liability coverage addressing the full consequential cost of a temperature excursion, including disposal and shipper losses',
-          'Pollution liability coverage for refrigerant leaks and fuel spills from reefer units, particularly in states with strict environmental regulations',
-        ],
-      },
+      { heading: 'Coverage for Fleet Operations', content: 'Fleet management companies need coverage that addresses both the vehicles you own or lease and the vehicles you manage on behalf of clients. Garage liability covers your maintenance operations, while commercial auto covers your owned fleet. For client-owned vehicles in your care, garagekeepers coverage protects against physical damage.\n\nProfessional liability may also be warranted for fleet managers who provide advisory services including vehicle selection, maintenance scheduling, and risk management consulting. Errors in fleet recommendations that lead to client losses can generate professional liability claims.' },
+      { heading: 'Common Risks', content: 'Contractual liability is a primary concern for fleet managers. Your service agreements with clients create specific obligations around vehicle maintenance, condition reporting, and risk management. Failure to meet these contractual standards can result in breach of contract claims and liability for resulting losses.\n\nMaintenance quality across a managed fleet affects both safety and liability. If a vehicle you maintain is involved in an accident attributed to a maintenance failure, your business faces completed operations liability. The larger the fleet you manage, the greater your aggregate exposure.' },
+      { heading: 'What We Recommend', bullets: ['Garage liability with completed operations for maintenance activities', 'Commercial auto for your owned fleet vehicles', 'Garagekeepers for client vehicles in your maintenance facilities', 'General liability with contractual liability coverage for service agreements', 'Professional liability for fleet management advisory services', 'Workers compensation for maintenance technicians and administrative staff'] },
     ],
-    recommendedCoverages: [
-      'motor-truck-cargo',
-      'physical-damage',
-      'auto-liability',
-      'equipment-breakdown',
-      'pollution-liability',
-    ],
+    recommendedCoverages: ['garage-liability', 'commercial-auto', 'garage-keepers', 'general-liability', 'workers-compensation'],
     faqs: [
-      {
-        q: 'Does standard cargo insurance cover spoilage from a reefer breakdown?',
-        a: 'In most cases, no. Standard motor truck cargo policies frequently exclude losses caused by mechanical failure of refrigeration equipment, temperature change, or inherent vice of perishable goods. Refrigerated carriers need a cargo policy that specifically includes reefer breakdown as a covered cause of loss. We make sure this coverage is explicitly stated in your policy, not left to interpretation.',
-      },
-      {
-        q: 'How are refrigerated trailers valued differently for physical damage coverage?',
-        a: 'A refrigerated trailer has two major value components: the trailer body and the reefer unit. Standard physical damage policies may undervalue the reefer unit or apply depreciation schedules that do not reflect the cost of a replacement unit. We schedule the reefer unit separately with agreed-value or replacement-cost coverage so that a total loss pays enough to actually replace the unit with comparable equipment.',
-      },
-      {
-        q: 'What documentation should reefer drivers maintain to defend against spoilage claims?',
-        a: 'At minimum, drivers should record pre-cool temperature before loading, pulp temperature of the product at origin if possible, reefer unit set point confirmation, and continuous temperature readings throughout transit. Photographs of the reefer unit display at pickup and delivery create additional evidence. A continuous data download from the reefer unit is the strongest defense, as it provides an unbroken record of temperature performance throughout the haul.',
-      },
-      {
-        q: 'How does FSMA affect our insurance requirements as a refrigerated carrier?',
-        a: 'FSMA\'s Sanitary Transportation Rule requires carriers to maintain vehicles in sanitary condition, use temperature monitoring equipment, and follow written procedures for cleaning and temperature management. Non-compliance does not automatically void your insurance, but it can create additional liability exposure if contaminated food reaches consumers and your failure to follow the required protocols is cited as a contributing factor. Demonstrating FSMA compliance can also improve your underwriting profile and premium.',
-      },
+      { q: 'Who is responsible for insuring managed fleet vehicles?', a: 'Typically, the fleet owner maintains primary auto liability and physical damage coverage on their vehicles. The fleet management company carries garage liability for maintenance operations and garagekeepers for vehicles in its care. Contracts should clearly define insurance responsibilities.' },
+      { q: 'Do we need professional liability?', a: 'If you provide advisory services including vehicle selection, lifecycle management, or risk consulting, professional liability coverage protects against claims of negligent advice or service that causes client losses.' },
+      { q: 'How does our maintenance work create liability?', a: 'Every vehicle you maintain becomes a completed operations exposure. If maintenance work contributes to an accident, your garage liability responds. The volume of vehicles you service determines your aggregate exposure level.' },
+      { q: 'What about driver risk management services?', a: 'Fleet managers providing driver training or risk assessment services should ensure their coverage addresses liability arising from these advisory roles. Professional liability and general liability together typically cover this exposure.' },
     ],
   },
   {
-    slug: 'flatbed',
-    title: 'Flatbed',
-    metaTitle: 'Flatbed Trucking Insurance | Open Deck Coverage',
-    metaDescription:
-      'Flatbed trucking insurance covering load securement liability, open-deck cargo exposure, and specialized equipment. Tailored for steel, lumber, and heavy haul.',
-    heroHeading: 'Insurance for Flatbed Trucking',
-    heroSubheading:
-      'Specialized coverage for open-deck carriers where load securement, weather exposure, and heavy commodities define the risk.',
-    overview:
-      'Flatbed trucking presents insurance challenges that enclosed trailer operations never face. Every load is exposed to the elements, every securement point is a potential liability, and the commodities you haul, from structural steel to heavy machinery, carry values and damage potentials that require coverage built for open-deck reality. Our flatbed programs are designed by professionals who understand that tarping a load in January wind is not the same as closing a trailer door, and your insurance should reflect that difference.',
+    slug: 'car-rental',
+    title: 'Car Rental Companies',
+    metaTitle: 'Insurance for Car Rental & Vehicle Leasing Businesses',
+    metaDescription: 'Insurance for car rental companies and short-term vehicle leasing operations. Liability coverage, fleet physical damage, and customer-related risk management.',
+    heroHeading: 'Insurance for Car Rental Companies',
+    heroSubheading: 'Fleet liability, physical damage, and customer-risk coverage for short-term vehicle rental and leasing operations.',
+    overview: 'Car rental companies face a unique insurance challenge: your vehicles are continuously operated by customers whose driving skill, habits, and risk profile you cannot control. This creates a liability and physical damage exposure that is fundamentally different from other automotive businesses. Our rental company programs address the specific risks of putting your vehicles in the hands of the public while protecting your fleet investment and business operations.',
     sections: [
-      {
-        heading: 'Coverage for Open-Deck Operations',
-        content:
-          'Flatbed cargo coverage must address exposures that are irrelevant for van or reefer operations. Weather damage is the most obvious: rain, snow, ice, and even sun exposure can damage uncovered or improperly tarped freight. Your cargo policy needs to cover weather-related losses without exclusions that effectively eliminate protection for the very risks flatbed cargo faces every day.\n\nLoad securement failure is a critical liability exposure unique to open-deck hauling. If cargo shifts, falls from the trailer, or is damaged due to inadequate securement, you face both cargo damage claims from the shipper and potential third-party liability if the cargo strikes another vehicle or person. Your auto liability and cargo coverage need to work together to address both of these exposure vectors.\n\nEquipment coverage for flatbed operations extends beyond the truck and trailer to include the tarps, straps, chains, binders, edge protectors, and other securement equipment that represent a significant capital investment. Inland marine or tools-and-equipment coverage protects this gear against theft, damage, and loss.',
-      },
-      {
-        heading: 'Risks Specific to Flatbed Operations',
-        content:
-          'Cargo securement liability is the dominant risk in flatbed trucking. FMCSA regulations establish specific securement requirements based on commodity type, and failure to meet these standards creates both regulatory citations and civil liability in the event of a load-related accident. The stakes are particularly high when hauling commodities like steel coils, pipe, or heavy machinery, where an unsecured load can cause catastrophic damage or fatalities.\n\nDriver injury rates in flatbed operations are significantly higher than in enclosed trailer hauling. Climbing on loads, manipulating heavy chains and binders, pulling tarps in adverse weather, and working with cranes and forklifts at job sites all create workers\' compensation exposures that van and reefer drivers do not face. If you have employees, your workers\' compensation classification and premium should reflect the manual handling requirements of flatbed work.\n\nTheft exposure for flatbed cargo is both higher and different from enclosed freight. Valuable commodities like copper, aluminum, and lumber are visible and accessible, making flatbed loads targets for opportunistic theft. Commodity-specific cargo coverage and theft-prevention practices are important components of a flatbed insurance program.',
-      },
-      {
-        heading: 'Our Flatbed Expertise',
-        content:
-          'We work with a significant number of flatbed carriers across various commodity specializations, from structural steel haulers to lumber carriers to heavy equipment transporters. This concentration gives us insight into the specific loss patterns, underwriting concerns, and coverage needs that define flatbed insurance. We know which cargo markets handle steel coil correctly, which underwriters understand the difference between conestoga and curtainside operations, and how to present your safety protocols in a way that demonstrates the care your operation takes with open-deck freight.\n\nWe also maintain relationships with excess and surplus lines markets that specialize in the heavier commodities and higher values that flatbed carriers routinely handle, including oversized and overweight loads that standard markets decline.',
-      },
-      {
-        heading: 'What We Recommend',
-        bullets: [
-          'Motor truck cargo insurance with coverage for weather damage, load shift, and securement failure, without exclusions that gut protection for open-deck freight',
-          'Auto liability with adequate limits reflecting the catastrophic potential of loose flatbed cargo on public roadways',
-          'Physical damage with coverage for trailer-mounted accessories including headboards, bulkheads, and winch systems',
-          'Inland marine coverage for tarps, chains, binders, straps, and other securement equipment carried on the truck',
-          'Workers\' compensation with proper flatbed driver classifications that account for manual cargo handling exposure',
-        ],
-      },
+      { heading: 'Coverage for Rental Operations', content: 'Garage liability covers your premises operations and vehicle-related liability at your locations. Commercial auto or fleet auto coverage provides liability and physical damage protection for your rental fleet while vehicles are in customers\' hands.\n\nThe interaction between your coverage and the customer\'s personal auto insurance creates complex claims scenarios. Many rental companies offer collision damage waivers and supplemental liability coverage to customers, which must coordinate with your underlying fleet policies.\n\nPhysical damage coverage for your fleet must account for the elevated damage rate that rental vehicles experience. Customers operate your vehicles with less care than they apply to their own, resulting in higher collision frequency and wear-related damage claims.' },
+      { heading: 'Common Risks', content: 'Customer driving behavior is the primary risk factor. Unlike other automotive businesses where your employees control the vehicles, rental companies hand keys to customers with widely varying driving abilities and habits. Accident rates for rental vehicles consistently exceed those of privately owned vehicles.\n\nFraud and theft are persistent challenges. Customers who misrepresent their identity, exceed mileage or geographic restrictions, or fail to return vehicles create both financial losses and potential liability if the vehicle is involved in an incident during unauthorized use.' },
+      { heading: 'What We Recommend', bullets: ['Garage liability for premises and on-site vehicle operations', 'Fleet auto liability with limits reflecting multi-vehicle fleet exposure', 'Physical damage coverage for your entire rental fleet', 'Uninsured and underinsured motorist coverage for customer-operated vehicles', 'Commercial property for your facilities, maintenance equipment, and office operations', 'Umbrella liability at elevated limits given the frequency of customer-operated vehicles on public roads'] },
     ],
-    recommendedCoverages: [
-      'auto-liability',
-      'motor-truck-cargo',
-      'physical-damage',
-      'inland-marine',
-      'workers-compensation',
-    ],
+    recommendedCoverages: ['garage-liability', 'commercial-auto', 'umbrella-excess', 'commercial-property', 'workers-compensation'],
     faqs: [
-      {
-        q: 'Does cargo insurance cover weather damage to flatbed loads?',
-        a: 'It depends entirely on the policy. Many standard motor truck cargo policies exclude or limit coverage for weather-related damage, which is unacceptable for flatbed carriers who haul uncovered or tarped freight year-round. We place flatbed cargo with markets that cover weather damage as a standard peril and do not impose exclusions that are incompatible with open-deck operations.',
-      },
-      {
-        q: 'What happens if a load falls off the trailer and damages another vehicle?',
-        a: 'A load shed incident on a public roadway triggers your commercial auto liability policy for third-party bodily injury and property damage. Your cargo coverage responds to the damage to the freight itself. If the incident is caused by a securement failure, investigators will evaluate whether the driver followed FMCSA securement regulations, which can affect both the liability determination and your ability to recover under your policy. Demonstrable compliance with securement standards is a critical defense.',
-      },
-      {
-        q: 'How should we insure tarps, chains, and load securement equipment?',
-        a: 'Most commercial auto physical damage policies do not cover loose equipment that is not permanently attached to the truck or trailer. An inland marine or tools-and-equipment policy provides coverage for these items against theft, damage, and loss. Given that a full set of flatbed securement equipment can represent a $5,000 to $15,000 investment per truck, this coverage pays for itself after a single significant loss.',
-      },
-      {
-        q: 'Do we need higher liability limits for heavy or oversized flatbed loads?',
-        a: 'Generally, yes. Heavy and oversized loads carry greater damage potential in an accident and often involve escort vehicles, permit requirements, and public roadway exposure that increase your liability profile. Many shippers and brokers require higher limits for oversize or overweight freight. We recommend a minimum of $1M in primary auto liability with excess or umbrella coverage to reach the limits your contracts require.',
-      },
+      { q: 'How is rental fleet insurance different from standard commercial auto?', a: 'Rental fleet policies are rated differently because vehicles are operated by customers rather than trained employees. Premiums reflect the higher accident frequency and the inability to control driver behavior. Coverage forms address the unique claims dynamics of rental operations.' },
+      { q: 'Do we need coverage when customers have their own auto insurance?', a: 'Yes. Customer personal auto policies may provide some coverage for rental vehicles, but gaps are common. Your fleet policy must provide primary or contingent coverage to ensure your vehicles and your liability are protected regardless of the customer\'s coverage status.' },
+      { q: 'What about collision damage waivers?', a: 'CDWs are customer-facing products that waive your right to charge the customer for damage. Your underlying fleet physical damage policy still covers the actual repair costs. CDW revenue can offset premium costs but must be structured properly to avoid coverage conflicts.' },
+      { q: 'How do you handle stolen rental vehicles?', a: 'Comprehensive coverage on your fleet policy covers vehicle theft. Many rental company programs include specific provisions for theft losses including rental revenue loss during the period the vehicle is missing and investigation costs.' },
     ],
   },
   {
-    slug: 'hazmat',
-    title: 'Hazmat',
-    metaTitle: 'Hazmat Trucking Insurance | Hazardous Materials Coverage',
-    metaDescription: 'Hazmat carrier insurance with pollution liability, MCS-90 compliance, and specialized coverage for transporting hazardous materials.',
-    heroHeading: 'Insurance for Hazmat Carriers',
-    heroSubheading:
-      'Expert coverage for carriers transporting hazardous materials, where regulatory complexity and environmental liability demand specialized protection.',
-    overview:
-      'Hazmat transportation represents the most regulated and highest-liability segment of the trucking industry. Carriers moving hazardous materials face a unique combination of federal and state regulatory requirements, environmental liability exposure, elevated auto liability severity, and a restricted insurance market. Our hazmat programs are designed for carriers who understand that hauling dangerous goods is not just trucking with placards; it is a specialized discipline that demands equally specialized insurance.',
+    slug: 'tire-shops',
+    title: 'Tire Shops',
+    metaTitle: 'Insurance for Tire Shops & Tire Service Centers',
+    metaDescription: 'Insurance for tire shops and tire service centers. Garage liability, product liability, and workers compensation for tire installation and alignment services.',
+    heroHeading: 'Insurance for Tire Shops',
+    heroSubheading: 'Coverage for tire installation, alignment services, and retail tire operations addressing the unique liability of safety-critical components.',
+    overview: 'Tire shops handle one of the most safety-critical components on any vehicle. Improperly installed, balanced, or maintained tires can lead to blowouts, loss of vehicle control, and serious accidents. This creates a completed operations liability exposure that exceeds what many other automotive service providers face. Our tire shop programs address this elevated risk while providing comprehensive protection for your premises, equipment, inventory, and employees.',
     sections: [
-      {
-        heading: 'Coverage for Hazardous Materials Transport',
-        content:
-          'Hazmat carriers require insurance that goes beyond standard commercial trucking coverage in several critical ways. Auto liability limits for hazmat haulers are federally mandated at higher levels than conventional freight, with $1M minimum for most hazmat classes and $5M for certain highly hazardous materials including certain explosives, radioactive materials, and poison inhalation hazards. Your policy must meet these minimum requirements and include the MCS-90 endorsement that provides proof of financial responsibility to the FMCSA.\n\nPollution liability is the coverage that most sharply distinguishes hazmat insurance from conventional trucking programs. A hazmat release during transit, whether from an accident, equipment failure, or container breach, can trigger cleanup obligations under CERCLA, RCRA, and state environmental statutes that impose strict, joint, and several liability on the transporter. Standard auto liability policies typically exclude pollution events, making a standalone pollution liability policy essential for hazmat carriers.\n\nCargo coverage for hazardous materials requires specific policy language addressing the commodities you transport. Many cargo insurers exclude entire classes of hazardous materials, and a policy that does not specifically contemplate your commodity types may not respond when you need it. We place hazmat cargo with specialty markets that understand and underwrite these specific material classifications.',
-      },
-      {
-        heading: 'Risk Profile of Hazmat Operations',
-        content:
-          'The consequence severity of a hazmat incident dwarfs that of a conventional trucking accident. A tanker rollover involving a flammable liquid can produce explosions, fires, evacuation orders, road closures, and environmental contamination that generate eight-figure claims. Even a minor release of a reportable quantity can trigger EPA notification requirements, emergency response costs, and remediation obligations. This severity profile explains why hazmat insurance premiums are higher than conventional trucking and why coverage quality matters far more than price.\n\nRegulatory compliance exposure for hazmat carriers extends well beyond standard FMCSA requirements. DOT hazmat registration, PHMSA regulations, EPA manifest requirements, state-specific permit and routing restrictions, and placarding and marking standards all create potential violations. Regulatory defense costs coverage can protect you when compliance enforcement actions arise.\n\nDriver qualification for hazmat operations involves CDL hazmat endorsement, TSA background clearance, and specialized training requirements. Ensuring all drivers meet these qualifications is both a regulatory obligation and an insurance prerequisite. Underwriters verify hazmat-specific driver credentials during the application process, and gaps in qualification documentation can result in coverage declinations.',
-      },
-      {
-        heading: 'Our Hazmat Specialization',
-        content:
-          'Hazmat insurance is a specialty within a specialty, and we have invested in the expertise required to serve this segment effectively. Our team understands the distinction between hazmat classes, the implications of different packaging groups, and why a carrier hauling corrosives has a different risk profile than one hauling flammable gases. This technical knowledge enables us to match your operation with underwriters who can evaluate your risk accurately rather than applying blanket hazmat surcharges.\n\nWe work with the limited number of insurance markets that actively write hazmat transportation, including specialty environmental liability carriers and excess markets experienced with catastrophic hazmat loss scenarios. Our market relationships mean your submission is reviewed by underwriters who understand your business, not declined by automated screening systems.',
-      },
-      {
-        heading: 'What We Recommend',
-        bullets: [
-          'Auto liability at or above federally mandated minimums with MCS-90 endorsement, typically $1M to $5M depending on the hazmat classes you transport',
-          'Standalone pollution liability covering both sudden and gradual releases during transit, loading, unloading, and temporary storage',
-          'Excess liability with sufficient limits to address the catastrophic severity potential of hazmat incidents, typically $5M minimum above primary',
-          'Motor truck cargo coverage that specifically includes the hazardous material classifications you transport without blanket exclusions',
-          'Environmental cleanup and remediation coverage for first-party costs when you are responsible for contamination at a release site',
-        ],
-      },
+      { heading: 'Coverage for Tire Operations', content: 'Garage liability with robust completed operations coverage is essential for tire shops. Every tire you install, balance, rotate, or align creates ongoing liability until that tire is replaced. A mounting error, a missed balance weight, or an alignment that pulls the vehicle out of specification can contribute to an accident that generates serious injury claims.\n\nProduct liability is another critical exposure. Tire shops sell and install products manufactured by third parties, but as the retailer and installer, you can be named in product liability lawsuits when a tire fails. Defective tires that were properly installed still create exposure for the selling dealer.\n\nGaragekeepers coverage protects the customer vehicles in your bays during tire service. While the average time in your care may be shorter than a repair shop, the volume of vehicles you process daily creates meaningful aggregate exposure.' },
+      { heading: 'Common Risks', content: 'Lug nut torque failures represent one of the most serious and common claims for tire shops. Wheels that come loose after tire service create immediate life-threatening situations and generate claims with significant severity. Proper torque procedures, re-torque recommendations, and documentation are critical both for safety and for claims defense.\n\nLift equipment injuries affect both employees and customer vehicles. Tire shops use vehicle lifts extensively, and improper lift point placement can damage vehicle undercarriage components while also creating employee injury risk from unstable vehicle positioning.' },
+      { heading: 'What We Recommend', bullets: ['Garage liability with strong completed operations limits for tire installation liability', 'General liability with product liability for retail tire and parts sales', 'Garagekeepers for customer vehicles during tire service', 'Workers compensation for technicians exposed to heavy lifting and equipment hazards', 'Commercial property for tire inventory, alignment equipment, and mounting machines', 'Umbrella liability for additional protection against catastrophic completed operations claims'] },
     ],
-    recommendedCoverages: [
-      'auto-liability',
-      'pollution-liability',
-      'umbrella-excess',
-      'motor-truck-cargo',
-      'environmental-liability',
-    ],
+    recommendedCoverages: ['garage-liability', 'general-liability', 'garage-keepers', 'workers-compensation', 'commercial-property'],
     faqs: [
-      {
-        q: 'What liability limits are required for hazmat carriers?',
-        a: 'Federal minimum liability limits for hazmat carriers range from $1M to $5M depending on the hazard class being transported. Most non-bulk hazmat requires $1M, while bulk hazmat, certain explosives, radioactive materials, and poison inhalation hazards require $5M. These are minimums; many shippers and industry best practices recommend higher limits given the severity potential of hazmat incidents. We help you determine the appropriate limit based on your specific commodities and contract requirements.',
-      },
-      {
-        q: 'Why do I need separate pollution liability if I already have auto liability?',
-        a: 'Standard commercial auto liability policies contain pollution exclusions that remove coverage for hazardous material releases. Even the MCS-90 endorsement, which provides financial responsibility for environmental restoration, is an endorsement of last resort that the insurer can seek reimbursement from you for paying. A standalone pollution liability policy provides primary, non-recoverable coverage for cleanup costs, third-party claims, and regulatory penalties arising from a hazmat release during transportation.',
-      },
-      {
-        q: 'How do underwriters evaluate hazmat carrier risk?',
-        a: 'Hazmat underwriters focus on several specific factors beyond standard trucking metrics: the specific hazard classes you transport, your packaging and container types, your routes and proximity to populated areas and water sources, your spill response plans and training, driver hazmat qualification records, and your compliance history with PHMSA and DOT regulations. Carriers with documented safety management systems and clean inspection histories receive significantly better terms than those without.',
-      },
-      {
-        q: 'What should our hazmat spill response plan include for insurance purposes?',
-        a: 'At minimum, your plan should include immediate notification procedures for emergency response and regulatory agencies, driver actions for securing the scene and preventing additional release, contact information for qualified hazmat cleanup contractors, documentation procedures for the incident, and post-incident review protocols. A written, tested spill response plan demonstrates to underwriters that you take hazmat risk seriously and can mitigate loss severity when an incident occurs.',
-      },
+      { q: 'What is the biggest insurance risk for tire shops?', a: 'Completed operations liability from improper installation. A wheel that separates after service can cause a fatal accident, generating claims that can reach millions of dollars. Strong garage liability limits and documented torque procedures are essential.' },
+      { q: 'Am I liable if a tire I sold is defective?', a: 'As the retailer, you can be named in product liability lawsuits even when the defect is a manufacturing issue. Your general liability product liability coverage addresses this exposure. Maintaining records of tire brands, lot numbers, and customer information helps defend these claims.' },
+      { q: 'Do alignment services create different liability than tire mounting?', a: 'Yes. Improper alignment can cause uneven tire wear and handling problems that develop over time rather than creating an immediate failure. The liability exists but the claims pattern is different, typically involving vehicle damage rather than accident-related injury claims.' },
+      { q: 'How important is documentation for tire shops?', a: 'Critical. Documented torque specifications, installation procedures, customer advisories about re-torque, and service records are your primary defense in completed operations claims. Insurers view well-documented shops as lower risk.' },
     ],
   },
   {
-    slug: 'car-haulers',
-    title: 'Car Haulers',
-    metaTitle: 'Car Hauler Insurance | Auto Transport Coverage',
-    metaDescription:
-      'Auto transport and car hauler insurance with high-value cargo coverage, care custody and control liability, and protection for vehicle transport operations.',
-    heroHeading: 'Insurance for Car Haulers',
-    heroSubheading:
-      'Specialized coverage for auto transport carriers where every vehicle on your trailer is someone else\'s high-value asset.',
-    overview:
-      'Car hauling is a trucking operation where the cargo fights back. Every vehicle on your trailer has its own set of wheels, its own ignition, and its own potential to be damaged during loading, transit, or delivery in ways that no other commodity can. Auto transport insurance must address the unique care, custody, and control exposure of carrying other people\'s vehicles, the high aggregate value of a fully loaded car hauler, and the claims dynamics of an industry where cosmetic damage disputes are as common as collision claims.',
+    slug: 'auto-detailing',
+    title: 'Auto Detailing',
+    metaTitle: 'Insurance for Auto Detailing Businesses',
+    metaDescription: 'Insurance for auto detailing businesses and mobile detailing operations. Garage liability, garagekeepers, and coverage for chemical and paint damage risks.',
+    heroHeading: 'Insurance for Auto Detailing',
+    heroSubheading: 'Coverage for fixed-location and mobile detailing operations, addressing chemical damage risks and customer vehicle protection.',
+    overview: 'Auto detailing businesses work with high-value customer vehicles using chemicals, compounds, and equipment that can cause damage if improperly applied. Whether you operate a fixed location or a mobile detailing service, the combination of customer vehicle exposure, chemical damage risk, and premises or on-site liability creates insurance needs that standard business policies do not adequately address.',
     sections: [
-      {
-        heading: 'Coverage for Auto Transport Operations',
-        content:
-          'Car hauler cargo coverage is fundamentally different from standard motor truck cargo insurance. When you are hauling nine vehicles on an open trailer, you are carrying a combined cargo value that can easily reach $500,000 to $1,000,000 or more, depending on whether the vehicles are economy sedans or luxury and exotic cars. Standard cargo policies with $100,000 limits are woefully inadequate for this exposure.\n\nMore importantly, cargo coverage for car haulers must address care, custody, and control liability. From the moment a vehicle is driven onto your trailer until it is delivered to the consignee, you are legally responsible for its condition. Damage that occurs during loading, in transit, during unloading, or even while vehicles are staged in your yard awaiting pickup creates liability that your policy must cover. This includes not just collision and road damage but also cosmetic issues like paint chips, door dings, and trim scratches that generate frequent low-severity claims.\n\nGaragekeepers coverage is essential if you maintain a yard or lot where vehicles are stored before pickup or after delivery. Your standard cargo policy typically covers vehicles only while they are on the truck or in the course of transportation. Vehicles sitting in your yard waiting for a customer to claim them represent a separate exposure that requires garagekeepers or bailee coverage.',
-      },
-      {
-        heading: 'Risks Unique to Car Hauling',
-        content:
-          'Damage claim frequency in car hauling is significantly higher than in other trucking segments because the cargo is inspected at a level of detail that would be absurd for most other commodities. A scratch that would go unnoticed on a crate of machine parts becomes a $2,000 paint repair claim on a new car. This frequency means that even well-run car hauling operations generate more claims than comparable-revenue trucking companies in other segments, and your insurance program must be priced and structured to accommodate that reality.\n\nLoading and unloading is where the majority of car hauler damage claims originate. Driving vehicles onto and off of multi-level trailers, often in tight spaces and sometimes in poor lighting or weather conditions, creates repeated opportunities for contact damage. Hydraulic ramp failures, tie-down equipment malfunctions, and driver errors during the loading process generate claims that are small individually but significant in aggregate.\n\nTheft and vandalism exposure for car haulers includes not just theft of entire vehicles but also theft of vehicle components. Catalytic converter theft from vehicles staged in yards has become a significant and growing exposure. If your operation involves overnight parking of loaded trailers or yard storage of customer vehicles, your theft coverage and physical security measures need to address these risks.',
-      },
-      {
-        heading: 'Our Car Hauler Expertise',
-        content:
-          'We understand that car hauler insurance is about managing frequency as much as protecting against severity. Our programs are designed for the claim patterns unique to auto transport, including the high volume of cosmetic damage claims, the documentation requirements of vehicle condition reporting, and the dispute resolution processes that shipper and dealer customers expect.\n\nWe work with the specialty markets that dominate car hauler insurance, carriers that understand the difference between an open and enclosed trailer operation, that know how to underwrite dealer-to-auction versus manufacturer-to-dealer routes, and that price for the actual loss experience of auto transport rather than applying generic trucking rates.',
-      },
-      {
-        heading: 'What We Recommend',
-        bullets: [
-          'Motor truck cargo coverage with limits reflecting the maximum aggregate value of a fully loaded trailer, including luxury and high-value vehicle endorsements if applicable',
-          'Care, custody, and control coverage specifically addressing your liability for vehicles from the moment of pickup through final delivery',
-          'Garagekeepers liability for vehicles stored in your yard or lot awaiting pickup, delivery, or customer claim',
-          'On-hook or drive-away coverage if your operation involves driving customer vehicles under their own power at any point',
-          'Commercial auto liability with limits adequate for a vehicle that, fully loaded, can weigh 80,000 pounds and carries visible, high-value cargo that attracts litigation attention',
-        ],
-      },
+      { heading: 'Coverage for Detailing Operations', content: 'Garage liability covers your premises operations and the auto-related liability of your detailing work. If a customer is injured at your shop or if your work damages a vehicle, garage liability responds. Completed operations coverage is important because damage from detailing products may not become apparent until days after the service.\n\nGaragekeepers coverage protects customer vehicles while they are in your possession. Detailing shops often hold vehicles for hours or overnight, during which time they are exposed to theft, weather, and other perils. For mobile detailers, coverage must extend to vehicles at customer locations.\n\nChemical damage to paint, trim, or glass is the most common claim type for detailing businesses. Using the wrong product, applying a compound incorrectly, or failing to protect adjacent surfaces can result in costly repairs to expensive vehicle finishes.' },
+      { heading: 'Common Risks', content: 'Paint and surface damage claims are the defining risk for detailing operations. High-end ceramic coatings, paint correction, and wet sanding on luxury vehicles create exposure where a single mistake can result in a multi-thousand-dollar respray claim. The risk increases with the value of the vehicles you service.\n\nMobile detailing operations face additional premises liability at customer locations. Working in driveways, parking lots, and garages owned by others creates exposure for property damage and slip-and-fall claims at locations you do not control.' },
+      { heading: 'What We Recommend', bullets: ['Garage liability covering both fixed-location and mobile operations', 'Garagekeepers for customer vehicles at your shop and on-site for mobile work', 'General liability for premises exposure at customer locations for mobile detailers', 'Workers compensation for detailing technicians', 'Commercial auto for mobile detailing vehicles and equipment transport', 'Commercial property for equipment, chemicals, and supplies inventory'] },
     ],
-    recommendedCoverages: [
-      'motor-truck-cargo',
-      'auto-liability',
-      'garagekeepers-liability',
-      'physical-damage',
-      'umbrella-excess',
-    ],
+    recommendedCoverages: ['garage-liability', 'garage-keepers', 'general-liability', 'commercial-auto', 'workers-compensation'],
     faqs: [
-      {
-        q: 'How much cargo coverage does a car hauler need?',
-        a: 'Your cargo limit should reflect the maximum aggregate value of all vehicles on a fully loaded trailer at any given time. For open carriers hauling standard production vehicles, $500,000 to $750,000 is a common range. If you transport luxury, exotic, or classic vehicles, you may need $1,000,000 or more. We analyze your typical load composition and the maximum values you handle to recommend an appropriate limit.',
-      },
-      {
-        q: 'What is the difference between cargo coverage and garagekeepers coverage for a car hauler?',
-        a: 'Cargo coverage protects vehicles while they are being transported, meaning on your trailer or in the direct course of a delivery move. Garagekeepers coverage protects vehicles while they are in your care but not actively being transported, such as when they are parked in your yard awaiting pickup or staged for delivery. If you hold vehicles at your facility for any period, you need both coverages to avoid a gap.',
-      },
-      {
-        q: 'How do we handle cosmetic damage claims that are disputed?',
-        a: 'Thorough vehicle condition documentation is your primary defense. A detailed inspection report with photographs or video at both pickup and delivery creates a record that can prove whether damage was pre-existing or occurred during your custody. We recommend electronic condition reporting systems that time-stamp and GPS-tag inspection photos. When disputes arise, this documentation either supports a quick settlement or provides evidence to deny an illegitimate claim.',
-      },
-      {
-        q: 'Do we need different insurance for enclosed versus open car hauling?',
-        a: 'The policy structure is similar, but the underwriting considerations differ. Enclosed carriers typically haul higher-value vehicles, which requires higher cargo limits, but they also experience lower damage frequency because the vehicles are protected from road debris and weather. Open carriers have more weather and road hazard exposure but often haul lower per-unit values. We tailor coverage limits and terms to the specific type of equipment and cargo you handle.',
-      },
+      { q: 'Does garage liability cover paint damage from detailing?', a: 'Yes. Damage to customer vehicles caused by your detailing operations is a garage liability claim. Completed operations coverage responds if the damage becomes apparent after the customer takes the vehicle.' },
+      { q: 'Is mobile detailing covered differently?', a: 'Mobile operations may require endorsements on your garage liability policy to cover work performed at customer locations. General liability should also be included for premises exposure at locations you do not own or control.' },
+      { q: 'What about high-end ceramic coating work?', a: 'Ceramic coating application on luxury vehicles creates elevated exposure because of the high cost of correction if something goes wrong. Ensure your garage liability limits are adequate for the value of vehicles you service.' },
+      { q: 'Do I need commercial auto for my mobile detailing van?', a: 'Yes. Your mobile detailing vehicle is a business vehicle that requires commercial auto insurance for liability and physical damage coverage, including coverage for the equipment and chemicals you transport.' },
     ],
   },
 ];
 
-/**
- * Look up a single industry object by its URL slug.
- * @param {string} slug - The URL-safe slug of the industry (e.g. 'owner-operators').
- * @returns {object|undefined} The matching industry object, or undefined if not found.
- */
 export function getIndustryBySlug(slug) {
   return industries.find((i) => i.slug === slug);
 }

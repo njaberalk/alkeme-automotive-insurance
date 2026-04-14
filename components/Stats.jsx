@@ -2,8 +2,8 @@
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 const stats = [
-  { value: '20+', label: 'Years of Transportation Insurance Experience' },
-  { value: '1,000+', label: 'Trucking Clients Supported' },
+  { value: '20+', label: 'Years of Automotive Insurance Experience' },
+  { value: '2,500+', label: 'Automotive Businesses Protected' },
   { value: '50', label: 'States with Coverage Solutions' },
   { value: '24hr', label: 'Average Quote Turnaround' },
 ];

@@ -3,12 +3,12 @@ import Link from 'next/link';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 const featuredResources = [
-  { slug: 'trucking-insurance-cost', title: 'How Much Does Trucking Insurance Cost?', category: 'Guide', desc: 'Average costs by fleet size, pricing factors, and strategies to reduce your premiums.' },
-  { slug: 'fmcsa-insurance-requirements', title: 'FMCSA Insurance Requirements', category: 'Guide', desc: 'Federal minimum limits, MCS-90 endorsements, BMC filings, and compliance checklist.' },
-  { slug: 'new-authority-insurance', title: 'Insurance for New Trucking Authority', category: 'Guide', desc: 'What new carriers need before their first dispatch and how to get covered.' },
-  { slug: 'commercial-auto-vs-trucking-insurance', title: 'Commercial Auto vs Trucking Insurance', category: 'Comparison', desc: 'Key differences and when you need specialized trucking coverage.' },
-  { slug: 'lower-trucking-insurance-premiums', title: 'How to Lower Your Premiums', category: 'Guide', desc: 'Practical strategies for reducing your trucking insurance costs.' },
-  { slug: 'trucking-insurance-glossary', title: 'Trucking Insurance Glossary', category: 'Reference', desc: '40+ key terms every carrier should know, explained clearly.' },
+  { slug: 'automotive-insurance-cost', title: 'How Much Does Automotive Insurance Cost?', category: 'Guide', desc: 'Average costs by business type, pricing factors, and strategies to reduce premiums.' },
+  { slug: 'garage-liability-guide', title: 'Understanding Garage Liability', category: 'Guide', desc: 'What it covers, required limits, and how it differs from general liability.' },
+  { slug: 'garagekeepers-guide', title: 'Garagekeepers Insurance Guide', category: 'Guide', desc: 'Coverage forms explained and how to protect customer vehicles in your care.' },
+  { slug: 'dealers-open-lot-guide', title: 'Dealers Open Lot Guide', category: 'Guide', desc: 'Protecting your inventory, deductible structures, and hail loss management.' },
+  { slug: 'dealership-cyber-guide', title: 'Dealership Cybersecurity Guide', category: 'Guide', desc: 'FTC Safeguards Rule compliance, cyber threats, and insurance requirements.' },
+  { slug: 'automotive-insurance-glossary', title: 'Automotive Insurance Glossary', category: 'Reference', desc: 'Key terms every dealer and shop operator should know.' },
 ];
 
 export default function ResourcesSection() {
@@ -23,7 +23,7 @@ export default function ResourcesSection() {
             Resources
           </p>
           <h2 className="text-brand font-bold leading-[1.3] tracking-tight mb-5" style={{ fontSize: 'clamp(2.2rem, 4vw, 2.6rem)' }}>
-            Trucking Insurance Guides & Tools
+            Automotive Insurance Guides & Tools
           </h2>
           <p className="text-brand" style={{ fontSize: '1rem', lineHeight: '1.6' }}>
             Expert resources to help you understand your coverage options, reduce costs, and stay compliant.

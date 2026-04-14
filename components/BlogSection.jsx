@@ -3,12 +3,12 @@ import Link from 'next/link';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 const featuredPosts = [
-  { slug: 'trucking-insurance-market-trends-2026', title: 'Trucking Insurance Market Trends: What Carriers Need to Know', category: 'Industry Insights' },
-  { slug: 'mistakes-new-carriers-make-insurance', title: '5 Insurance Mistakes New Trucking Companies Make', category: 'Tips & Advice' },
-  { slug: 'nuclear-verdicts-trucking-industry', title: 'Nuclear Verdicts and the Trucking Industry', category: 'Industry Insights' },
-  { slug: 'fleet-safety-programs-lower-premiums', title: 'How Fleet Safety Programs Can Lower Your Premiums', category: 'Tips & Advice' },
-  { slug: 'what-to-do-after-trucking-accident', title: 'What to Do After a Trucking Accident', category: 'Claims Guide' },
-  { slug: 'choosing-right-trucking-insurance-agent', title: 'How to Choose the Right Trucking Insurance Agent', category: 'Tips & Advice' },
+  { slug: 'auto-dealer-insurance-trends-2026', title: 'Auto Dealer Insurance Trends: What Dealers Need to Know', category: 'Industry Insights' },
+  { slug: 'dealership-insurance-mistakes', title: '5 Insurance Mistakes Dealerships Make', category: 'Tips & Advice' },
+  { slug: 'dealership-cyber-threats', title: 'Cyber Threats Targeting Auto Dealerships', category: 'Industry Insights' },
+  { slug: 'test-drive-liability-risks', title: 'Managing Test Drive Liability at Your Dealership', category: 'Tips & Advice' },
+  { slug: 'ev-insurance-impact', title: 'How EVs Are Changing Auto Business Insurance', category: 'Industry Insights' },
+  { slug: 'parts-recall-insurance', title: 'Auto Parts Recalls and Your Insurance Coverage', category: 'Tips & Advice' },
 ];
 
 export default function BlogSection() {
@@ -23,10 +23,10 @@ export default function BlogSection() {
             Insights
           </p>
           <h2 className="text-stone font-bold leading-[1.3] tracking-tight mb-5" style={{ fontSize: 'clamp(2.2rem, 4vw, 2.6rem)' }}>
-            Trucking Insurance Insights & Advice
+            Automotive Insurance Insights & Advice
           </h2>
           <p className="text-cream font-light" style={{ lineHeight: '22px' }}>
-            Expert perspectives on coverage, compliance, and cost management for trucking operations.
+            Expert perspectives on coverage, compliance, and cost management for automotive businesses.
           </p>
         </div>
 

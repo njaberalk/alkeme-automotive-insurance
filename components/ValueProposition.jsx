@@ -3,19 +3,19 @@ import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 const cards = [
   {
-    title: 'Transportation Industry Expertise',
-    description: 'Deep understanding of the risks facing trucking operations. Our specialists know the regulatory landscape, market conditions, and coverage requirements unique to commercial transportation.',
-    image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=600&q=80',
+    title: 'Automotive Industry Expertise',
+    description: 'Deep understanding of the risks facing automotive businesses. Our specialists know dealer licensing, manufacturer compliance, and the coverage requirements unique to auto retail and service operations.',
+    image: 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80',
   },
   {
-    title: 'Tailored Coverage Strategies',
-    description: 'No two operations are the same. We design coverage programs that align with your fleet size, cargo type, operating radius, and risk profile — not a one-size-fits-all policy.',
-    image: 'https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=600&q=80',
+    title: 'Tailored Dealer & Shop Coverage',
+    description: 'No two automotive operations are identical. We design coverage programs that align with your business type, inventory value, service volume, and risk profile.',
+    image: 'https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=600&q=80',
   },
   {
-    title: 'Responsive Service & Claims Support',
-    description: 'When an incident occurs, every hour matters. Our team provides direct access to experienced claims advocates who understand trucking-specific challenges and move quickly on your behalf.',
-    image: 'https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=600&q=80',
+    title: 'Responsive Claims & Service Support',
+    description: 'When an incident occurs, every hour matters. Our team provides direct access to claims advocates who understand automotive-specific exposures and move quickly on your behalf.',
+    image: 'https://images.unsplash.com/photo-1486006920555-c77dcf18193c?auto=format&fit=crop&w=600&q=80',
   },
 ];
 
@@ -32,10 +32,10 @@ export default function ValueProposition() {
             Why We&apos;re Different
           </p>
           <h2 className="text-brand font-bold leading-[1.3] tracking-tight mb-5" style={{ fontSize: 'clamp(2.2rem, 4vw, 2.6rem)' }}>
-            Specialized Protection for the Road Ahead
+            Specialized Protection for Automotive Businesses
           </h2>
           <p className="text-brand" style={{ fontSize: '1rem', lineHeight: '1.6' }}>
-            We combine deep industry knowledge with a consultative approach to deliver insurance programs that truly protect your operation.
+            We combine deep automotive industry knowledge with a consultative approach to deliver insurance programs that truly protect your business.
           </p>
         </div>
 
