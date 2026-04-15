@@ -20,13 +20,13 @@ export default function QuoteForm() {
               Tell us about your dealership or shop and our automotive insurance specialists will reach out with tailored coverage options. No obligation \u2014 just expert guidance from a team that understands the automotive industry.
             </p>
 
-            <a
-              href="https://alkemeins.com/form"
-              className="inline-flex items-center justify-center border-2 border-gold bg-gold text-brand text-center uppercase tracking-[0.16em] rounded-[2rem] font-semibold hover:border-stone hover:bg-stone hover:text-brand no-underline"
+            <button
+              onClick={() => window.dispatchEvent(new Event('open-quote-modal'))}
+              className="inline-flex items-center justify-center border-2 border-gold bg-gold text-brand text-center uppercase tracking-[0.16em] rounded-[2rem] font-semibold hover:border-stone hover:bg-stone hover:text-brand cursor-pointer"
               style={{ padding: '0.8rem 2.5rem 0.7rem', fontSize: '0.75rem', lineHeight: '2', transition: 'all 0.24s' }}
             >
               Get Your Quote Today
-            </a>
+            </button>
 
             <div className="mt-10 space-y-4">
               <div className="flex items-center gap-3">
@@ -74,13 +74,13 @@ export default function QuoteForm() {
               <p className="text-cream/80 font-light mb-8 max-w-sm" style={{ fontSize: '0.95rem', lineHeight: '1.5' }}>
                 Our specialists understand automotive operations inside and out. Get coverage tailored to the way you do business.
               </p>
-              <a
-                href="https://alkemeins.com/form"
-                className="inline-flex items-center justify-center border-2 border-stone text-stone bg-transparent text-center uppercase tracking-[0.16em] rounded-[2rem] font-semibold hover:bg-stone hover:text-brand no-underline"
+              <button
+                onClick={() => window.dispatchEvent(new Event('open-quote-modal'))}
+                className="inline-flex items-center justify-center border-2 border-stone text-stone bg-transparent text-center uppercase tracking-[0.16em] rounded-[2rem] font-semibold hover:bg-stone hover:text-brand cursor-pointer"
                 style={{ padding: '0.8rem 2rem 0.7rem', fontSize: '0.75rem', lineHeight: '2', transition: 'all 0.24s' }}
               >
                 Start Your Quote
-              </a>
+              </button>
             </div>
           </div>
         </div>
