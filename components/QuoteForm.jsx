@@ -62,6 +62,7 @@ export default function QuoteForm() {
               alt="Automotive insurance specialist helping dealerships find coverage"
               width={800}
               height={600}
+              loading="lazy"
               className="absolute inset-0 w-full h-full object-cover"
               style={{ filter: 'grayscale(100%)' }}
             />

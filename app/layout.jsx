@@ -2,6 +2,7 @@ import { Poppins } from 'next/font/google'
 import './globals.css'
 import ScrollToTop from './ScrollToTop'
 import QuoteFormProvider from './QuoteFormProvider'
+import FloatingUI from '../components/FloatingUI'
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -16,7 +17,7 @@ export const metadata = {
     template: '%s | ALKEME Insurance Services',
     default: 'Automotive Insurance | ALKEME Insurance Services',
   },
-  description: 'ALKEME Insurance Services provides specialized automotive insurance for owner-operators, fleets, and transportation businesses. Coverage for auto liability, cargo, physical damage, and more.',
+  description: 'ALKEME Insurance Services provides specialized automotive insurance for dealerships, repair shops, body shops, and auto businesses. Coverage for garage liability, garagekeepers, dealers open lot, and more across all 50 states.',
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -33,8 +34,8 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Automotive Insurance | ALKEME Insurance Services',
-    description: 'Specialized automotive insurance for owner-operators, fleets, and transportation businesses across all 50 states.',
-    images: ['https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1200&h=630&q=80'],
+    description: 'Specialized automotive insurance for dealerships, repair shops, body shops, and auto businesses. Coverage for garage liability, garagekeepers, dealers open lot, and more across all 50 states.',
+    images: ['https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=1200&h=630&q=80'],
   },
   robots: {
     index: true,
@@ -62,9 +63,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={poppins.variable}>
+      <head>
+        <link rel="preconnect" href="https://images.unsplash.com" />
+        <link rel="dns-prefetch" href="https://images.unsplash.com" />
+      </head>
       <body style={{ fontFamily: 'var(--font-poppins), Poppins, sans-serif' }}>
         <ScrollToTop />
         <QuoteFormProvider />
+        <FloatingUI />
         {children}
       </body>
     </html>
