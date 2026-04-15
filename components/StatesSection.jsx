@@ -46,7 +46,7 @@ export default function StatesSection() {
           </p>
         </div>
 
-        {/* Featured states - top trucking states */}
+        {/* Featured states - top automotive states */}
         <div ref={gridRef} className="grid sm:grid-cols-2 lg:grid-cols-5 gap-4 mb-10 stagger-children">
           {featuredStates.map((state) => (
             <Link
@@ -80,7 +80,7 @@ export default function StatesSection() {
           </div>
         </div>
 
-        {/* All 100 Trucking Cities */}
+        {/* All 100 Automotive Markets */}
         <div className="mt-14 text-center">
           <h3 className="text-stone font-bold mb-6" style={{ fontSize: '1.3rem' }}>Major Automotive Markets</h3>
           <div className="flex flex-wrap justify-center gap-2">

@@ -36,7 +36,7 @@ export default async function IndustryPage({ params }) {
     provider: { '@type': 'InsuranceAgency', name: 'ALKEME Insurance Services', url: 'https://alkemeins.com/automotive' },
     description: industry.metaDescription,
     url: `https://alkemeins.com/automotive/industries/${industry.slug}/`,
-    serviceType: 'Commercial Trucking Insurance',
+    serviceType: 'Automotive Insurance',
     areaServed: { '@type': 'Country', name: 'United States' },
     citation: { '@type': 'CreativeWork', name: 'Insurance Information Institute', url: 'https://www.iii.org' },
     about: { '@type': 'Thing', name: industry.title },

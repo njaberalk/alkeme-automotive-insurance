@@ -61,7 +61,7 @@ const LINK_MAP = [
   ['FTC Safeguards Rule', '/resources/dealership-cyber-guide/'],
 
   // Tools
-  ['requirements checker', '/tools/fmcsa-checker/'],
+  ['requirements checker', '/tools/coverage-needs-assessment/'],
   ['state requirements', '/tools/state-requirements/'],
 ];
 
