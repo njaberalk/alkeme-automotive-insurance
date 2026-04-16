@@ -19,7 +19,7 @@ const coverageItems = [
 
 const resourceItems = [
   { label: '\u2014 Tools \u2014', href: null, divider: true },
-  { label: 'Coverage Needs Assessment', href: '/tools/coverage-needs-assessment/' },
+  { label: 'State Requirements Lookup', href: '/tools/state-requirements/' },
   { label: 'State Requirements Lookup', href: '/tools/state-requirements/' },
   { label: '\u2014 Guides \u2014', href: null, divider: true },
   { label: 'Automotive Insurance Cost', href: '/resources/automotive-insurance-cost/' },
@@ -203,11 +203,10 @@ export default function Header() {
               <Link href={isHome ? '#states' : '/#states'} onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.16em] font-bold py-2 no-underline" style={{ fontSize: '0.75rem' }}>States & Cities</Link>
 
               <span className="block text-blue-dark uppercase tracking-[0.12em] font-bold pb-2 border-b border-ash mb-3 mt-4" style={{ fontSize: '0.65rem' }}>Tools & Resources</span>
-              <Link href="/tools/coverage-needs-assessment/" onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.12em] font-semibold py-2 no-underline" style={{ fontSize: '0.7rem' }}>Coverage Needs Assessment</Link>
               <Link href="/tools/state-requirements/" onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.12em] font-semibold py-2 no-underline" style={{ fontSize: '0.7rem' }}>State Requirements Lookup</Link>
               <Link href="/resources/automotive-insurance-cost/" onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.12em] font-semibold py-2 no-underline" style={{ fontSize: '0.7rem' }}>Automotive Insurance Cost</Link>
               <Link href="/resources/garage-liability-guide/" onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.12em] font-semibold py-2 no-underline" style={{ fontSize: '0.7rem' }}>Garage Liability Guide</Link>
-              <Link href="/blog/automotive-insurance-market-trends-2026/" onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.12em] font-semibold py-2 no-underline" style={{ fontSize: '0.7rem' }}>Market Trends 2026</Link>
+              <Link href="/blog/auto-dealer-insurance-trends-2026/" onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.12em] font-semibold py-2 no-underline" style={{ fontSize: '0.7rem' }}>Market Trends 2026</Link>
               <a href="https://alkemeins.com" onClick={() => setMobileOpen(false)} className="block text-blue-dark hover:text-brand uppercase tracking-[0.12em] font-bold py-2 no-underline" style={{ fontSize: '0.65rem' }}>← Back to ALKEME</a>
             </div>
 
