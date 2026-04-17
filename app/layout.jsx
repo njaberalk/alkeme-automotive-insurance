@@ -14,10 +14,10 @@ const poppins = Poppins({
 export const metadata = {
   metadataBase: new URL('https://alkemeins.com/automotive'),
   title: {
-    template: '%s | ALKEME Insurance Services',
-    default: 'Automotive Insurance | ALKEME Insurance Services',
+    template: '%s | ALKEME',
+    default: 'Automotive Insurance | ALKEME',
   },
-  description: 'ALKEME Insurance Services provides specialized automotive insurance for dealerships, repair shops, body shops, and auto businesses. Coverage for garage liability, garagekeepers, dealers open lot, and more across all 50 states.',
+  description: 'Specialized automotive insurance from ALKEME for dealerships, repair shops, and body shops — garage liability, garagekeepers, dealers open lot, and more.',
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -33,7 +33,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Automotive Insurance | ALKEME Insurance Services',
+    title: 'Automotive Insurance | ALKEME',
     description: 'Specialized automotive insurance for dealerships, repair shops, body shops, and auto businesses. Coverage for garage liability, garagekeepers, dealers open lot, and more across all 50 states.',
     images: ['https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=1200&h=630&q=80'],
   },

@@ -4,7 +4,7 @@ export const statesPart1 = [
     name: 'Alabama',
     abbreviation: 'AL',
     metaTitle: 'Automotive Insurance in Alabama',
-    metaDescription: 'Automotive insurance for Alabama dealerships, repair shops, and auto businesses. Garage liability, garagekeepers, dealers open lot, and state-specific coverage guidance.',
+    metaDescription: 'Automotive insurance for Alabama dealerships, repair shops, and auto businesses.',
     heroHeading: 'Alabama Automotive Insurance',
     heroSubheading: 'Coverage for dealerships, repair shops, and auto businesses in the Heart of Dixie.',
     overview: 'Alabama\'s automotive industry has grown significantly with major manufacturing plants from Honda, Hyundai, Mazda, and Toyota operating in the state. This manufacturing base, combined with a large network of franchise dealers, independent lots, and repair shops, creates a vibrant automotive market with specific insurance needs shaped by Alabama\'s contributory negligence standard and Gulf Coast weather exposure.',

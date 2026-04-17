@@ -20,7 +20,6 @@ const coverageItems = [
 const resourceItems = [
   { label: '\u2014 Tools \u2014', href: null, divider: true },
   { label: 'State Requirements Lookup', href: '/tools/state-requirements/' },
-  { label: 'State Requirements Lookup', href: '/tools/state-requirements/' },
   { label: '\u2014 Guides \u2014', href: null, divider: true },
   { label: 'Automotive Insurance Cost', href: '/resources/automotive-insurance-cost/' },
   { label: 'Garage Liability Guide', href: '/resources/garage-liability-guide/' },

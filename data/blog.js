@@ -121,7 +121,7 @@ export const blogPosts = [
     slug: 'parts-recall-insurance',
     title: 'Auto Parts Recalls and Your Insurance Coverage',
     metaTitle: 'Auto Parts Recall Insurance Coverage Guide',
-    metaDescription: 'How automotive parts recalls affect your insurance coverage. Product liability, recall expense coverage, and protecting your business from recall-related claims.',
+    metaDescription: 'How automotive parts recalls affect your insurance coverage.',
     category: 'Tips & Advice',
     publishDate: '2026-04-01',
     heroHeading: 'Auto Parts Recalls and Your Insurance',
